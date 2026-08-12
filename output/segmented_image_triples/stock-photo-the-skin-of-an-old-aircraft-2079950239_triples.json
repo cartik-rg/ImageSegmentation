@@ -1,0 +1,80 @@
+[
+  {
+    "subject": "stock-photo-the-skin-of-an-old-aircraft-2079950239",
+    "predicate": "contains",
+    "object": "corroded area",
+    "confidence": 0.341
+  },
+  {
+    "subject": "stock-photo-the-skin-of-an-old-aircraft-2079950239",
+    "predicate": "contains",
+    "object": "fuselage",
+    "confidence": 0.337
+  },
+  {
+    "subject": "stock-photo-the-skin-of-an-old-aircraft-2079950239",
+    "predicate": "contains",
+    "object": "damaged wire",
+    "confidence": 0.168
+  },
+  {
+    "subject": "stock-photo-the-skin-of-an-old-aircraft-2079950239",
+    "predicate": "contains",
+    "object": "cracked pane",
+    "confidence": 0.076
+  },
+  {
+    "subject": "stock-photo-the-skin-of-an-old-aircraft-2079950239",
+    "predicate": "contains",
+    "object": "broken panel",
+    "confidence": 0.03
+  },
+  {
+    "subject": "stock-photo-the-skin-of-an-old-aircraft-2079950239",
+    "predicate": "contains",
+    "object": "aileron",
+    "confidence": 0.017
+  },
+  {
+    "subject": "stock-photo-the-skin-of-an-old-aircraft-2079950239",
+    "predicate": "contains",
+    "object": "wing",
+    "confidence": 0.013
+  },
+  {
+    "subject": "stock-photo-the-skin-of-an-old-aircraft-2079950239",
+    "predicate": "contains",
+    "object": "missing rivet",
+    "confidence": 0.008
+  },
+  {
+    "subject": "stock-photo-the-skin-of-an-old-aircraft-2079950239",
+    "predicate": "contains",
+    "object": "wheel assembly",
+    "confidence": 0.004
+  },
+  {
+    "subject": "stock-photo-the-skin-of-an-old-aircraft-2079950239",
+    "predicate": "contains",
+    "object": "engine",
+    "confidence": 0.003
+  },
+  {
+    "subject": "stock-photo-the-skin-of-an-old-aircraft-2079950239",
+    "predicate": "contains",
+    "object": "cockpit",
+    "confidence": 0.002
+  },
+  {
+    "subject": "stock-photo-the-skin-of-an-old-aircraft-2079950239",
+    "predicate": "contains",
+    "object": "flap",
+    "confidence": 0.001
+  },
+  {
+    "subject": "stock-photo-the-skin-of-an-old-aircraft-2079950239",
+    "predicate": "contains",
+    "object": "tail",
+    "confidence": 0.0
+  }
+]

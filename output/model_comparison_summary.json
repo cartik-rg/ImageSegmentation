@@ -1,0 +1,6107 @@
+[
+  {
+    "image_path": "input\\image\\bent_canon_plug_pins.jpg",
+    "model_name": "sam2",
+    "segmented_image_path": "output\\segmented_images\\bent_canon_plug_pins_sam2_segmented.png",
+    "triples_path": "output\\segmented_image_triples\\bent_canon_plug_pins_sam2_triples.json",
+    "predicted_labels": [
+      {
+        "label": "corroded area",
+        "score": 1.0,
+        "bbox": [
+          20,
+          20,
+          116,
+          149
+        ]
+      },
+      {
+        "label": "cracked pane",
+        "score": 0.95,
+        "bbox": [
+          126,
+          20,
+          222,
+          149
+        ]
+      },
+      {
+        "label": "missing rivet",
+        "score": 0.9,
+        "bbox": [
+          232,
+          20,
+          328,
+          149
+        ]
+      },
+      {
+        "label": "damaged wire",
+        "score": 0.85,
+        "bbox": [
+          20,
+          159,
+          116,
+          288
+        ]
+      },
+      {
+        "label": "broken panel",
+        "score": 0.8,
+        "bbox": [
+          126,
+          159,
+          222,
+          288
+        ]
+      },
+      {
+        "label": "wing",
+        "score": 0.75,
+        "bbox": [
+          232,
+          159,
+          328,
+          288
+        ]
+      }
+    ],
+    "triples": [
+      {
+        "subject": "bent_canon_plug_pins",
+        "predicate": "contains",
+        "object": "corroded area",
+        "confidence": 1.0
+      },
+      {
+        "subject": "bent_canon_plug_pins",
+        "predicate": "contains",
+        "object": "cracked pane",
+        "confidence": 0.95
+      },
+      {
+        "subject": "bent_canon_plug_pins",
+        "predicate": "contains",
+        "object": "missing rivet",
+        "confidence": 0.9
+      },
+      {
+        "subject": "bent_canon_plug_pins",
+        "predicate": "contains",
+        "object": "damaged wire",
+        "confidence": 0.85
+      },
+      {
+        "subject": "bent_canon_plug_pins",
+        "predicate": "contains",
+        "object": "broken panel",
+        "confidence": 0.8
+      },
+      {
+        "subject": "bent_canon_plug_pins",
+        "predicate": "contains",
+        "object": "wing",
+        "confidence": 0.75
+      }
+    ],
+    "metrics": {
+      "inference_latency_ms": 380.626,
+      "gpu_usage_mb": 0.0,
+      "gpu_reserved_mb": 0.0
+    }
+  },
+  {
+    "image_path": "input\\image\\corrosion_1.jpg",
+    "model_name": "sam2",
+    "segmented_image_path": "output\\segmented_images\\corrosion_1_sam2_segmented.png",
+    "triples_path": "output\\segmented_image_triples\\corrosion_1_sam2_triples.json",
+    "predicted_labels": [
+      {
+        "label": "corroded area",
+        "score": 1.0,
+        "bbox": [
+          20,
+          20,
+          156,
+          111
+        ]
+      },
+      {
+        "label": "cracked pane",
+        "score": 0.95,
+        "bbox": [
+          166,
+          20,
+          302,
+          111
+        ]
+      },
+      {
+        "label": "missing rivet",
+        "score": 0.9,
+        "bbox": [
+          312,
+          20,
+          448,
+          111
+        ]
+      },
+      {
+        "label": "damaged wire",
+        "score": 0.85,
+        "bbox": [
+          20,
+          121,
+          156,
+          212
+        ]
+      },
+      {
+        "label": "broken panel",
+        "score": 0.8,
+        "bbox": [
+          166,
+          121,
+          302,
+          212
+        ]
+      },
+      {
+        "label": "wing",
+        "score": 0.75,
+        "bbox": [
+          312,
+          121,
+          448,
+          212
+        ]
+      }
+    ],
+    "triples": [
+      {
+        "subject": "corrosion_1",
+        "predicate": "contains",
+        "object": "corroded area",
+        "confidence": 1.0
+      },
+      {
+        "subject": "corrosion_1",
+        "predicate": "contains",
+        "object": "cracked pane",
+        "confidence": 0.95
+      },
+      {
+        "subject": "corrosion_1",
+        "predicate": "contains",
+        "object": "missing rivet",
+        "confidence": 0.9
+      },
+      {
+        "subject": "corrosion_1",
+        "predicate": "contains",
+        "object": "damaged wire",
+        "confidence": 0.85
+      },
+      {
+        "subject": "corrosion_1",
+        "predicate": "contains",
+        "object": "broken panel",
+        "confidence": 0.8
+      },
+      {
+        "subject": "corrosion_1",
+        "predicate": "contains",
+        "object": "wing",
+        "confidence": 0.75
+      }
+    ],
+    "metrics": {
+      "inference_latency_ms": 49.37,
+      "gpu_usage_mb": 0.0,
+      "gpu_reserved_mb": 0.0
+    }
+  },
+  {
+    "image_path": "input\\image\\corrosion_2.jpg",
+    "model_name": "sam2",
+    "segmented_image_path": "output\\segmented_images\\corrosion_2_sam2_segmented.png",
+    "triples_path": "output\\segmented_image_triples\\corrosion_2_sam2_triples.json",
+    "predicted_labels": [
+      {
+        "label": "corroded area",
+        "score": 1.0,
+        "bbox": [
+          20,
+          20,
+          116,
+          149
+        ]
+      },
+      {
+        "label": "cracked pane",
+        "score": 0.95,
+        "bbox": [
+          126,
+          20,
+          222,
+          149
+        ]
+      },
+      {
+        "label": "missing rivet",
+        "score": 0.9,
+        "bbox": [
+          232,
+          20,
+          328,
+          149
+        ]
+      },
+      {
+        "label": "damaged wire",
+        "score": 0.85,
+        "bbox": [
+          20,
+          159,
+          116,
+          288
+        ]
+      },
+      {
+        "label": "broken panel",
+        "score": 0.8,
+        "bbox": [
+          126,
+          159,
+          222,
+          288
+        ]
+      },
+      {
+        "label": "wing",
+        "score": 0.75,
+        "bbox": [
+          232,
+          159,
+          328,
+          288
+        ]
+      }
+    ],
+    "triples": [
+      {
+        "subject": "corrosion_2",
+        "predicate": "contains",
+        "object": "corroded area",
+        "confidence": 1.0
+      },
+      {
+        "subject": "corrosion_2",
+        "predicate": "contains",
+        "object": "cracked pane",
+        "confidence": 0.95
+      },
+      {
+        "subject": "corrosion_2",
+        "predicate": "contains",
+        "object": "missing rivet",
+        "confidence": 0.9
+      },
+      {
+        "subject": "corrosion_2",
+        "predicate": "contains",
+        "object": "damaged wire",
+        "confidence": 0.85
+      },
+      {
+        "subject": "corrosion_2",
+        "predicate": "contains",
+        "object": "broken panel",
+        "confidence": 0.8
+      },
+      {
+        "subject": "corrosion_2",
+        "predicate": "contains",
+        "object": "wing",
+        "confidence": 0.75
+      }
+    ],
+    "metrics": {
+      "inference_latency_ms": 49.955,
+      "gpu_usage_mb": 0.0,
+      "gpu_reserved_mb": 0.0
+    }
+  },
+  {
+    "image_path": "input\\image\\corrosion_3.jpg",
+    "model_name": "sam2",
+    "segmented_image_path": "output\\segmented_images\\corrosion_3_sam2_segmented.png",
+    "triples_path": "output\\segmented_image_triples\\corrosion_3_sam2_triples.json",
+    "predicted_labels": [
+      {
+        "label": "corroded area",
+        "score": 1.0,
+        "bbox": [
+          20,
+          20,
+          149,
+          116
+        ]
+      },
+      {
+        "label": "cracked pane",
+        "score": 0.95,
+        "bbox": [
+          159,
+          20,
+          288,
+          116
+        ]
+      },
+      {
+        "label": "missing rivet",
+        "score": 0.9,
+        "bbox": [
+          298,
+          20,
+          427,
+          116
+        ]
+      },
+      {
+        "label": "damaged wire",
+        "score": 0.85,
+        "bbox": [
+          20,
+          126,
+          149,
+          222
+        ]
+      },
+      {
+        "label": "broken panel",
+        "score": 0.8,
+        "bbox": [
+          159,
+          126,
+          288,
+          222
+        ]
+      },
+      {
+        "label": "wing",
+        "score": 0.75,
+        "bbox": [
+          298,
+          126,
+          427,
+          222
+        ]
+      }
+    ],
+    "triples": [
+      {
+        "subject": "corrosion_3",
+        "predicate": "contains",
+        "object": "corroded area",
+        "confidence": 1.0
+      },
+      {
+        "subject": "corrosion_3",
+        "predicate": "contains",
+        "object": "cracked pane",
+        "confidence": 0.95
+      },
+      {
+        "subject": "corrosion_3",
+        "predicate": "contains",
+        "object": "missing rivet",
+        "confidence": 0.9
+      },
+      {
+        "subject": "corrosion_3",
+        "predicate": "contains",
+        "object": "damaged wire",
+        "confidence": 0.85
+      },
+      {
+        "subject": "corrosion_3",
+        "predicate": "contains",
+        "object": "broken panel",
+        "confidence": 0.8
+      },
+      {
+        "subject": "corrosion_3",
+        "predicate": "contains",
+        "object": "wing",
+        "confidence": 0.75
+      }
+    ],
+    "metrics": {
+      "inference_latency_ms": 46.16,
+      "gpu_usage_mb": 0.0,
+      "gpu_reserved_mb": 0.0
+    }
+  },
+  {
+    "image_path": "input\\image\\corrosion_wing.jpg",
+    "model_name": "sam2",
+    "segmented_image_path": "output\\segmented_images\\corrosion_wing_sam2_segmented.png",
+    "triples_path": "output\\segmented_image_triples\\corrosion_wing_sam2_triples.json",
+    "predicted_labels": [
+      {
+        "label": "corroded area",
+        "score": 1.0,
+        "bbox": [
+          20,
+          20,
+          395,
+          279
+        ]
+      },
+      {
+        "label": "cracked pane",
+        "score": 0.95,
+        "bbox": [
+          405,
+          20,
+          780,
+          279
+        ]
+      },
+      {
+        "label": "missing rivet",
+        "score": 0.9,
+        "bbox": [
+          790,
+          20,
+          1165,
+          279
+        ]
+      },
+      {
+        "label": "damaged wire",
+        "score": 0.85,
+        "bbox": [
+          20,
+          289,
+          395,
+          548
+        ]
+      },
+      {
+        "label": "broken panel",
+        "score": 0.8,
+        "bbox": [
+          405,
+          289,
+          780,
+          548
+        ]
+      },
+      {
+        "label": "wing",
+        "score": 0.75,
+        "bbox": [
+          790,
+          289,
+          1165,
+          548
+        ]
+      }
+    ],
+    "triples": [
+      {
+        "subject": "corrosion_wing",
+        "predicate": "contains",
+        "object": "corroded area",
+        "confidence": 1.0
+      },
+      {
+        "subject": "corrosion_wing",
+        "predicate": "contains",
+        "object": "cracked pane",
+        "confidence": 0.95
+      },
+      {
+        "subject": "corrosion_wing",
+        "predicate": "contains",
+        "object": "missing rivet",
+        "confidence": 0.9
+      },
+      {
+        "subject": "corrosion_wing",
+        "predicate": "contains",
+        "object": "damaged wire",
+        "confidence": 0.85
+      },
+      {
+        "subject": "corrosion_wing",
+        "predicate": "contains",
+        "object": "broken panel",
+        "confidence": 0.8
+      },
+      {
+        "subject": "corrosion_wing",
+        "predicate": "contains",
+        "object": "wing",
+        "confidence": 0.75
+      }
+    ],
+    "metrics": {
+      "inference_latency_ms": 52.281,
+      "gpu_usage_mb": 0.0,
+      "gpu_reserved_mb": 0.0
+    }
+  },
+  {
+    "image_path": "input\\image\\cracked_spar.jpg",
+    "model_name": "sam2",
+    "segmented_image_path": "output\\segmented_images\\cracked_spar_sam2_segmented.png",
+    "triples_path": "output\\segmented_image_triples\\cracked_spar_sam2_triples.json",
+    "predicted_labels": [
+      {
+        "label": "corroded area",
+        "score": 1.0,
+        "bbox": [
+          20,
+          20,
+          196,
+          128
+        ]
+      },
+      {
+        "label": "cracked pane",
+        "score": 0.95,
+        "bbox": [
+          206,
+          20,
+          382,
+          128
+        ]
+      },
+      {
+        "label": "missing rivet",
+        "score": 0.9,
+        "bbox": [
+          392,
+          20,
+          568,
+          128
+        ]
+      },
+      {
+        "label": "damaged wire",
+        "score": 0.85,
+        "bbox": [
+          20,
+          138,
+          196,
+          246
+        ]
+      },
+      {
+        "label": "broken panel",
+        "score": 0.8,
+        "bbox": [
+          206,
+          138,
+          382,
+          246
+        ]
+      },
+      {
+        "label": "wing",
+        "score": 0.75,
+        "bbox": [
+          392,
+          138,
+          568,
+          246
+        ]
+      }
+    ],
+    "triples": [
+      {
+        "subject": "cracked_spar",
+        "predicate": "contains",
+        "object": "corroded area",
+        "confidence": 1.0
+      },
+      {
+        "subject": "cracked_spar",
+        "predicate": "contains",
+        "object": "cracked pane",
+        "confidence": 0.95
+      },
+      {
+        "subject": "cracked_spar",
+        "predicate": "contains",
+        "object": "missing rivet",
+        "confidence": 0.9
+      },
+      {
+        "subject": "cracked_spar",
+        "predicate": "contains",
+        "object": "damaged wire",
+        "confidence": 0.85
+      },
+      {
+        "subject": "cracked_spar",
+        "predicate": "contains",
+        "object": "broken panel",
+        "confidence": 0.8
+      },
+      {
+        "subject": "cracked_spar",
+        "predicate": "contains",
+        "object": "wing",
+        "confidence": 0.75
+      }
+    ],
+    "metrics": {
+      "inference_latency_ms": 46.651,
+      "gpu_usage_mb": 0.0,
+      "gpu_reserved_mb": 0.0
+    }
+  },
+  {
+    "image_path": "input\\image\\damaged_canon_plug_pins.jpg",
+    "model_name": "sam2",
+    "segmented_image_path": "output\\segmented_images\\damaged_canon_plug_pins_sam2_segmented.png",
+    "triples_path": "output\\segmented_image_triples\\damaged_canon_plug_pins_sam2_triples.json",
+    "predicted_labels": [
+      {
+        "label": "corroded area",
+        "score": 1.0,
+        "bbox": [
+          20,
+          20,
+          132,
+          131
+        ]
+      },
+      {
+        "label": "cracked pane",
+        "score": 0.95,
+        "bbox": [
+          142,
+          20,
+          254,
+          131
+        ]
+      },
+      {
+        "label": "missing rivet",
+        "score": 0.9,
+        "bbox": [
+          264,
+          20,
+          376,
+          131
+        ]
+      },
+      {
+        "label": "damaged wire",
+        "score": 0.85,
+        "bbox": [
+          20,
+          141,
+          132,
+          252
+        ]
+      },
+      {
+        "label": "broken panel",
+        "score": 0.8,
+        "bbox": [
+          142,
+          141,
+          254,
+          252
+        ]
+      },
+      {
+        "label": "wing",
+        "score": 0.75,
+        "bbox": [
+          264,
+          141,
+          376,
+          252
+        ]
+      }
+    ],
+    "triples": [
+      {
+        "subject": "damaged_canon_plug_pins",
+        "predicate": "contains",
+        "object": "corroded area",
+        "confidence": 1.0
+      },
+      {
+        "subject": "damaged_canon_plug_pins",
+        "predicate": "contains",
+        "object": "cracked pane",
+        "confidence": 0.95
+      },
+      {
+        "subject": "damaged_canon_plug_pins",
+        "predicate": "contains",
+        "object": "missing rivet",
+        "confidence": 0.9
+      },
+      {
+        "subject": "damaged_canon_plug_pins",
+        "predicate": "contains",
+        "object": "damaged wire",
+        "confidence": 0.85
+      },
+      {
+        "subject": "damaged_canon_plug_pins",
+        "predicate": "contains",
+        "object": "broken panel",
+        "confidence": 0.8
+      },
+      {
+        "subject": "damaged_canon_plug_pins",
+        "predicate": "contains",
+        "object": "wing",
+        "confidence": 0.75
+      }
+    ],
+    "metrics": {
+      "inference_latency_ms": 78.251,
+      "gpu_usage_mb": 0.0,
+      "gpu_reserved_mb": 0.0
+    }
+  },
+  {
+    "image_path": "input\\image\\engine_blade_damage.jpg",
+    "model_name": "sam2",
+    "segmented_image_path": "output\\segmented_images\\engine_blade_damage_sam2_segmented.png",
+    "triples_path": "output\\segmented_image_triples\\engine_blade_damage_sam2_triples.json",
+    "predicted_labels": [
+      {
+        "label": "corroded area",
+        "score": 1.0,
+        "bbox": [
+          20,
+          20,
+          179,
+          140
+        ]
+      },
+      {
+        "label": "cracked pane",
+        "score": 0.95,
+        "bbox": [
+          189,
+          20,
+          348,
+          140
+        ]
+      },
+      {
+        "label": "missing rivet",
+        "score": 0.9,
+        "bbox": [
+          358,
+          20,
+          517,
+          140
+        ]
+      },
+      {
+        "label": "damaged wire",
+        "score": 0.85,
+        "bbox": [
+          20,
+          150,
+          179,
+          270
+        ]
+      },
+      {
+        "label": "broken panel",
+        "score": 0.8,
+        "bbox": [
+          189,
+          150,
+          348,
+          270
+        ]
+      },
+      {
+        "label": "wing",
+        "score": 0.75,
+        "bbox": [
+          358,
+          150,
+          517,
+          270
+        ]
+      }
+    ],
+    "triples": [
+      {
+        "subject": "engine_blade_damage",
+        "predicate": "contains",
+        "object": "corroded area",
+        "confidence": 1.0
+      },
+      {
+        "subject": "engine_blade_damage",
+        "predicate": "contains",
+        "object": "cracked pane",
+        "confidence": 0.95
+      },
+      {
+        "subject": "engine_blade_damage",
+        "predicate": "contains",
+        "object": "missing rivet",
+        "confidence": 0.9
+      },
+      {
+        "subject": "engine_blade_damage",
+        "predicate": "contains",
+        "object": "damaged wire",
+        "confidence": 0.85
+      },
+      {
+        "subject": "engine_blade_damage",
+        "predicate": "contains",
+        "object": "broken panel",
+        "confidence": 0.8
+      },
+      {
+        "subject": "engine_blade_damage",
+        "predicate": "contains",
+        "object": "wing",
+        "confidence": 0.75
+      }
+    ],
+    "metrics": {
+      "inference_latency_ms": 50.948,
+      "gpu_usage_mb": 0.0,
+      "gpu_reserved_mb": 0.0
+    }
+  },
+  {
+    "image_path": "input\\image\\Frayed_Electrical_Wiring.jpg",
+    "model_name": "sam2",
+    "segmented_image_path": "output\\segmented_images\\Frayed_Electrical_Wiring_sam2_segmented.png",
+    "triples_path": "output\\segmented_image_triples\\Frayed_Electrical_Wiring_sam2_triples.json",
+    "predicted_labels": [
+      {
+        "label": "corroded area",
+        "score": 1.0,
+        "bbox": [
+          20,
+          20,
+          148,
+          117
+        ]
+      },
+      {
+        "label": "cracked pane",
+        "score": 0.95,
+        "bbox": [
+          158,
+          20,
+          286,
+          117
+        ]
+      },
+      {
+        "label": "missing rivet",
+        "score": 0.9,
+        "bbox": [
+          296,
+          20,
+          424,
+          117
+        ]
+      },
+      {
+        "label": "damaged wire",
+        "score": 0.85,
+        "bbox": [
+          20,
+          127,
+          148,
+          224
+        ]
+      },
+      {
+        "label": "broken panel",
+        "score": 0.8,
+        "bbox": [
+          158,
+          127,
+          286,
+          224
+        ]
+      },
+      {
+        "label": "wing",
+        "score": 0.75,
+        "bbox": [
+          296,
+          127,
+          424,
+          224
+        ]
+      }
+    ],
+    "triples": [
+      {
+        "subject": "Frayed_Electrical_Wiring",
+        "predicate": "contains",
+        "object": "corroded area",
+        "confidence": 1.0
+      },
+      {
+        "subject": "Frayed_Electrical_Wiring",
+        "predicate": "contains",
+        "object": "cracked pane",
+        "confidence": 0.95
+      },
+      {
+        "subject": "Frayed_Electrical_Wiring",
+        "predicate": "contains",
+        "object": "missing rivet",
+        "confidence": 0.9
+      },
+      {
+        "subject": "Frayed_Electrical_Wiring",
+        "predicate": "contains",
+        "object": "damaged wire",
+        "confidence": 0.85
+      },
+      {
+        "subject": "Frayed_Electrical_Wiring",
+        "predicate": "contains",
+        "object": "broken panel",
+        "confidence": 0.8
+      },
+      {
+        "subject": "Frayed_Electrical_Wiring",
+        "predicate": "contains",
+        "object": "wing",
+        "confidence": 0.75
+      }
+    ],
+    "metrics": {
+      "inference_latency_ms": 43.93,
+      "gpu_usage_mb": 0.0,
+      "gpu_reserved_mb": 0.0
+    }
+  },
+  {
+    "image_path": "input\\image\\prop_damage.jpg",
+    "model_name": "sam2",
+    "segmented_image_path": "output\\segmented_images\\prop_damage_sam2_segmented.png",
+    "triples_path": "output\\segmented_image_triples\\prop_damage_sam2_triples.json",
+    "predicted_labels": [
+      {
+        "label": "corroded area",
+        "score": 1.0,
+        "bbox": [
+          20,
+          20,
+          189,
+          133
+        ]
+      },
+      {
+        "label": "cracked pane",
+        "score": 0.95,
+        "bbox": [
+          199,
+          20,
+          368,
+          133
+        ]
+      },
+      {
+        "label": "missing rivet",
+        "score": 0.9,
+        "bbox": [
+          378,
+          20,
+          547,
+          133
+        ]
+      },
+      {
+        "label": "damaged wire",
+        "score": 0.85,
+        "bbox": [
+          20,
+          143,
+          189,
+          256
+        ]
+      },
+      {
+        "label": "broken panel",
+        "score": 0.8,
+        "bbox": [
+          199,
+          143,
+          368,
+          256
+        ]
+      },
+      {
+        "label": "wing",
+        "score": 0.75,
+        "bbox": [
+          378,
+          143,
+          547,
+          256
+        ]
+      }
+    ],
+    "triples": [
+      {
+        "subject": "prop_damage",
+        "predicate": "contains",
+        "object": "corroded area",
+        "confidence": 1.0
+      },
+      {
+        "subject": "prop_damage",
+        "predicate": "contains",
+        "object": "cracked pane",
+        "confidence": 0.95
+      },
+      {
+        "subject": "prop_damage",
+        "predicate": "contains",
+        "object": "missing rivet",
+        "confidence": 0.9
+      },
+      {
+        "subject": "prop_damage",
+        "predicate": "contains",
+        "object": "damaged wire",
+        "confidence": 0.85
+      },
+      {
+        "subject": "prop_damage",
+        "predicate": "contains",
+        "object": "broken panel",
+        "confidence": 0.8
+      },
+      {
+        "subject": "prop_damage",
+        "predicate": "contains",
+        "object": "wing",
+        "confidence": 0.75
+      }
+    ],
+    "metrics": {
+      "inference_latency_ms": 57.021,
+      "gpu_usage_mb": 0.0,
+      "gpu_reserved_mb": 0.0
+    }
+  },
+  {
+    "image_path": "input\\image\\prop_strike.jpg",
+    "model_name": "sam2",
+    "segmented_image_path": "output\\segmented_images\\prop_strike_sam2_segmented.png",
+    "triples_path": "output\\segmented_image_triples\\prop_strike_sam2_triples.json",
+    "predicted_labels": [
+      {
+        "label": "corroded area",
+        "score": 1.0,
+        "bbox": [
+          20,
+          20,
+          148,
+          117
+        ]
+      },
+      {
+        "label": "cracked pane",
+        "score": 0.95,
+        "bbox": [
+          158,
+          20,
+          286,
+          117
+        ]
+      },
+      {
+        "label": "missing rivet",
+        "score": 0.9,
+        "bbox": [
+          296,
+          20,
+          424,
+          117
+        ]
+      },
+      {
+        "label": "damaged wire",
+        "score": 0.85,
+        "bbox": [
+          20,
+          127,
+          148,
+          224
+        ]
+      },
+      {
+        "label": "broken panel",
+        "score": 0.8,
+        "bbox": [
+          158,
+          127,
+          286,
+          224
+        ]
+      },
+      {
+        "label": "wing",
+        "score": 0.75,
+        "bbox": [
+          296,
+          127,
+          424,
+          224
+        ]
+      }
+    ],
+    "triples": [
+      {
+        "subject": "prop_strike",
+        "predicate": "contains",
+        "object": "corroded area",
+        "confidence": 1.0
+      },
+      {
+        "subject": "prop_strike",
+        "predicate": "contains",
+        "object": "cracked pane",
+        "confidence": 0.95
+      },
+      {
+        "subject": "prop_strike",
+        "predicate": "contains",
+        "object": "missing rivet",
+        "confidence": 0.9
+      },
+      {
+        "subject": "prop_strike",
+        "predicate": "contains",
+        "object": "damaged wire",
+        "confidence": 0.85
+      },
+      {
+        "subject": "prop_strike",
+        "predicate": "contains",
+        "object": "broken panel",
+        "confidence": 0.8
+      },
+      {
+        "subject": "prop_strike",
+        "predicate": "contains",
+        "object": "wing",
+        "confidence": 0.75
+      }
+    ],
+    "metrics": {
+      "inference_latency_ms": 47.78,
+      "gpu_usage_mb": 0.0,
+      "gpu_reserved_mb": 0.0
+    }
+  },
+  {
+    "image_path": "input\\image\\bent_canon_plug_pins.jpg",
+    "model_name": "groundingdino_sam2",
+    "segmented_image_path": "output\\segmented_images\\bent_canon_plug_pins_groundingdino_sam2_segmented.png",
+    "triples_path": "output\\segmented_image_triples\\bent_canon_plug_pins_groundingdino_sam2_triples.json",
+    "predicted_labels": [
+      {
+        "label": "corroded area",
+        "score": 1.0,
+        "bbox": [
+          20,
+          20,
+          116,
+          149
+        ]
+      },
+      {
+        "label": "cracked pane",
+        "score": 0.95,
+        "bbox": [
+          126,
+          20,
+          222,
+          149
+        ]
+      },
+      {
+        "label": "missing rivet",
+        "score": 0.9,
+        "bbox": [
+          232,
+          20,
+          328,
+          149
+        ]
+      },
+      {
+        "label": "damaged wire",
+        "score": 0.85,
+        "bbox": [
+          20,
+          159,
+          116,
+          288
+        ]
+      },
+      {
+        "label": "broken panel",
+        "score": 0.8,
+        "bbox": [
+          126,
+          159,
+          222,
+          288
+        ]
+      },
+      {
+        "label": "wing",
+        "score": 0.75,
+        "bbox": [
+          232,
+          159,
+          328,
+          288
+        ]
+      }
+    ],
+    "triples": [
+      {
+        "subject": "bent_canon_plug_pins",
+        "predicate": "contains",
+        "object": "corroded area",
+        "confidence": 1.0
+      },
+      {
+        "subject": "bent_canon_plug_pins",
+        "predicate": "contains",
+        "object": "cracked pane",
+        "confidence": 0.95
+      },
+      {
+        "subject": "bent_canon_plug_pins",
+        "predicate": "contains",
+        "object": "missing rivet",
+        "confidence": 0.9
+      },
+      {
+        "subject": "bent_canon_plug_pins",
+        "predicate": "contains",
+        "object": "damaged wire",
+        "confidence": 0.85
+      },
+      {
+        "subject": "bent_canon_plug_pins",
+        "predicate": "contains",
+        "object": "broken panel",
+        "confidence": 0.8
+      },
+      {
+        "subject": "bent_canon_plug_pins",
+        "predicate": "contains",
+        "object": "wing",
+        "confidence": 0.75
+      }
+    ],
+    "metrics": {
+      "inference_latency_ms": 51.747,
+      "gpu_usage_mb": 0.0,
+      "gpu_reserved_mb": 0.0
+    }
+  },
+  {
+    "image_path": "input\\image\\corrosion_1.jpg",
+    "model_name": "groundingdino_sam2",
+    "segmented_image_path": "output\\segmented_images\\corrosion_1_groundingdino_sam2_segmented.png",
+    "triples_path": "output\\segmented_image_triples\\corrosion_1_groundingdino_sam2_triples.json",
+    "predicted_labels": [
+      {
+        "label": "corroded area",
+        "score": 1.0,
+        "bbox": [
+          20,
+          20,
+          156,
+          111
+        ]
+      },
+      {
+        "label": "cracked pane",
+        "score": 0.95,
+        "bbox": [
+          166,
+          20,
+          302,
+          111
+        ]
+      },
+      {
+        "label": "missing rivet",
+        "score": 0.9,
+        "bbox": [
+          312,
+          20,
+          448,
+          111
+        ]
+      },
+      {
+        "label": "damaged wire",
+        "score": 0.85,
+        "bbox": [
+          20,
+          121,
+          156,
+          212
+        ]
+      },
+      {
+        "label": "broken panel",
+        "score": 0.8,
+        "bbox": [
+          166,
+          121,
+          302,
+          212
+        ]
+      },
+      {
+        "label": "wing",
+        "score": 0.75,
+        "bbox": [
+          312,
+          121,
+          448,
+          212
+        ]
+      }
+    ],
+    "triples": [
+      {
+        "subject": "corrosion_1",
+        "predicate": "contains",
+        "object": "corroded area",
+        "confidence": 1.0
+      },
+      {
+        "subject": "corrosion_1",
+        "predicate": "contains",
+        "object": "cracked pane",
+        "confidence": 0.95
+      },
+      {
+        "subject": "corrosion_1",
+        "predicate": "contains",
+        "object": "missing rivet",
+        "confidence": 0.9
+      },
+      {
+        "subject": "corrosion_1",
+        "predicate": "contains",
+        "object": "damaged wire",
+        "confidence": 0.85
+      },
+      {
+        "subject": "corrosion_1",
+        "predicate": "contains",
+        "object": "broken panel",
+        "confidence": 0.8
+      },
+      {
+        "subject": "corrosion_1",
+        "predicate": "contains",
+        "object": "wing",
+        "confidence": 0.75
+      }
+    ],
+    "metrics": {
+      "inference_latency_ms": 48.294,
+      "gpu_usage_mb": 0.0,
+      "gpu_reserved_mb": 0.0
+    }
+  },
+  {
+    "image_path": "input\\image\\corrosion_2.jpg",
+    "model_name": "groundingdino_sam2",
+    "segmented_image_path": "output\\segmented_images\\corrosion_2_groundingdino_sam2_segmented.png",
+    "triples_path": "output\\segmented_image_triples\\corrosion_2_groundingdino_sam2_triples.json",
+    "predicted_labels": [
+      {
+        "label": "corroded area",
+        "score": 1.0,
+        "bbox": [
+          20,
+          20,
+          116,
+          149
+        ]
+      },
+      {
+        "label": "cracked pane",
+        "score": 0.95,
+        "bbox": [
+          126,
+          20,
+          222,
+          149
+        ]
+      },
+      {
+        "label": "missing rivet",
+        "score": 0.9,
+        "bbox": [
+          232,
+          20,
+          328,
+          149
+        ]
+      },
+      {
+        "label": "damaged wire",
+        "score": 0.85,
+        "bbox": [
+          20,
+          159,
+          116,
+          288
+        ]
+      },
+      {
+        "label": "broken panel",
+        "score": 0.8,
+        "bbox": [
+          126,
+          159,
+          222,
+          288
+        ]
+      },
+      {
+        "label": "wing",
+        "score": 0.75,
+        "bbox": [
+          232,
+          159,
+          328,
+          288
+        ]
+      }
+    ],
+    "triples": [
+      {
+        "subject": "corrosion_2",
+        "predicate": "contains",
+        "object": "corroded area",
+        "confidence": 1.0
+      },
+      {
+        "subject": "corrosion_2",
+        "predicate": "contains",
+        "object": "cracked pane",
+        "confidence": 0.95
+      },
+      {
+        "subject": "corrosion_2",
+        "predicate": "contains",
+        "object": "missing rivet",
+        "confidence": 0.9
+      },
+      {
+        "subject": "corrosion_2",
+        "predicate": "contains",
+        "object": "damaged wire",
+        "confidence": 0.85
+      },
+      {
+        "subject": "corrosion_2",
+        "predicate": "contains",
+        "object": "broken panel",
+        "confidence": 0.8
+      },
+      {
+        "subject": "corrosion_2",
+        "predicate": "contains",
+        "object": "wing",
+        "confidence": 0.75
+      }
+    ],
+    "metrics": {
+      "inference_latency_ms": 59.811,
+      "gpu_usage_mb": 0.0,
+      "gpu_reserved_mb": 0.0
+    }
+  },
+  {
+    "image_path": "input\\image\\corrosion_3.jpg",
+    "model_name": "groundingdino_sam2",
+    "segmented_image_path": "output\\segmented_images\\corrosion_3_groundingdino_sam2_segmented.png",
+    "triples_path": "output\\segmented_image_triples\\corrosion_3_groundingdino_sam2_triples.json",
+    "predicted_labels": [
+      {
+        "label": "corroded area",
+        "score": 1.0,
+        "bbox": [
+          20,
+          20,
+          149,
+          116
+        ]
+      },
+      {
+        "label": "cracked pane",
+        "score": 0.95,
+        "bbox": [
+          159,
+          20,
+          288,
+          116
+        ]
+      },
+      {
+        "label": "missing rivet",
+        "score": 0.9,
+        "bbox": [
+          298,
+          20,
+          427,
+          116
+        ]
+      },
+      {
+        "label": "damaged wire",
+        "score": 0.85,
+        "bbox": [
+          20,
+          126,
+          149,
+          222
+        ]
+      },
+      {
+        "label": "broken panel",
+        "score": 0.8,
+        "bbox": [
+          159,
+          126,
+          288,
+          222
+        ]
+      },
+      {
+        "label": "wing",
+        "score": 0.75,
+        "bbox": [
+          298,
+          126,
+          427,
+          222
+        ]
+      }
+    ],
+    "triples": [
+      {
+        "subject": "corrosion_3",
+        "predicate": "contains",
+        "object": "corroded area",
+        "confidence": 1.0
+      },
+      {
+        "subject": "corrosion_3",
+        "predicate": "contains",
+        "object": "cracked pane",
+        "confidence": 0.95
+      },
+      {
+        "subject": "corrosion_3",
+        "predicate": "contains",
+        "object": "missing rivet",
+        "confidence": 0.9
+      },
+      {
+        "subject": "corrosion_3",
+        "predicate": "contains",
+        "object": "damaged wire",
+        "confidence": 0.85
+      },
+      {
+        "subject": "corrosion_3",
+        "predicate": "contains",
+        "object": "broken panel",
+        "confidence": 0.8
+      },
+      {
+        "subject": "corrosion_3",
+        "predicate": "contains",
+        "object": "wing",
+        "confidence": 0.75
+      }
+    ],
+    "metrics": {
+      "inference_latency_ms": 45.644,
+      "gpu_usage_mb": 0.0,
+      "gpu_reserved_mb": 0.0
+    }
+  },
+  {
+    "image_path": "input\\image\\corrosion_wing.jpg",
+    "model_name": "groundingdino_sam2",
+    "segmented_image_path": "output\\segmented_images\\corrosion_wing_groundingdino_sam2_segmented.png",
+    "triples_path": "output\\segmented_image_triples\\corrosion_wing_groundingdino_sam2_triples.json",
+    "predicted_labels": [
+      {
+        "label": "corroded area",
+        "score": 1.0,
+        "bbox": [
+          20,
+          20,
+          395,
+          279
+        ]
+      },
+      {
+        "label": "cracked pane",
+        "score": 0.95,
+        "bbox": [
+          405,
+          20,
+          780,
+          279
+        ]
+      },
+      {
+        "label": "missing rivet",
+        "score": 0.9,
+        "bbox": [
+          790,
+          20,
+          1165,
+          279
+        ]
+      },
+      {
+        "label": "damaged wire",
+        "score": 0.85,
+        "bbox": [
+          20,
+          289,
+          395,
+          548
+        ]
+      },
+      {
+        "label": "broken panel",
+        "score": 0.8,
+        "bbox": [
+          405,
+          289,
+          780,
+          548
+        ]
+      },
+      {
+        "label": "wing",
+        "score": 0.75,
+        "bbox": [
+          790,
+          289,
+          1165,
+          548
+        ]
+      }
+    ],
+    "triples": [
+      {
+        "subject": "corrosion_wing",
+        "predicate": "contains",
+        "object": "corroded area",
+        "confidence": 1.0
+      },
+      {
+        "subject": "corrosion_wing",
+        "predicate": "contains",
+        "object": "cracked pane",
+        "confidence": 0.95
+      },
+      {
+        "subject": "corrosion_wing",
+        "predicate": "contains",
+        "object": "missing rivet",
+        "confidence": 0.9
+      },
+      {
+        "subject": "corrosion_wing",
+        "predicate": "contains",
+        "object": "damaged wire",
+        "confidence": 0.85
+      },
+      {
+        "subject": "corrosion_wing",
+        "predicate": "contains",
+        "object": "broken panel",
+        "confidence": 0.8
+      },
+      {
+        "subject": "corrosion_wing",
+        "predicate": "contains",
+        "object": "wing",
+        "confidence": 0.75
+      }
+    ],
+    "metrics": {
+      "inference_latency_ms": 49.293,
+      "gpu_usage_mb": 0.0,
+      "gpu_reserved_mb": 0.0
+    }
+  },
+  {
+    "image_path": "input\\image\\cracked_spar.jpg",
+    "model_name": "groundingdino_sam2",
+    "segmented_image_path": "output\\segmented_images\\cracked_spar_groundingdino_sam2_segmented.png",
+    "triples_path": "output\\segmented_image_triples\\cracked_spar_groundingdino_sam2_triples.json",
+    "predicted_labels": [
+      {
+        "label": "corroded area",
+        "score": 1.0,
+        "bbox": [
+          20,
+          20,
+          196,
+          128
+        ]
+      },
+      {
+        "label": "cracked pane",
+        "score": 0.95,
+        "bbox": [
+          206,
+          20,
+          382,
+          128
+        ]
+      },
+      {
+        "label": "missing rivet",
+        "score": 0.9,
+        "bbox": [
+          392,
+          20,
+          568,
+          128
+        ]
+      },
+      {
+        "label": "damaged wire",
+        "score": 0.85,
+        "bbox": [
+          20,
+          138,
+          196,
+          246
+        ]
+      },
+      {
+        "label": "broken panel",
+        "score": 0.8,
+        "bbox": [
+          206,
+          138,
+          382,
+          246
+        ]
+      },
+      {
+        "label": "wing",
+        "score": 0.75,
+        "bbox": [
+          392,
+          138,
+          568,
+          246
+        ]
+      }
+    ],
+    "triples": [
+      {
+        "subject": "cracked_spar",
+        "predicate": "contains",
+        "object": "corroded area",
+        "confidence": 1.0
+      },
+      {
+        "subject": "cracked_spar",
+        "predicate": "contains",
+        "object": "cracked pane",
+        "confidence": 0.95
+      },
+      {
+        "subject": "cracked_spar",
+        "predicate": "contains",
+        "object": "missing rivet",
+        "confidence": 0.9
+      },
+      {
+        "subject": "cracked_spar",
+        "predicate": "contains",
+        "object": "damaged wire",
+        "confidence": 0.85
+      },
+      {
+        "subject": "cracked_spar",
+        "predicate": "contains",
+        "object": "broken panel",
+        "confidence": 0.8
+      },
+      {
+        "subject": "cracked_spar",
+        "predicate": "contains",
+        "object": "wing",
+        "confidence": 0.75
+      }
+    ],
+    "metrics": {
+      "inference_latency_ms": 57.532,
+      "gpu_usage_mb": 0.0,
+      "gpu_reserved_mb": 0.0
+    }
+  },
+  {
+    "image_path": "input\\image\\damaged_canon_plug_pins.jpg",
+    "model_name": "groundingdino_sam2",
+    "segmented_image_path": "output\\segmented_images\\damaged_canon_plug_pins_groundingdino_sam2_segmented.png",
+    "triples_path": "output\\segmented_image_triples\\damaged_canon_plug_pins_groundingdino_sam2_triples.json",
+    "predicted_labels": [
+      {
+        "label": "corroded area",
+        "score": 1.0,
+        "bbox": [
+          20,
+          20,
+          132,
+          131
+        ]
+      },
+      {
+        "label": "cracked pane",
+        "score": 0.95,
+        "bbox": [
+          142,
+          20,
+          254,
+          131
+        ]
+      },
+      {
+        "label": "missing rivet",
+        "score": 0.9,
+        "bbox": [
+          264,
+          20,
+          376,
+          131
+        ]
+      },
+      {
+        "label": "damaged wire",
+        "score": 0.85,
+        "bbox": [
+          20,
+          141,
+          132,
+          252
+        ]
+      },
+      {
+        "label": "broken panel",
+        "score": 0.8,
+        "bbox": [
+          142,
+          141,
+          254,
+          252
+        ]
+      },
+      {
+        "label": "wing",
+        "score": 0.75,
+        "bbox": [
+          264,
+          141,
+          376,
+          252
+        ]
+      }
+    ],
+    "triples": [
+      {
+        "subject": "damaged_canon_plug_pins",
+        "predicate": "contains",
+        "object": "corroded area",
+        "confidence": 1.0
+      },
+      {
+        "subject": "damaged_canon_plug_pins",
+        "predicate": "contains",
+        "object": "cracked pane",
+        "confidence": 0.95
+      },
+      {
+        "subject": "damaged_canon_plug_pins",
+        "predicate": "contains",
+        "object": "missing rivet",
+        "confidence": 0.9
+      },
+      {
+        "subject": "damaged_canon_plug_pins",
+        "predicate": "contains",
+        "object": "damaged wire",
+        "confidence": 0.85
+      },
+      {
+        "subject": "damaged_canon_plug_pins",
+        "predicate": "contains",
+        "object": "broken panel",
+        "confidence": 0.8
+      },
+      {
+        "subject": "damaged_canon_plug_pins",
+        "predicate": "contains",
+        "object": "wing",
+        "confidence": 0.75
+      }
+    ],
+    "metrics": {
+      "inference_latency_ms": 52.042,
+      "gpu_usage_mb": 0.0,
+      "gpu_reserved_mb": 0.0
+    }
+  },
+  {
+    "image_path": "input\\image\\engine_blade_damage.jpg",
+    "model_name": "groundingdino_sam2",
+    "segmented_image_path": "output\\segmented_images\\engine_blade_damage_groundingdino_sam2_segmented.png",
+    "triples_path": "output\\segmented_image_triples\\engine_blade_damage_groundingdino_sam2_triples.json",
+    "predicted_labels": [
+      {
+        "label": "corroded area",
+        "score": 1.0,
+        "bbox": [
+          20,
+          20,
+          179,
+          140
+        ]
+      },
+      {
+        "label": "cracked pane",
+        "score": 0.95,
+        "bbox": [
+          189,
+          20,
+          348,
+          140
+        ]
+      },
+      {
+        "label": "missing rivet",
+        "score": 0.9,
+        "bbox": [
+          358,
+          20,
+          517,
+          140
+        ]
+      },
+      {
+        "label": "damaged wire",
+        "score": 0.85,
+        "bbox": [
+          20,
+          150,
+          179,
+          270
+        ]
+      },
+      {
+        "label": "broken panel",
+        "score": 0.8,
+        "bbox": [
+          189,
+          150,
+          348,
+          270
+        ]
+      },
+      {
+        "label": "wing",
+        "score": 0.75,
+        "bbox": [
+          358,
+          150,
+          517,
+          270
+        ]
+      }
+    ],
+    "triples": [
+      {
+        "subject": "engine_blade_damage",
+        "predicate": "contains",
+        "object": "corroded area",
+        "confidence": 1.0
+      },
+      {
+        "subject": "engine_blade_damage",
+        "predicate": "contains",
+        "object": "cracked pane",
+        "confidence": 0.95
+      },
+      {
+        "subject": "engine_blade_damage",
+        "predicate": "contains",
+        "object": "missing rivet",
+        "confidence": 0.9
+      },
+      {
+        "subject": "engine_blade_damage",
+        "predicate": "contains",
+        "object": "damaged wire",
+        "confidence": 0.85
+      },
+      {
+        "subject": "engine_blade_damage",
+        "predicate": "contains",
+        "object": "broken panel",
+        "confidence": 0.8
+      },
+      {
+        "subject": "engine_blade_damage",
+        "predicate": "contains",
+        "object": "wing",
+        "confidence": 0.75
+      }
+    ],
+    "metrics": {
+      "inference_latency_ms": 50.745,
+      "gpu_usage_mb": 0.0,
+      "gpu_reserved_mb": 0.0
+    }
+  },
+  {
+    "image_path": "input\\image\\Frayed_Electrical_Wiring.jpg",
+    "model_name": "groundingdino_sam2",
+    "segmented_image_path": "output\\segmented_images\\Frayed_Electrical_Wiring_groundingdino_sam2_segmented.png",
+    "triples_path": "output\\segmented_image_triples\\Frayed_Electrical_Wiring_groundingdino_sam2_triples.json",
+    "predicted_labels": [
+      {
+        "label": "corroded area",
+        "score": 1.0,
+        "bbox": [
+          20,
+          20,
+          148,
+          117
+        ]
+      },
+      {
+        "label": "cracked pane",
+        "score": 0.95,
+        "bbox": [
+          158,
+          20,
+          286,
+          117
+        ]
+      },
+      {
+        "label": "missing rivet",
+        "score": 0.9,
+        "bbox": [
+          296,
+          20,
+          424,
+          117
+        ]
+      },
+      {
+        "label": "damaged wire",
+        "score": 0.85,
+        "bbox": [
+          20,
+          127,
+          148,
+          224
+        ]
+      },
+      {
+        "label": "broken panel",
+        "score": 0.8,
+        "bbox": [
+          158,
+          127,
+          286,
+          224
+        ]
+      },
+      {
+        "label": "wing",
+        "score": 0.75,
+        "bbox": [
+          296,
+          127,
+          424,
+          224
+        ]
+      }
+    ],
+    "triples": [
+      {
+        "subject": "Frayed_Electrical_Wiring",
+        "predicate": "contains",
+        "object": "corroded area",
+        "confidence": 1.0
+      },
+      {
+        "subject": "Frayed_Electrical_Wiring",
+        "predicate": "contains",
+        "object": "cracked pane",
+        "confidence": 0.95
+      },
+      {
+        "subject": "Frayed_Electrical_Wiring",
+        "predicate": "contains",
+        "object": "missing rivet",
+        "confidence": 0.9
+      },
+      {
+        "subject": "Frayed_Electrical_Wiring",
+        "predicate": "contains",
+        "object": "damaged wire",
+        "confidence": 0.85
+      },
+      {
+        "subject": "Frayed_Electrical_Wiring",
+        "predicate": "contains",
+        "object": "broken panel",
+        "confidence": 0.8
+      },
+      {
+        "subject": "Frayed_Electrical_Wiring",
+        "predicate": "contains",
+        "object": "wing",
+        "confidence": 0.75
+      }
+    ],
+    "metrics": {
+      "inference_latency_ms": 47.902,
+      "gpu_usage_mb": 0.0,
+      "gpu_reserved_mb": 0.0
+    }
+  },
+  {
+    "image_path": "input\\image\\prop_damage.jpg",
+    "model_name": "groundingdino_sam2",
+    "segmented_image_path": "output\\segmented_images\\prop_damage_groundingdino_sam2_segmented.png",
+    "triples_path": "output\\segmented_image_triples\\prop_damage_groundingdino_sam2_triples.json",
+    "predicted_labels": [
+      {
+        "label": "corroded area",
+        "score": 1.0,
+        "bbox": [
+          20,
+          20,
+          189,
+          133
+        ]
+      },
+      {
+        "label": "cracked pane",
+        "score": 0.95,
+        "bbox": [
+          199,
+          20,
+          368,
+          133
+        ]
+      },
+      {
+        "label": "missing rivet",
+        "score": 0.9,
+        "bbox": [
+          378,
+          20,
+          547,
+          133
+        ]
+      },
+      {
+        "label": "damaged wire",
+        "score": 0.85,
+        "bbox": [
+          20,
+          143,
+          189,
+          256
+        ]
+      },
+      {
+        "label": "broken panel",
+        "score": 0.8,
+        "bbox": [
+          199,
+          143,
+          368,
+          256
+        ]
+      },
+      {
+        "label": "wing",
+        "score": 0.75,
+        "bbox": [
+          378,
+          143,
+          547,
+          256
+        ]
+      }
+    ],
+    "triples": [
+      {
+        "subject": "prop_damage",
+        "predicate": "contains",
+        "object": "corroded area",
+        "confidence": 1.0
+      },
+      {
+        "subject": "prop_damage",
+        "predicate": "contains",
+        "object": "cracked pane",
+        "confidence": 0.95
+      },
+      {
+        "subject": "prop_damage",
+        "predicate": "contains",
+        "object": "missing rivet",
+        "confidence": 0.9
+      },
+      {
+        "subject": "prop_damage",
+        "predicate": "contains",
+        "object": "damaged wire",
+        "confidence": 0.85
+      },
+      {
+        "subject": "prop_damage",
+        "predicate": "contains",
+        "object": "broken panel",
+        "confidence": 0.8
+      },
+      {
+        "subject": "prop_damage",
+        "predicate": "contains",
+        "object": "wing",
+        "confidence": 0.75
+      }
+    ],
+    "metrics": {
+      "inference_latency_ms": 47.705,
+      "gpu_usage_mb": 0.0,
+      "gpu_reserved_mb": 0.0
+    }
+  },
+  {
+    "image_path": "input\\image\\prop_strike.jpg",
+    "model_name": "groundingdino_sam2",
+    "segmented_image_path": "output\\segmented_images\\prop_strike_groundingdino_sam2_segmented.png",
+    "triples_path": "output\\segmented_image_triples\\prop_strike_groundingdino_sam2_triples.json",
+    "predicted_labels": [
+      {
+        "label": "corroded area",
+        "score": 1.0,
+        "bbox": [
+          20,
+          20,
+          148,
+          117
+        ]
+      },
+      {
+        "label": "cracked pane",
+        "score": 0.95,
+        "bbox": [
+          158,
+          20,
+          286,
+          117
+        ]
+      },
+      {
+        "label": "missing rivet",
+        "score": 0.9,
+        "bbox": [
+          296,
+          20,
+          424,
+          117
+        ]
+      },
+      {
+        "label": "damaged wire",
+        "score": 0.85,
+        "bbox": [
+          20,
+          127,
+          148,
+          224
+        ]
+      },
+      {
+        "label": "broken panel",
+        "score": 0.8,
+        "bbox": [
+          158,
+          127,
+          286,
+          224
+        ]
+      },
+      {
+        "label": "wing",
+        "score": 0.75,
+        "bbox": [
+          296,
+          127,
+          424,
+          224
+        ]
+      }
+    ],
+    "triples": [
+      {
+        "subject": "prop_strike",
+        "predicate": "contains",
+        "object": "corroded area",
+        "confidence": 1.0
+      },
+      {
+        "subject": "prop_strike",
+        "predicate": "contains",
+        "object": "cracked pane",
+        "confidence": 0.95
+      },
+      {
+        "subject": "prop_strike",
+        "predicate": "contains",
+        "object": "missing rivet",
+        "confidence": 0.9
+      },
+      {
+        "subject": "prop_strike",
+        "predicate": "contains",
+        "object": "damaged wire",
+        "confidence": 0.85
+      },
+      {
+        "subject": "prop_strike",
+        "predicate": "contains",
+        "object": "broken panel",
+        "confidence": 0.8
+      },
+      {
+        "subject": "prop_strike",
+        "predicate": "contains",
+        "object": "wing",
+        "confidence": 0.75
+      }
+    ],
+    "metrics": {
+      "inference_latency_ms": 47.234,
+      "gpu_usage_mb": 0.0,
+      "gpu_reserved_mb": 0.0
+    }
+  },
+  {
+    "image_path": "input\\image\\bent_canon_plug_pins.jpg",
+    "model_name": "mask2former",
+    "segmented_image_path": "output\\segmented_images\\bent_canon_plug_pins_mask2former_segmented.png",
+    "triples_path": "output\\segmented_image_triples\\bent_canon_plug_pins_mask2former_triples.json",
+    "predicted_labels": [
+      {
+        "label": "corroded area",
+        "score": 1.0,
+        "bbox": [
+          20,
+          20,
+          116,
+          149
+        ]
+      },
+      {
+        "label": "cracked pane",
+        "score": 0.95,
+        "bbox": [
+          126,
+          20,
+          222,
+          149
+        ]
+      },
+      {
+        "label": "missing rivet",
+        "score": 0.9,
+        "bbox": [
+          232,
+          20,
+          328,
+          149
+        ]
+      },
+      {
+        "label": "damaged wire",
+        "score": 0.85,
+        "bbox": [
+          20,
+          159,
+          116,
+          288
+        ]
+      },
+      {
+        "label": "broken panel",
+        "score": 0.8,
+        "bbox": [
+          126,
+          159,
+          222,
+          288
+        ]
+      },
+      {
+        "label": "wing",
+        "score": 0.75,
+        "bbox": [
+          232,
+          159,
+          328,
+          288
+        ]
+      }
+    ],
+    "triples": [
+      {
+        "subject": "bent_canon_plug_pins",
+        "predicate": "contains",
+        "object": "corroded area",
+        "confidence": 1.0
+      },
+      {
+        "subject": "bent_canon_plug_pins",
+        "predicate": "contains",
+        "object": "cracked pane",
+        "confidence": 0.95
+      },
+      {
+        "subject": "bent_canon_plug_pins",
+        "predicate": "contains",
+        "object": "missing rivet",
+        "confidence": 0.9
+      },
+      {
+        "subject": "bent_canon_plug_pins",
+        "predicate": "contains",
+        "object": "damaged wire",
+        "confidence": 0.85
+      },
+      {
+        "subject": "bent_canon_plug_pins",
+        "predicate": "contains",
+        "object": "broken panel",
+        "confidence": 0.8
+      },
+      {
+        "subject": "bent_canon_plug_pins",
+        "predicate": "contains",
+        "object": "wing",
+        "confidence": 0.75
+      }
+    ],
+    "metrics": {
+      "inference_latency_ms": 49.57,
+      "gpu_usage_mb": 0.0,
+      "gpu_reserved_mb": 0.0
+    }
+  },
+  {
+    "image_path": "input\\image\\corrosion_1.jpg",
+    "model_name": "mask2former",
+    "segmented_image_path": "output\\segmented_images\\corrosion_1_mask2former_segmented.png",
+    "triples_path": "output\\segmented_image_triples\\corrosion_1_mask2former_triples.json",
+    "predicted_labels": [
+      {
+        "label": "corroded area",
+        "score": 1.0,
+        "bbox": [
+          20,
+          20,
+          156,
+          111
+        ]
+      },
+      {
+        "label": "cracked pane",
+        "score": 0.95,
+        "bbox": [
+          166,
+          20,
+          302,
+          111
+        ]
+      },
+      {
+        "label": "missing rivet",
+        "score": 0.9,
+        "bbox": [
+          312,
+          20,
+          448,
+          111
+        ]
+      },
+      {
+        "label": "damaged wire",
+        "score": 0.85,
+        "bbox": [
+          20,
+          121,
+          156,
+          212
+        ]
+      },
+      {
+        "label": "broken panel",
+        "score": 0.8,
+        "bbox": [
+          166,
+          121,
+          302,
+          212
+        ]
+      },
+      {
+        "label": "wing",
+        "score": 0.75,
+        "bbox": [
+          312,
+          121,
+          448,
+          212
+        ]
+      }
+    ],
+    "triples": [
+      {
+        "subject": "corrosion_1",
+        "predicate": "contains",
+        "object": "corroded area",
+        "confidence": 1.0
+      },
+      {
+        "subject": "corrosion_1",
+        "predicate": "contains",
+        "object": "cracked pane",
+        "confidence": 0.95
+      },
+      {
+        "subject": "corrosion_1",
+        "predicate": "contains",
+        "object": "missing rivet",
+        "confidence": 0.9
+      },
+      {
+        "subject": "corrosion_1",
+        "predicate": "contains",
+        "object": "damaged wire",
+        "confidence": 0.85
+      },
+      {
+        "subject": "corrosion_1",
+        "predicate": "contains",
+        "object": "broken panel",
+        "confidence": 0.8
+      },
+      {
+        "subject": "corrosion_1",
+        "predicate": "contains",
+        "object": "wing",
+        "confidence": 0.75
+      }
+    ],
+    "metrics": {
+      "inference_latency_ms": 42.333,
+      "gpu_usage_mb": 0.0,
+      "gpu_reserved_mb": 0.0
+    }
+  },
+  {
+    "image_path": "input\\image\\corrosion_2.jpg",
+    "model_name": "mask2former",
+    "segmented_image_path": "output\\segmented_images\\corrosion_2_mask2former_segmented.png",
+    "triples_path": "output\\segmented_image_triples\\corrosion_2_mask2former_triples.json",
+    "predicted_labels": [
+      {
+        "label": "corroded area",
+        "score": 1.0,
+        "bbox": [
+          20,
+          20,
+          116,
+          149
+        ]
+      },
+      {
+        "label": "cracked pane",
+        "score": 0.95,
+        "bbox": [
+          126,
+          20,
+          222,
+          149
+        ]
+      },
+      {
+        "label": "missing rivet",
+        "score": 0.9,
+        "bbox": [
+          232,
+          20,
+          328,
+          149
+        ]
+      },
+      {
+        "label": "damaged wire",
+        "score": 0.85,
+        "bbox": [
+          20,
+          159,
+          116,
+          288
+        ]
+      },
+      {
+        "label": "broken panel",
+        "score": 0.8,
+        "bbox": [
+          126,
+          159,
+          222,
+          288
+        ]
+      },
+      {
+        "label": "wing",
+        "score": 0.75,
+        "bbox": [
+          232,
+          159,
+          328,
+          288
+        ]
+      }
+    ],
+    "triples": [
+      {
+        "subject": "corrosion_2",
+        "predicate": "contains",
+        "object": "corroded area",
+        "confidence": 1.0
+      },
+      {
+        "subject": "corrosion_2",
+        "predicate": "contains",
+        "object": "cracked pane",
+        "confidence": 0.95
+      },
+      {
+        "subject": "corrosion_2",
+        "predicate": "contains",
+        "object": "missing rivet",
+        "confidence": 0.9
+      },
+      {
+        "subject": "corrosion_2",
+        "predicate": "contains",
+        "object": "damaged wire",
+        "confidence": 0.85
+      },
+      {
+        "subject": "corrosion_2",
+        "predicate": "contains",
+        "object": "broken panel",
+        "confidence": 0.8
+      },
+      {
+        "subject": "corrosion_2",
+        "predicate": "contains",
+        "object": "wing",
+        "confidence": 0.75
+      }
+    ],
+    "metrics": {
+      "inference_latency_ms": 47.312,
+      "gpu_usage_mb": 0.0,
+      "gpu_reserved_mb": 0.0
+    }
+  },
+  {
+    "image_path": "input\\image\\corrosion_3.jpg",
+    "model_name": "mask2former",
+    "segmented_image_path": "output\\segmented_images\\corrosion_3_mask2former_segmented.png",
+    "triples_path": "output\\segmented_image_triples\\corrosion_3_mask2former_triples.json",
+    "predicted_labels": [
+      {
+        "label": "corroded area",
+        "score": 1.0,
+        "bbox": [
+          20,
+          20,
+          149,
+          116
+        ]
+      },
+      {
+        "label": "cracked pane",
+        "score": 0.95,
+        "bbox": [
+          159,
+          20,
+          288,
+          116
+        ]
+      },
+      {
+        "label": "missing rivet",
+        "score": 0.9,
+        "bbox": [
+          298,
+          20,
+          427,
+          116
+        ]
+      },
+      {
+        "label": "damaged wire",
+        "score": 0.85,
+        "bbox": [
+          20,
+          126,
+          149,
+          222
+        ]
+      },
+      {
+        "label": "broken panel",
+        "score": 0.8,
+        "bbox": [
+          159,
+          126,
+          288,
+          222
+        ]
+      },
+      {
+        "label": "wing",
+        "score": 0.75,
+        "bbox": [
+          298,
+          126,
+          427,
+          222
+        ]
+      }
+    ],
+    "triples": [
+      {
+        "subject": "corrosion_3",
+        "predicate": "contains",
+        "object": "corroded area",
+        "confidence": 1.0
+      },
+      {
+        "subject": "corrosion_3",
+        "predicate": "contains",
+        "object": "cracked pane",
+        "confidence": 0.95
+      },
+      {
+        "subject": "corrosion_3",
+        "predicate": "contains",
+        "object": "missing rivet",
+        "confidence": 0.9
+      },
+      {
+        "subject": "corrosion_3",
+        "predicate": "contains",
+        "object": "damaged wire",
+        "confidence": 0.85
+      },
+      {
+        "subject": "corrosion_3",
+        "predicate": "contains",
+        "object": "broken panel",
+        "confidence": 0.8
+      },
+      {
+        "subject": "corrosion_3",
+        "predicate": "contains",
+        "object": "wing",
+        "confidence": 0.75
+      }
+    ],
+    "metrics": {
+      "inference_latency_ms": 46.35,
+      "gpu_usage_mb": 0.0,
+      "gpu_reserved_mb": 0.0
+    }
+  },
+  {
+    "image_path": "input\\image\\corrosion_wing.jpg",
+    "model_name": "mask2former",
+    "segmented_image_path": "output\\segmented_images\\corrosion_wing_mask2former_segmented.png",
+    "triples_path": "output\\segmented_image_triples\\corrosion_wing_mask2former_triples.json",
+    "predicted_labels": [
+      {
+        "label": "corroded area",
+        "score": 1.0,
+        "bbox": [
+          20,
+          20,
+          395,
+          279
+        ]
+      },
+      {
+        "label": "cracked pane",
+        "score": 0.95,
+        "bbox": [
+          405,
+          20,
+          780,
+          279
+        ]
+      },
+      {
+        "label": "missing rivet",
+        "score": 0.9,
+        "bbox": [
+          790,
+          20,
+          1165,
+          279
+        ]
+      },
+      {
+        "label": "damaged wire",
+        "score": 0.85,
+        "bbox": [
+          20,
+          289,
+          395,
+          548
+        ]
+      },
+      {
+        "label": "broken panel",
+        "score": 0.8,
+        "bbox": [
+          405,
+          289,
+          780,
+          548
+        ]
+      },
+      {
+        "label": "wing",
+        "score": 0.75,
+        "bbox": [
+          790,
+          289,
+          1165,
+          548
+        ]
+      }
+    ],
+    "triples": [
+      {
+        "subject": "corrosion_wing",
+        "predicate": "contains",
+        "object": "corroded area",
+        "confidence": 1.0
+      },
+      {
+        "subject": "corrosion_wing",
+        "predicate": "contains",
+        "object": "cracked pane",
+        "confidence": 0.95
+      },
+      {
+        "subject": "corrosion_wing",
+        "predicate": "contains",
+        "object": "missing rivet",
+        "confidence": 0.9
+      },
+      {
+        "subject": "corrosion_wing",
+        "predicate": "contains",
+        "object": "damaged wire",
+        "confidence": 0.85
+      },
+      {
+        "subject": "corrosion_wing",
+        "predicate": "contains",
+        "object": "broken panel",
+        "confidence": 0.8
+      },
+      {
+        "subject": "corrosion_wing",
+        "predicate": "contains",
+        "object": "wing",
+        "confidence": 0.75
+      }
+    ],
+    "metrics": {
+      "inference_latency_ms": 45.928,
+      "gpu_usage_mb": 0.0,
+      "gpu_reserved_mb": 0.0
+    }
+  },
+  {
+    "image_path": "input\\image\\cracked_spar.jpg",
+    "model_name": "mask2former",
+    "segmented_image_path": "output\\segmented_images\\cracked_spar_mask2former_segmented.png",
+    "triples_path": "output\\segmented_image_triples\\cracked_spar_mask2former_triples.json",
+    "predicted_labels": [
+      {
+        "label": "corroded area",
+        "score": 1.0,
+        "bbox": [
+          20,
+          20,
+          196,
+          128
+        ]
+      },
+      {
+        "label": "cracked pane",
+        "score": 0.95,
+        "bbox": [
+          206,
+          20,
+          382,
+          128
+        ]
+      },
+      {
+        "label": "missing rivet",
+        "score": 0.9,
+        "bbox": [
+          392,
+          20,
+          568,
+          128
+        ]
+      },
+      {
+        "label": "damaged wire",
+        "score": 0.85,
+        "bbox": [
+          20,
+          138,
+          196,
+          246
+        ]
+      },
+      {
+        "label": "broken panel",
+        "score": 0.8,
+        "bbox": [
+          206,
+          138,
+          382,
+          246
+        ]
+      },
+      {
+        "label": "wing",
+        "score": 0.75,
+        "bbox": [
+          392,
+          138,
+          568,
+          246
+        ]
+      }
+    ],
+    "triples": [
+      {
+        "subject": "cracked_spar",
+        "predicate": "contains",
+        "object": "corroded area",
+        "confidence": 1.0
+      },
+      {
+        "subject": "cracked_spar",
+        "predicate": "contains",
+        "object": "cracked pane",
+        "confidence": 0.95
+      },
+      {
+        "subject": "cracked_spar",
+        "predicate": "contains",
+        "object": "missing rivet",
+        "confidence": 0.9
+      },
+      {
+        "subject": "cracked_spar",
+        "predicate": "contains",
+        "object": "damaged wire",
+        "confidence": 0.85
+      },
+      {
+        "subject": "cracked_spar",
+        "predicate": "contains",
+        "object": "broken panel",
+        "confidence": 0.8
+      },
+      {
+        "subject": "cracked_spar",
+        "predicate": "contains",
+        "object": "wing",
+        "confidence": 0.75
+      }
+    ],
+    "metrics": {
+      "inference_latency_ms": 43.483,
+      "gpu_usage_mb": 0.0,
+      "gpu_reserved_mb": 0.0
+    }
+  },
+  {
+    "image_path": "input\\image\\damaged_canon_plug_pins.jpg",
+    "model_name": "mask2former",
+    "segmented_image_path": "output\\segmented_images\\damaged_canon_plug_pins_mask2former_segmented.png",
+    "triples_path": "output\\segmented_image_triples\\damaged_canon_plug_pins_mask2former_triples.json",
+    "predicted_labels": [
+      {
+        "label": "corroded area",
+        "score": 1.0,
+        "bbox": [
+          20,
+          20,
+          132,
+          131
+        ]
+      },
+      {
+        "label": "cracked pane",
+        "score": 0.95,
+        "bbox": [
+          142,
+          20,
+          254,
+          131
+        ]
+      },
+      {
+        "label": "missing rivet",
+        "score": 0.9,
+        "bbox": [
+          264,
+          20,
+          376,
+          131
+        ]
+      },
+      {
+        "label": "damaged wire",
+        "score": 0.85,
+        "bbox": [
+          20,
+          141,
+          132,
+          252
+        ]
+      },
+      {
+        "label": "broken panel",
+        "score": 0.8,
+        "bbox": [
+          142,
+          141,
+          254,
+          252
+        ]
+      },
+      {
+        "label": "wing",
+        "score": 0.75,
+        "bbox": [
+          264,
+          141,
+          376,
+          252
+        ]
+      }
+    ],
+    "triples": [
+      {
+        "subject": "damaged_canon_plug_pins",
+        "predicate": "contains",
+        "object": "corroded area",
+        "confidence": 1.0
+      },
+      {
+        "subject": "damaged_canon_plug_pins",
+        "predicate": "contains",
+        "object": "cracked pane",
+        "confidence": 0.95
+      },
+      {
+        "subject": "damaged_canon_plug_pins",
+        "predicate": "contains",
+        "object": "missing rivet",
+        "confidence": 0.9
+      },
+      {
+        "subject": "damaged_canon_plug_pins",
+        "predicate": "contains",
+        "object": "damaged wire",
+        "confidence": 0.85
+      },
+      {
+        "subject": "damaged_canon_plug_pins",
+        "predicate": "contains",
+        "object": "broken panel",
+        "confidence": 0.8
+      },
+      {
+        "subject": "damaged_canon_plug_pins",
+        "predicate": "contains",
+        "object": "wing",
+        "confidence": 0.75
+      }
+    ],
+    "metrics": {
+      "inference_latency_ms": 47.008,
+      "gpu_usage_mb": 0.0,
+      "gpu_reserved_mb": 0.0
+    }
+  },
+  {
+    "image_path": "input\\image\\engine_blade_damage.jpg",
+    "model_name": "mask2former",
+    "segmented_image_path": "output\\segmented_images\\engine_blade_damage_mask2former_segmented.png",
+    "triples_path": "output\\segmented_image_triples\\engine_blade_damage_mask2former_triples.json",
+    "predicted_labels": [
+      {
+        "label": "corroded area",
+        "score": 1.0,
+        "bbox": [
+          20,
+          20,
+          179,
+          140
+        ]
+      },
+      {
+        "label": "cracked pane",
+        "score": 0.95,
+        "bbox": [
+          189,
+          20,
+          348,
+          140
+        ]
+      },
+      {
+        "label": "missing rivet",
+        "score": 0.9,
+        "bbox": [
+          358,
+          20,
+          517,
+          140
+        ]
+      },
+      {
+        "label": "damaged wire",
+        "score": 0.85,
+        "bbox": [
+          20,
+          150,
+          179,
+          270
+        ]
+      },
+      {
+        "label": "broken panel",
+        "score": 0.8,
+        "bbox": [
+          189,
+          150,
+          348,
+          270
+        ]
+      },
+      {
+        "label": "wing",
+        "score": 0.75,
+        "bbox": [
+          358,
+          150,
+          517,
+          270
+        ]
+      }
+    ],
+    "triples": [
+      {
+        "subject": "engine_blade_damage",
+        "predicate": "contains",
+        "object": "corroded area",
+        "confidence": 1.0
+      },
+      {
+        "subject": "engine_blade_damage",
+        "predicate": "contains",
+        "object": "cracked pane",
+        "confidence": 0.95
+      },
+      {
+        "subject": "engine_blade_damage",
+        "predicate": "contains",
+        "object": "missing rivet",
+        "confidence": 0.9
+      },
+      {
+        "subject": "engine_blade_damage",
+        "predicate": "contains",
+        "object": "damaged wire",
+        "confidence": 0.85
+      },
+      {
+        "subject": "engine_blade_damage",
+        "predicate": "contains",
+        "object": "broken panel",
+        "confidence": 0.8
+      },
+      {
+        "subject": "engine_blade_damage",
+        "predicate": "contains",
+        "object": "wing",
+        "confidence": 0.75
+      }
+    ],
+    "metrics": {
+      "inference_latency_ms": 46.316,
+      "gpu_usage_mb": 0.0,
+      "gpu_reserved_mb": 0.0
+    }
+  },
+  {
+    "image_path": "input\\image\\Frayed_Electrical_Wiring.jpg",
+    "model_name": "mask2former",
+    "segmented_image_path": "output\\segmented_images\\Frayed_Electrical_Wiring_mask2former_segmented.png",
+    "triples_path": "output\\segmented_image_triples\\Frayed_Electrical_Wiring_mask2former_triples.json",
+    "predicted_labels": [
+      {
+        "label": "corroded area",
+        "score": 1.0,
+        "bbox": [
+          20,
+          20,
+          148,
+          117
+        ]
+      },
+      {
+        "label": "cracked pane",
+        "score": 0.95,
+        "bbox": [
+          158,
+          20,
+          286,
+          117
+        ]
+      },
+      {
+        "label": "missing rivet",
+        "score": 0.9,
+        "bbox": [
+          296,
+          20,
+          424,
+          117
+        ]
+      },
+      {
+        "label": "damaged wire",
+        "score": 0.85,
+        "bbox": [
+          20,
+          127,
+          148,
+          224
+        ]
+      },
+      {
+        "label": "broken panel",
+        "score": 0.8,
+        "bbox": [
+          158,
+          127,
+          286,
+          224
+        ]
+      },
+      {
+        "label": "wing",
+        "score": 0.75,
+        "bbox": [
+          296,
+          127,
+          424,
+          224
+        ]
+      }
+    ],
+    "triples": [
+      {
+        "subject": "Frayed_Electrical_Wiring",
+        "predicate": "contains",
+        "object": "corroded area",
+        "confidence": 1.0
+      },
+      {
+        "subject": "Frayed_Electrical_Wiring",
+        "predicate": "contains",
+        "object": "cracked pane",
+        "confidence": 0.95
+      },
+      {
+        "subject": "Frayed_Electrical_Wiring",
+        "predicate": "contains",
+        "object": "missing rivet",
+        "confidence": 0.9
+      },
+      {
+        "subject": "Frayed_Electrical_Wiring",
+        "predicate": "contains",
+        "object": "damaged wire",
+        "confidence": 0.85
+      },
+      {
+        "subject": "Frayed_Electrical_Wiring",
+        "predicate": "contains",
+        "object": "broken panel",
+        "confidence": 0.8
+      },
+      {
+        "subject": "Frayed_Electrical_Wiring",
+        "predicate": "contains",
+        "object": "wing",
+        "confidence": 0.75
+      }
+    ],
+    "metrics": {
+      "inference_latency_ms": 44.33,
+      "gpu_usage_mb": 0.0,
+      "gpu_reserved_mb": 0.0
+    }
+  },
+  {
+    "image_path": "input\\image\\prop_damage.jpg",
+    "model_name": "mask2former",
+    "segmented_image_path": "output\\segmented_images\\prop_damage_mask2former_segmented.png",
+    "triples_path": "output\\segmented_image_triples\\prop_damage_mask2former_triples.json",
+    "predicted_labels": [
+      {
+        "label": "corroded area",
+        "score": 1.0,
+        "bbox": [
+          20,
+          20,
+          189,
+          133
+        ]
+      },
+      {
+        "label": "cracked pane",
+        "score": 0.95,
+        "bbox": [
+          199,
+          20,
+          368,
+          133
+        ]
+      },
+      {
+        "label": "missing rivet",
+        "score": 0.9,
+        "bbox": [
+          378,
+          20,
+          547,
+          133
+        ]
+      },
+      {
+        "label": "damaged wire",
+        "score": 0.85,
+        "bbox": [
+          20,
+          143,
+          189,
+          256
+        ]
+      },
+      {
+        "label": "broken panel",
+        "score": 0.8,
+        "bbox": [
+          199,
+          143,
+          368,
+          256
+        ]
+      },
+      {
+        "label": "wing",
+        "score": 0.75,
+        "bbox": [
+          378,
+          143,
+          547,
+          256
+        ]
+      }
+    ],
+    "triples": [
+      {
+        "subject": "prop_damage",
+        "predicate": "contains",
+        "object": "corroded area",
+        "confidence": 1.0
+      },
+      {
+        "subject": "prop_damage",
+        "predicate": "contains",
+        "object": "cracked pane",
+        "confidence": 0.95
+      },
+      {
+        "subject": "prop_damage",
+        "predicate": "contains",
+        "object": "missing rivet",
+        "confidence": 0.9
+      },
+      {
+        "subject": "prop_damage",
+        "predicate": "contains",
+        "object": "damaged wire",
+        "confidence": 0.85
+      },
+      {
+        "subject": "prop_damage",
+        "predicate": "contains",
+        "object": "broken panel",
+        "confidence": 0.8
+      },
+      {
+        "subject": "prop_damage",
+        "predicate": "contains",
+        "object": "wing",
+        "confidence": 0.75
+      }
+    ],
+    "metrics": {
+      "inference_latency_ms": 45.819,
+      "gpu_usage_mb": 0.0,
+      "gpu_reserved_mb": 0.0
+    }
+  },
+  {
+    "image_path": "input\\image\\prop_strike.jpg",
+    "model_name": "mask2former",
+    "segmented_image_path": "output\\segmented_images\\prop_strike_mask2former_segmented.png",
+    "triples_path": "output\\segmented_image_triples\\prop_strike_mask2former_triples.json",
+    "predicted_labels": [
+      {
+        "label": "corroded area",
+        "score": 1.0,
+        "bbox": [
+          20,
+          20,
+          148,
+          117
+        ]
+      },
+      {
+        "label": "cracked pane",
+        "score": 0.95,
+        "bbox": [
+          158,
+          20,
+          286,
+          117
+        ]
+      },
+      {
+        "label": "missing rivet",
+        "score": 0.9,
+        "bbox": [
+          296,
+          20,
+          424,
+          117
+        ]
+      },
+      {
+        "label": "damaged wire",
+        "score": 0.85,
+        "bbox": [
+          20,
+          127,
+          148,
+          224
+        ]
+      },
+      {
+        "label": "broken panel",
+        "score": 0.8,
+        "bbox": [
+          158,
+          127,
+          286,
+          224
+        ]
+      },
+      {
+        "label": "wing",
+        "score": 0.75,
+        "bbox": [
+          296,
+          127,
+          424,
+          224
+        ]
+      }
+    ],
+    "triples": [
+      {
+        "subject": "prop_strike",
+        "predicate": "contains",
+        "object": "corroded area",
+        "confidence": 1.0
+      },
+      {
+        "subject": "prop_strike",
+        "predicate": "contains",
+        "object": "cracked pane",
+        "confidence": 0.95
+      },
+      {
+        "subject": "prop_strike",
+        "predicate": "contains",
+        "object": "missing rivet",
+        "confidence": 0.9
+      },
+      {
+        "subject": "prop_strike",
+        "predicate": "contains",
+        "object": "damaged wire",
+        "confidence": 0.85
+      },
+      {
+        "subject": "prop_strike",
+        "predicate": "contains",
+        "object": "broken panel",
+        "confidence": 0.8
+      },
+      {
+        "subject": "prop_strike",
+        "predicate": "contains",
+        "object": "wing",
+        "confidence": 0.75
+      }
+    ],
+    "metrics": {
+      "inference_latency_ms": 40.703,
+      "gpu_usage_mb": 0.0,
+      "gpu_reserved_mb": 0.0
+    }
+  },
+  {
+    "image_path": "input\\image\\bent_canon_plug_pins.jpg",
+    "model_name": "yolo_seg",
+    "segmented_image_path": "output\\segmented_images\\bent_canon_plug_pins_yolo_seg_segmented.png",
+    "triples_path": "output\\segmented_image_triples\\bent_canon_plug_pins_yolo_seg_triples.json",
+    "predicted_labels": [
+      {
+        "label": "corroded area",
+        "score": 1.0,
+        "bbox": [
+          20,
+          20,
+          116,
+          149
+        ]
+      },
+      {
+        "label": "cracked pane",
+        "score": 0.95,
+        "bbox": [
+          126,
+          20,
+          222,
+          149
+        ]
+      },
+      {
+        "label": "missing rivet",
+        "score": 0.9,
+        "bbox": [
+          232,
+          20,
+          328,
+          149
+        ]
+      },
+      {
+        "label": "damaged wire",
+        "score": 0.85,
+        "bbox": [
+          20,
+          159,
+          116,
+          288
+        ]
+      },
+      {
+        "label": "broken panel",
+        "score": 0.8,
+        "bbox": [
+          126,
+          159,
+          222,
+          288
+        ]
+      },
+      {
+        "label": "wing",
+        "score": 0.75,
+        "bbox": [
+          232,
+          159,
+          328,
+          288
+        ]
+      }
+    ],
+    "triples": [
+      {
+        "subject": "bent_canon_plug_pins",
+        "predicate": "contains",
+        "object": "corroded area",
+        "confidence": 1.0
+      },
+      {
+        "subject": "bent_canon_plug_pins",
+        "predicate": "contains",
+        "object": "cracked pane",
+        "confidence": 0.95
+      },
+      {
+        "subject": "bent_canon_plug_pins",
+        "predicate": "contains",
+        "object": "missing rivet",
+        "confidence": 0.9
+      },
+      {
+        "subject": "bent_canon_plug_pins",
+        "predicate": "contains",
+        "object": "damaged wire",
+        "confidence": 0.85
+      },
+      {
+        "subject": "bent_canon_plug_pins",
+        "predicate": "contains",
+        "object": "broken panel",
+        "confidence": 0.8
+      },
+      {
+        "subject": "bent_canon_plug_pins",
+        "predicate": "contains",
+        "object": "wing",
+        "confidence": 0.75
+      }
+    ],
+    "metrics": {
+      "inference_latency_ms": 45.331,
+      "gpu_usage_mb": 0.0,
+      "gpu_reserved_mb": 0.0
+    }
+  },
+  {
+    "image_path": "input\\image\\corrosion_1.jpg",
+    "model_name": "yolo_seg",
+    "segmented_image_path": "output\\segmented_images\\corrosion_1_yolo_seg_segmented.png",
+    "triples_path": "output\\segmented_image_triples\\corrosion_1_yolo_seg_triples.json",
+    "predicted_labels": [
+      {
+        "label": "corroded area",
+        "score": 1.0,
+        "bbox": [
+          20,
+          20,
+          156,
+          111
+        ]
+      },
+      {
+        "label": "cracked pane",
+        "score": 0.95,
+        "bbox": [
+          166,
+          20,
+          302,
+          111
+        ]
+      },
+      {
+        "label": "missing rivet",
+        "score": 0.9,
+        "bbox": [
+          312,
+          20,
+          448,
+          111
+        ]
+      },
+      {
+        "label": "damaged wire",
+        "score": 0.85,
+        "bbox": [
+          20,
+          121,
+          156,
+          212
+        ]
+      },
+      {
+        "label": "broken panel",
+        "score": 0.8,
+        "bbox": [
+          166,
+          121,
+          302,
+          212
+        ]
+      },
+      {
+        "label": "wing",
+        "score": 0.75,
+        "bbox": [
+          312,
+          121,
+          448,
+          212
+        ]
+      }
+    ],
+    "triples": [
+      {
+        "subject": "corrosion_1",
+        "predicate": "contains",
+        "object": "corroded area",
+        "confidence": 1.0
+      },
+      {
+        "subject": "corrosion_1",
+        "predicate": "contains",
+        "object": "cracked pane",
+        "confidence": 0.95
+      },
+      {
+        "subject": "corrosion_1",
+        "predicate": "contains",
+        "object": "missing rivet",
+        "confidence": 0.9
+      },
+      {
+        "subject": "corrosion_1",
+        "predicate": "contains",
+        "object": "damaged wire",
+        "confidence": 0.85
+      },
+      {
+        "subject": "corrosion_1",
+        "predicate": "contains",
+        "object": "broken panel",
+        "confidence": 0.8
+      },
+      {
+        "subject": "corrosion_1",
+        "predicate": "contains",
+        "object": "wing",
+        "confidence": 0.75
+      }
+    ],
+    "metrics": {
+      "inference_latency_ms": 57.804,
+      "gpu_usage_mb": 0.0,
+      "gpu_reserved_mb": 0.0
+    }
+  },
+  {
+    "image_path": "input\\image\\corrosion_2.jpg",
+    "model_name": "yolo_seg",
+    "segmented_image_path": "output\\segmented_images\\corrosion_2_yolo_seg_segmented.png",
+    "triples_path": "output\\segmented_image_triples\\corrosion_2_yolo_seg_triples.json",
+    "predicted_labels": [
+      {
+        "label": "corroded area",
+        "score": 1.0,
+        "bbox": [
+          20,
+          20,
+          116,
+          149
+        ]
+      },
+      {
+        "label": "cracked pane",
+        "score": 0.95,
+        "bbox": [
+          126,
+          20,
+          222,
+          149
+        ]
+      },
+      {
+        "label": "missing rivet",
+        "score": 0.9,
+        "bbox": [
+          232,
+          20,
+          328,
+          149
+        ]
+      },
+      {
+        "label": "damaged wire",
+        "score": 0.85,
+        "bbox": [
+          20,
+          159,
+          116,
+          288
+        ]
+      },
+      {
+        "label": "broken panel",
+        "score": 0.8,
+        "bbox": [
+          126,
+          159,
+          222,
+          288
+        ]
+      },
+      {
+        "label": "wing",
+        "score": 0.75,
+        "bbox": [
+          232,
+          159,
+          328,
+          288
+        ]
+      }
+    ],
+    "triples": [
+      {
+        "subject": "corrosion_2",
+        "predicate": "contains",
+        "object": "corroded area",
+        "confidence": 1.0
+      },
+      {
+        "subject": "corrosion_2",
+        "predicate": "contains",
+        "object": "cracked pane",
+        "confidence": 0.95
+      },
+      {
+        "subject": "corrosion_2",
+        "predicate": "contains",
+        "object": "missing rivet",
+        "confidence": 0.9
+      },
+      {
+        "subject": "corrosion_2",
+        "predicate": "contains",
+        "object": "damaged wire",
+        "confidence": 0.85
+      },
+      {
+        "subject": "corrosion_2",
+        "predicate": "contains",
+        "object": "broken panel",
+        "confidence": 0.8
+      },
+      {
+        "subject": "corrosion_2",
+        "predicate": "contains",
+        "object": "wing",
+        "confidence": 0.75
+      }
+    ],
+    "metrics": {
+      "inference_latency_ms": 48.429,
+      "gpu_usage_mb": 0.0,
+      "gpu_reserved_mb": 0.0
+    }
+  },
+  {
+    "image_path": "input\\image\\corrosion_3.jpg",
+    "model_name": "yolo_seg",
+    "segmented_image_path": "output\\segmented_images\\corrosion_3_yolo_seg_segmented.png",
+    "triples_path": "output\\segmented_image_triples\\corrosion_3_yolo_seg_triples.json",
+    "predicted_labels": [
+      {
+        "label": "corroded area",
+        "score": 1.0,
+        "bbox": [
+          20,
+          20,
+          149,
+          116
+        ]
+      },
+      {
+        "label": "cracked pane",
+        "score": 0.95,
+        "bbox": [
+          159,
+          20,
+          288,
+          116
+        ]
+      },
+      {
+        "label": "missing rivet",
+        "score": 0.9,
+        "bbox": [
+          298,
+          20,
+          427,
+          116
+        ]
+      },
+      {
+        "label": "damaged wire",
+        "score": 0.85,
+        "bbox": [
+          20,
+          126,
+          149,
+          222
+        ]
+      },
+      {
+        "label": "broken panel",
+        "score": 0.8,
+        "bbox": [
+          159,
+          126,
+          288,
+          222
+        ]
+      },
+      {
+        "label": "wing",
+        "score": 0.75,
+        "bbox": [
+          298,
+          126,
+          427,
+          222
+        ]
+      }
+    ],
+    "triples": [
+      {
+        "subject": "corrosion_3",
+        "predicate": "contains",
+        "object": "corroded area",
+        "confidence": 1.0
+      },
+      {
+        "subject": "corrosion_3",
+        "predicate": "contains",
+        "object": "cracked pane",
+        "confidence": 0.95
+      },
+      {
+        "subject": "corrosion_3",
+        "predicate": "contains",
+        "object": "missing rivet",
+        "confidence": 0.9
+      },
+      {
+        "subject": "corrosion_3",
+        "predicate": "contains",
+        "object": "damaged wire",
+        "confidence": 0.85
+      },
+      {
+        "subject": "corrosion_3",
+        "predicate": "contains",
+        "object": "broken panel",
+        "confidence": 0.8
+      },
+      {
+        "subject": "corrosion_3",
+        "predicate": "contains",
+        "object": "wing",
+        "confidence": 0.75
+      }
+    ],
+    "metrics": {
+      "inference_latency_ms": 46.591,
+      "gpu_usage_mb": 0.0,
+      "gpu_reserved_mb": 0.0
+    }
+  },
+  {
+    "image_path": "input\\image\\corrosion_wing.jpg",
+    "model_name": "yolo_seg",
+    "segmented_image_path": "output\\segmented_images\\corrosion_wing_yolo_seg_segmented.png",
+    "triples_path": "output\\segmented_image_triples\\corrosion_wing_yolo_seg_triples.json",
+    "predicted_labels": [
+      {
+        "label": "corroded area",
+        "score": 1.0,
+        "bbox": [
+          20,
+          20,
+          395,
+          279
+        ]
+      },
+      {
+        "label": "cracked pane",
+        "score": 0.95,
+        "bbox": [
+          405,
+          20,
+          780,
+          279
+        ]
+      },
+      {
+        "label": "missing rivet",
+        "score": 0.9,
+        "bbox": [
+          790,
+          20,
+          1165,
+          279
+        ]
+      },
+      {
+        "label": "damaged wire",
+        "score": 0.85,
+        "bbox": [
+          20,
+          289,
+          395,
+          548
+        ]
+      },
+      {
+        "label": "broken panel",
+        "score": 0.8,
+        "bbox": [
+          405,
+          289,
+          780,
+          548
+        ]
+      },
+      {
+        "label": "wing",
+        "score": 0.75,
+        "bbox": [
+          790,
+          289,
+          1165,
+          548
+        ]
+      }
+    ],
+    "triples": [
+      {
+        "subject": "corrosion_wing",
+        "predicate": "contains",
+        "object": "corroded area",
+        "confidence": 1.0
+      },
+      {
+        "subject": "corrosion_wing",
+        "predicate": "contains",
+        "object": "cracked pane",
+        "confidence": 0.95
+      },
+      {
+        "subject": "corrosion_wing",
+        "predicate": "contains",
+        "object": "missing rivet",
+        "confidence": 0.9
+      },
+      {
+        "subject": "corrosion_wing",
+        "predicate": "contains",
+        "object": "damaged wire",
+        "confidence": 0.85
+      },
+      {
+        "subject": "corrosion_wing",
+        "predicate": "contains",
+        "object": "broken panel",
+        "confidence": 0.8
+      },
+      {
+        "subject": "corrosion_wing",
+        "predicate": "contains",
+        "object": "wing",
+        "confidence": 0.75
+      }
+    ],
+    "metrics": {
+      "inference_latency_ms": 50.339,
+      "gpu_usage_mb": 0.0,
+      "gpu_reserved_mb": 0.0
+    }
+  },
+  {
+    "image_path": "input\\image\\cracked_spar.jpg",
+    "model_name": "yolo_seg",
+    "segmented_image_path": "output\\segmented_images\\cracked_spar_yolo_seg_segmented.png",
+    "triples_path": "output\\segmented_image_triples\\cracked_spar_yolo_seg_triples.json",
+    "predicted_labels": [
+      {
+        "label": "corroded area",
+        "score": 1.0,
+        "bbox": [
+          20,
+          20,
+          196,
+          128
+        ]
+      },
+      {
+        "label": "cracked pane",
+        "score": 0.95,
+        "bbox": [
+          206,
+          20,
+          382,
+          128
+        ]
+      },
+      {
+        "label": "missing rivet",
+        "score": 0.9,
+        "bbox": [
+          392,
+          20,
+          568,
+          128
+        ]
+      },
+      {
+        "label": "damaged wire",
+        "score": 0.85,
+        "bbox": [
+          20,
+          138,
+          196,
+          246
+        ]
+      },
+      {
+        "label": "broken panel",
+        "score": 0.8,
+        "bbox": [
+          206,
+          138,
+          382,
+          246
+        ]
+      },
+      {
+        "label": "wing",
+        "score": 0.75,
+        "bbox": [
+          392,
+          138,
+          568,
+          246
+        ]
+      }
+    ],
+    "triples": [
+      {
+        "subject": "cracked_spar",
+        "predicate": "contains",
+        "object": "corroded area",
+        "confidence": 1.0
+      },
+      {
+        "subject": "cracked_spar",
+        "predicate": "contains",
+        "object": "cracked pane",
+        "confidence": 0.95
+      },
+      {
+        "subject": "cracked_spar",
+        "predicate": "contains",
+        "object": "missing rivet",
+        "confidence": 0.9
+      },
+      {
+        "subject": "cracked_spar",
+        "predicate": "contains",
+        "object": "damaged wire",
+        "confidence": 0.85
+      },
+      {
+        "subject": "cracked_spar",
+        "predicate": "contains",
+        "object": "broken panel",
+        "confidence": 0.8
+      },
+      {
+        "subject": "cracked_spar",
+        "predicate": "contains",
+        "object": "wing",
+        "confidence": 0.75
+      }
+    ],
+    "metrics": {
+      "inference_latency_ms": 45.864,
+      "gpu_usage_mb": 0.0,
+      "gpu_reserved_mb": 0.0
+    }
+  },
+  {
+    "image_path": "input\\image\\damaged_canon_plug_pins.jpg",
+    "model_name": "yolo_seg",
+    "segmented_image_path": "output\\segmented_images\\damaged_canon_plug_pins_yolo_seg_segmented.png",
+    "triples_path": "output\\segmented_image_triples\\damaged_canon_plug_pins_yolo_seg_triples.json",
+    "predicted_labels": [
+      {
+        "label": "corroded area",
+        "score": 1.0,
+        "bbox": [
+          20,
+          20,
+          132,
+          131
+        ]
+      },
+      {
+        "label": "cracked pane",
+        "score": 0.95,
+        "bbox": [
+          142,
+          20,
+          254,
+          131
+        ]
+      },
+      {
+        "label": "missing rivet",
+        "score": 0.9,
+        "bbox": [
+          264,
+          20,
+          376,
+          131
+        ]
+      },
+      {
+        "label": "damaged wire",
+        "score": 0.85,
+        "bbox": [
+          20,
+          141,
+          132,
+          252
+        ]
+      },
+      {
+        "label": "broken panel",
+        "score": 0.8,
+        "bbox": [
+          142,
+          141,
+          254,
+          252
+        ]
+      },
+      {
+        "label": "wing",
+        "score": 0.75,
+        "bbox": [
+          264,
+          141,
+          376,
+          252
+        ]
+      }
+    ],
+    "triples": [
+      {
+        "subject": "damaged_canon_plug_pins",
+        "predicate": "contains",
+        "object": "corroded area",
+        "confidence": 1.0
+      },
+      {
+        "subject": "damaged_canon_plug_pins",
+        "predicate": "contains",
+        "object": "cracked pane",
+        "confidence": 0.95
+      },
+      {
+        "subject": "damaged_canon_plug_pins",
+        "predicate": "contains",
+        "object": "missing rivet",
+        "confidence": 0.9
+      },
+      {
+        "subject": "damaged_canon_plug_pins",
+        "predicate": "contains",
+        "object": "damaged wire",
+        "confidence": 0.85
+      },
+      {
+        "subject": "damaged_canon_plug_pins",
+        "predicate": "contains",
+        "object": "broken panel",
+        "confidence": 0.8
+      },
+      {
+        "subject": "damaged_canon_plug_pins",
+        "predicate": "contains",
+        "object": "wing",
+        "confidence": 0.75
+      }
+    ],
+    "metrics": {
+      "inference_latency_ms": 44.479,
+      "gpu_usage_mb": 0.0,
+      "gpu_reserved_mb": 0.0
+    }
+  },
+  {
+    "image_path": "input\\image\\engine_blade_damage.jpg",
+    "model_name": "yolo_seg",
+    "segmented_image_path": "output\\segmented_images\\engine_blade_damage_yolo_seg_segmented.png",
+    "triples_path": "output\\segmented_image_triples\\engine_blade_damage_yolo_seg_triples.json",
+    "predicted_labels": [
+      {
+        "label": "corroded area",
+        "score": 1.0,
+        "bbox": [
+          20,
+          20,
+          179,
+          140
+        ]
+      },
+      {
+        "label": "cracked pane",
+        "score": 0.95,
+        "bbox": [
+          189,
+          20,
+          348,
+          140
+        ]
+      },
+      {
+        "label": "missing rivet",
+        "score": 0.9,
+        "bbox": [
+          358,
+          20,
+          517,
+          140
+        ]
+      },
+      {
+        "label": "damaged wire",
+        "score": 0.85,
+        "bbox": [
+          20,
+          150,
+          179,
+          270
+        ]
+      },
+      {
+        "label": "broken panel",
+        "score": 0.8,
+        "bbox": [
+          189,
+          150,
+          348,
+          270
+        ]
+      },
+      {
+        "label": "wing",
+        "score": 0.75,
+        "bbox": [
+          358,
+          150,
+          517,
+          270
+        ]
+      }
+    ],
+    "triples": [
+      {
+        "subject": "engine_blade_damage",
+        "predicate": "contains",
+        "object": "corroded area",
+        "confidence": 1.0
+      },
+      {
+        "subject": "engine_blade_damage",
+        "predicate": "contains",
+        "object": "cracked pane",
+        "confidence": 0.95
+      },
+      {
+        "subject": "engine_blade_damage",
+        "predicate": "contains",
+        "object": "missing rivet",
+        "confidence": 0.9
+      },
+      {
+        "subject": "engine_blade_damage",
+        "predicate": "contains",
+        "object": "damaged wire",
+        "confidence": 0.85
+      },
+      {
+        "subject": "engine_blade_damage",
+        "predicate": "contains",
+        "object": "broken panel",
+        "confidence": 0.8
+      },
+      {
+        "subject": "engine_blade_damage",
+        "predicate": "contains",
+        "object": "wing",
+        "confidence": 0.75
+      }
+    ],
+    "metrics": {
+      "inference_latency_ms": 47.507,
+      "gpu_usage_mb": 0.0,
+      "gpu_reserved_mb": 0.0
+    }
+  },
+  {
+    "image_path": "input\\image\\Frayed_Electrical_Wiring.jpg",
+    "model_name": "yolo_seg",
+    "segmented_image_path": "output\\segmented_images\\Frayed_Electrical_Wiring_yolo_seg_segmented.png",
+    "triples_path": "output\\segmented_image_triples\\Frayed_Electrical_Wiring_yolo_seg_triples.json",
+    "predicted_labels": [
+      {
+        "label": "corroded area",
+        "score": 1.0,
+        "bbox": [
+          20,
+          20,
+          148,
+          117
+        ]
+      },
+      {
+        "label": "cracked pane",
+        "score": 0.95,
+        "bbox": [
+          158,
+          20,
+          286,
+          117
+        ]
+      },
+      {
+        "label": "missing rivet",
+        "score": 0.9,
+        "bbox": [
+          296,
+          20,
+          424,
+          117
+        ]
+      },
+      {
+        "label": "damaged wire",
+        "score": 0.85,
+        "bbox": [
+          20,
+          127,
+          148,
+          224
+        ]
+      },
+      {
+        "label": "broken panel",
+        "score": 0.8,
+        "bbox": [
+          158,
+          127,
+          286,
+          224
+        ]
+      },
+      {
+        "label": "wing",
+        "score": 0.75,
+        "bbox": [
+          296,
+          127,
+          424,
+          224
+        ]
+      }
+    ],
+    "triples": [
+      {
+        "subject": "Frayed_Electrical_Wiring",
+        "predicate": "contains",
+        "object": "corroded area",
+        "confidence": 1.0
+      },
+      {
+        "subject": "Frayed_Electrical_Wiring",
+        "predicate": "contains",
+        "object": "cracked pane",
+        "confidence": 0.95
+      },
+      {
+        "subject": "Frayed_Electrical_Wiring",
+        "predicate": "contains",
+        "object": "missing rivet",
+        "confidence": 0.9
+      },
+      {
+        "subject": "Frayed_Electrical_Wiring",
+        "predicate": "contains",
+        "object": "damaged wire",
+        "confidence": 0.85
+      },
+      {
+        "subject": "Frayed_Electrical_Wiring",
+        "predicate": "contains",
+        "object": "broken panel",
+        "confidence": 0.8
+      },
+      {
+        "subject": "Frayed_Electrical_Wiring",
+        "predicate": "contains",
+        "object": "wing",
+        "confidence": 0.75
+      }
+    ],
+    "metrics": {
+      "inference_latency_ms": 40.674,
+      "gpu_usage_mb": 0.0,
+      "gpu_reserved_mb": 0.0
+    }
+  },
+  {
+    "image_path": "input\\image\\prop_damage.jpg",
+    "model_name": "yolo_seg",
+    "segmented_image_path": "output\\segmented_images\\prop_damage_yolo_seg_segmented.png",
+    "triples_path": "output\\segmented_image_triples\\prop_damage_yolo_seg_triples.json",
+    "predicted_labels": [
+      {
+        "label": "corroded area",
+        "score": 1.0,
+        "bbox": [
+          20,
+          20,
+          189,
+          133
+        ]
+      },
+      {
+        "label": "cracked pane",
+        "score": 0.95,
+        "bbox": [
+          199,
+          20,
+          368,
+          133
+        ]
+      },
+      {
+        "label": "missing rivet",
+        "score": 0.9,
+        "bbox": [
+          378,
+          20,
+          547,
+          133
+        ]
+      },
+      {
+        "label": "damaged wire",
+        "score": 0.85,
+        "bbox": [
+          20,
+          143,
+          189,
+          256
+        ]
+      },
+      {
+        "label": "broken panel",
+        "score": 0.8,
+        "bbox": [
+          199,
+          143,
+          368,
+          256
+        ]
+      },
+      {
+        "label": "wing",
+        "score": 0.75,
+        "bbox": [
+          378,
+          143,
+          547,
+          256
+        ]
+      }
+    ],
+    "triples": [
+      {
+        "subject": "prop_damage",
+        "predicate": "contains",
+        "object": "corroded area",
+        "confidence": 1.0
+      },
+      {
+        "subject": "prop_damage",
+        "predicate": "contains",
+        "object": "cracked pane",
+        "confidence": 0.95
+      },
+      {
+        "subject": "prop_damage",
+        "predicate": "contains",
+        "object": "missing rivet",
+        "confidence": 0.9
+      },
+      {
+        "subject": "prop_damage",
+        "predicate": "contains",
+        "object": "damaged wire",
+        "confidence": 0.85
+      },
+      {
+        "subject": "prop_damage",
+        "predicate": "contains",
+        "object": "broken panel",
+        "confidence": 0.8
+      },
+      {
+        "subject": "prop_damage",
+        "predicate": "contains",
+        "object": "wing",
+        "confidence": 0.75
+      }
+    ],
+    "metrics": {
+      "inference_latency_ms": 44.104,
+      "gpu_usage_mb": 0.0,
+      "gpu_reserved_mb": 0.0
+    }
+  },
+  {
+    "image_path": "input\\image\\prop_strike.jpg",
+    "model_name": "yolo_seg",
+    "segmented_image_path": "output\\segmented_images\\prop_strike_yolo_seg_segmented.png",
+    "triples_path": "output\\segmented_image_triples\\prop_strike_yolo_seg_triples.json",
+    "predicted_labels": [
+      {
+        "label": "corroded area",
+        "score": 1.0,
+        "bbox": [
+          20,
+          20,
+          148,
+          117
+        ]
+      },
+      {
+        "label": "cracked pane",
+        "score": 0.95,
+        "bbox": [
+          158,
+          20,
+          286,
+          117
+        ]
+      },
+      {
+        "label": "missing rivet",
+        "score": 0.9,
+        "bbox": [
+          296,
+          20,
+          424,
+          117
+        ]
+      },
+      {
+        "label": "damaged wire",
+        "score": 0.85,
+        "bbox": [
+          20,
+          127,
+          148,
+          224
+        ]
+      },
+      {
+        "label": "broken panel",
+        "score": 0.8,
+        "bbox": [
+          158,
+          127,
+          286,
+          224
+        ]
+      },
+      {
+        "label": "wing",
+        "score": 0.75,
+        "bbox": [
+          296,
+          127,
+          424,
+          224
+        ]
+      }
+    ],
+    "triples": [
+      {
+        "subject": "prop_strike",
+        "predicate": "contains",
+        "object": "corroded area",
+        "confidence": 1.0
+      },
+      {
+        "subject": "prop_strike",
+        "predicate": "contains",
+        "object": "cracked pane",
+        "confidence": 0.95
+      },
+      {
+        "subject": "prop_strike",
+        "predicate": "contains",
+        "object": "missing rivet",
+        "confidence": 0.9
+      },
+      {
+        "subject": "prop_strike",
+        "predicate": "contains",
+        "object": "damaged wire",
+        "confidence": 0.85
+      },
+      {
+        "subject": "prop_strike",
+        "predicate": "contains",
+        "object": "broken panel",
+        "confidence": 0.8
+      },
+      {
+        "subject": "prop_strike",
+        "predicate": "contains",
+        "object": "wing",
+        "confidence": 0.75
+      }
+    ],
+    "metrics": {
+      "inference_latency_ms": 45.111,
+      "gpu_usage_mb": 0.0,
+      "gpu_reserved_mb": 0.0
+    }
+  },
+  {
+    "image_path": "input\\image\\bent_canon_plug_pins.jpg",
+    "model_name": "anomalib_patchcore",
+    "segmented_image_path": "output\\segmented_images\\bent_canon_plug_pins_anomalib_patchcore_segmented.png",
+    "triples_path": "output\\segmented_image_triples\\bent_canon_plug_pins_anomalib_patchcore_triples.json",
+    "predicted_labels": [
+      {
+        "label": "corroded area",
+        "score": 1.0,
+        "bbox": [
+          20,
+          20,
+          116,
+          149
+        ]
+      },
+      {
+        "label": "cracked pane",
+        "score": 0.95,
+        "bbox": [
+          126,
+          20,
+          222,
+          149
+        ]
+      },
+      {
+        "label": "missing rivet",
+        "score": 0.9,
+        "bbox": [
+          232,
+          20,
+          328,
+          149
+        ]
+      },
+      {
+        "label": "damaged wire",
+        "score": 0.85,
+        "bbox": [
+          20,
+          159,
+          116,
+          288
+        ]
+      },
+      {
+        "label": "broken panel",
+        "score": 0.8,
+        "bbox": [
+          126,
+          159,
+          222,
+          288
+        ]
+      },
+      {
+        "label": "wing",
+        "score": 0.75,
+        "bbox": [
+          232,
+          159,
+          328,
+          288
+        ]
+      }
+    ],
+    "triples": [
+      {
+        "subject": "bent_canon_plug_pins",
+        "predicate": "contains",
+        "object": "corroded area",
+        "confidence": 1.0
+      },
+      {
+        "subject": "bent_canon_plug_pins",
+        "predicate": "contains",
+        "object": "cracked pane",
+        "confidence": 0.95
+      },
+      {
+        "subject": "bent_canon_plug_pins",
+        "predicate": "contains",
+        "object": "missing rivet",
+        "confidence": 0.9
+      },
+      {
+        "subject": "bent_canon_plug_pins",
+        "predicate": "contains",
+        "object": "damaged wire",
+        "confidence": 0.85
+      },
+      {
+        "subject": "bent_canon_plug_pins",
+        "predicate": "contains",
+        "object": "broken panel",
+        "confidence": 0.8
+      },
+      {
+        "subject": "bent_canon_plug_pins",
+        "predicate": "contains",
+        "object": "wing",
+        "confidence": 0.75
+      }
+    ],
+    "metrics": {
+      "inference_latency_ms": 48.916,
+      "gpu_usage_mb": 0.0,
+      "gpu_reserved_mb": 0.0
+    }
+  },
+  {
+    "image_path": "input\\image\\corrosion_1.jpg",
+    "model_name": "anomalib_patchcore",
+    "segmented_image_path": "output\\segmented_images\\corrosion_1_anomalib_patchcore_segmented.png",
+    "triples_path": "output\\segmented_image_triples\\corrosion_1_anomalib_patchcore_triples.json",
+    "predicted_labels": [
+      {
+        "label": "corroded area",
+        "score": 1.0,
+        "bbox": [
+          20,
+          20,
+          156,
+          111
+        ]
+      },
+      {
+        "label": "cracked pane",
+        "score": 0.95,
+        "bbox": [
+          166,
+          20,
+          302,
+          111
+        ]
+      },
+      {
+        "label": "missing rivet",
+        "score": 0.9,
+        "bbox": [
+          312,
+          20,
+          448,
+          111
+        ]
+      },
+      {
+        "label": "damaged wire",
+        "score": 0.85,
+        "bbox": [
+          20,
+          121,
+          156,
+          212
+        ]
+      },
+      {
+        "label": "broken panel",
+        "score": 0.8,
+        "bbox": [
+          166,
+          121,
+          302,
+          212
+        ]
+      },
+      {
+        "label": "wing",
+        "score": 0.75,
+        "bbox": [
+          312,
+          121,
+          448,
+          212
+        ]
+      }
+    ],
+    "triples": [
+      {
+        "subject": "corrosion_1",
+        "predicate": "contains",
+        "object": "corroded area",
+        "confidence": 1.0
+      },
+      {
+        "subject": "corrosion_1",
+        "predicate": "contains",
+        "object": "cracked pane",
+        "confidence": 0.95
+      },
+      {
+        "subject": "corrosion_1",
+        "predicate": "contains",
+        "object": "missing rivet",
+        "confidence": 0.9
+      },
+      {
+        "subject": "corrosion_1",
+        "predicate": "contains",
+        "object": "damaged wire",
+        "confidence": 0.85
+      },
+      {
+        "subject": "corrosion_1",
+        "predicate": "contains",
+        "object": "broken panel",
+        "confidence": 0.8
+      },
+      {
+        "subject": "corrosion_1",
+        "predicate": "contains",
+        "object": "wing",
+        "confidence": 0.75
+      }
+    ],
+    "metrics": {
+      "inference_latency_ms": 45.137,
+      "gpu_usage_mb": 0.0,
+      "gpu_reserved_mb": 0.0
+    }
+  },
+  {
+    "image_path": "input\\image\\corrosion_2.jpg",
+    "model_name": "anomalib_patchcore",
+    "segmented_image_path": "output\\segmented_images\\corrosion_2_anomalib_patchcore_segmented.png",
+    "triples_path": "output\\segmented_image_triples\\corrosion_2_anomalib_patchcore_triples.json",
+    "predicted_labels": [
+      {
+        "label": "corroded area",
+        "score": 1.0,
+        "bbox": [
+          20,
+          20,
+          116,
+          149
+        ]
+      },
+      {
+        "label": "cracked pane",
+        "score": 0.95,
+        "bbox": [
+          126,
+          20,
+          222,
+          149
+        ]
+      },
+      {
+        "label": "missing rivet",
+        "score": 0.9,
+        "bbox": [
+          232,
+          20,
+          328,
+          149
+        ]
+      },
+      {
+        "label": "damaged wire",
+        "score": 0.85,
+        "bbox": [
+          20,
+          159,
+          116,
+          288
+        ]
+      },
+      {
+        "label": "broken panel",
+        "score": 0.8,
+        "bbox": [
+          126,
+          159,
+          222,
+          288
+        ]
+      },
+      {
+        "label": "wing",
+        "score": 0.75,
+        "bbox": [
+          232,
+          159,
+          328,
+          288
+        ]
+      }
+    ],
+    "triples": [
+      {
+        "subject": "corrosion_2",
+        "predicate": "contains",
+        "object": "corroded area",
+        "confidence": 1.0
+      },
+      {
+        "subject": "corrosion_2",
+        "predicate": "contains",
+        "object": "cracked pane",
+        "confidence": 0.95
+      },
+      {
+        "subject": "corrosion_2",
+        "predicate": "contains",
+        "object": "missing rivet",
+        "confidence": 0.9
+      },
+      {
+        "subject": "corrosion_2",
+        "predicate": "contains",
+        "object": "damaged wire",
+        "confidence": 0.85
+      },
+      {
+        "subject": "corrosion_2",
+        "predicate": "contains",
+        "object": "broken panel",
+        "confidence": 0.8
+      },
+      {
+        "subject": "corrosion_2",
+        "predicate": "contains",
+        "object": "wing",
+        "confidence": 0.75
+      }
+    ],
+    "metrics": {
+      "inference_latency_ms": 52.719,
+      "gpu_usage_mb": 0.0,
+      "gpu_reserved_mb": 0.0
+    }
+  },
+  {
+    "image_path": "input\\image\\corrosion_3.jpg",
+    "model_name": "anomalib_patchcore",
+    "segmented_image_path": "output\\segmented_images\\corrosion_3_anomalib_patchcore_segmented.png",
+    "triples_path": "output\\segmented_image_triples\\corrosion_3_anomalib_patchcore_triples.json",
+    "predicted_labels": [
+      {
+        "label": "corroded area",
+        "score": 1.0,
+        "bbox": [
+          20,
+          20,
+          149,
+          116
+        ]
+      },
+      {
+        "label": "cracked pane",
+        "score": 0.95,
+        "bbox": [
+          159,
+          20,
+          288,
+          116
+        ]
+      },
+      {
+        "label": "missing rivet",
+        "score": 0.9,
+        "bbox": [
+          298,
+          20,
+          427,
+          116
+        ]
+      },
+      {
+        "label": "damaged wire",
+        "score": 0.85,
+        "bbox": [
+          20,
+          126,
+          149,
+          222
+        ]
+      },
+      {
+        "label": "broken panel",
+        "score": 0.8,
+        "bbox": [
+          159,
+          126,
+          288,
+          222
+        ]
+      },
+      {
+        "label": "wing",
+        "score": 0.75,
+        "bbox": [
+          298,
+          126,
+          427,
+          222
+        ]
+      }
+    ],
+    "triples": [
+      {
+        "subject": "corrosion_3",
+        "predicate": "contains",
+        "object": "corroded area",
+        "confidence": 1.0
+      },
+      {
+        "subject": "corrosion_3",
+        "predicate": "contains",
+        "object": "cracked pane",
+        "confidence": 0.95
+      },
+      {
+        "subject": "corrosion_3",
+        "predicate": "contains",
+        "object": "missing rivet",
+        "confidence": 0.9
+      },
+      {
+        "subject": "corrosion_3",
+        "predicate": "contains",
+        "object": "damaged wire",
+        "confidence": 0.85
+      },
+      {
+        "subject": "corrosion_3",
+        "predicate": "contains",
+        "object": "broken panel",
+        "confidence": 0.8
+      },
+      {
+        "subject": "corrosion_3",
+        "predicate": "contains",
+        "object": "wing",
+        "confidence": 0.75
+      }
+    ],
+    "metrics": {
+      "inference_latency_ms": 48.851,
+      "gpu_usage_mb": 0.0,
+      "gpu_reserved_mb": 0.0
+    }
+  },
+  {
+    "image_path": "input\\image\\corrosion_wing.jpg",
+    "model_name": "anomalib_patchcore",
+    "segmented_image_path": "output\\segmented_images\\corrosion_wing_anomalib_patchcore_segmented.png",
+    "triples_path": "output\\segmented_image_triples\\corrosion_wing_anomalib_patchcore_triples.json",
+    "predicted_labels": [
+      {
+        "label": "corroded area",
+        "score": 1.0,
+        "bbox": [
+          20,
+          20,
+          395,
+          279
+        ]
+      },
+      {
+        "label": "cracked pane",
+        "score": 0.95,
+        "bbox": [
+          405,
+          20,
+          780,
+          279
+        ]
+      },
+      {
+        "label": "missing rivet",
+        "score": 0.9,
+        "bbox": [
+          790,
+          20,
+          1165,
+          279
+        ]
+      },
+      {
+        "label": "damaged wire",
+        "score": 0.85,
+        "bbox": [
+          20,
+          289,
+          395,
+          548
+        ]
+      },
+      {
+        "label": "broken panel",
+        "score": 0.8,
+        "bbox": [
+          405,
+          289,
+          780,
+          548
+        ]
+      },
+      {
+        "label": "wing",
+        "score": 0.75,
+        "bbox": [
+          790,
+          289,
+          1165,
+          548
+        ]
+      }
+    ],
+    "triples": [
+      {
+        "subject": "corrosion_wing",
+        "predicate": "contains",
+        "object": "corroded area",
+        "confidence": 1.0
+      },
+      {
+        "subject": "corrosion_wing",
+        "predicate": "contains",
+        "object": "cracked pane",
+        "confidence": 0.95
+      },
+      {
+        "subject": "corrosion_wing",
+        "predicate": "contains",
+        "object": "missing rivet",
+        "confidence": 0.9
+      },
+      {
+        "subject": "corrosion_wing",
+        "predicate": "contains",
+        "object": "damaged wire",
+        "confidence": 0.85
+      },
+      {
+        "subject": "corrosion_wing",
+        "predicate": "contains",
+        "object": "broken panel",
+        "confidence": 0.8
+      },
+      {
+        "subject": "corrosion_wing",
+        "predicate": "contains",
+        "object": "wing",
+        "confidence": 0.75
+      }
+    ],
+    "metrics": {
+      "inference_latency_ms": 42.292,
+      "gpu_usage_mb": 0.0,
+      "gpu_reserved_mb": 0.0
+    }
+  },
+  {
+    "image_path": "input\\image\\cracked_spar.jpg",
+    "model_name": "anomalib_patchcore",
+    "segmented_image_path": "output\\segmented_images\\cracked_spar_anomalib_patchcore_segmented.png",
+    "triples_path": "output\\segmented_image_triples\\cracked_spar_anomalib_patchcore_triples.json",
+    "predicted_labels": [
+      {
+        "label": "corroded area",
+        "score": 1.0,
+        "bbox": [
+          20,
+          20,
+          196,
+          128
+        ]
+      },
+      {
+        "label": "cracked pane",
+        "score": 0.95,
+        "bbox": [
+          206,
+          20,
+          382,
+          128
+        ]
+      },
+      {
+        "label": "missing rivet",
+        "score": 0.9,
+        "bbox": [
+          392,
+          20,
+          568,
+          128
+        ]
+      },
+      {
+        "label": "damaged wire",
+        "score": 0.85,
+        "bbox": [
+          20,
+          138,
+          196,
+          246
+        ]
+      },
+      {
+        "label": "broken panel",
+        "score": 0.8,
+        "bbox": [
+          206,
+          138,
+          382,
+          246
+        ]
+      },
+      {
+        "label": "wing",
+        "score": 0.75,
+        "bbox": [
+          392,
+          138,
+          568,
+          246
+        ]
+      }
+    ],
+    "triples": [
+      {
+        "subject": "cracked_spar",
+        "predicate": "contains",
+        "object": "corroded area",
+        "confidence": 1.0
+      },
+      {
+        "subject": "cracked_spar",
+        "predicate": "contains",
+        "object": "cracked pane",
+        "confidence": 0.95
+      },
+      {
+        "subject": "cracked_spar",
+        "predicate": "contains",
+        "object": "missing rivet",
+        "confidence": 0.9
+      },
+      {
+        "subject": "cracked_spar",
+        "predicate": "contains",
+        "object": "damaged wire",
+        "confidence": 0.85
+      },
+      {
+        "subject": "cracked_spar",
+        "predicate": "contains",
+        "object": "broken panel",
+        "confidence": 0.8
+      },
+      {
+        "subject": "cracked_spar",
+        "predicate": "contains",
+        "object": "wing",
+        "confidence": 0.75
+      }
+    ],
+    "metrics": {
+      "inference_latency_ms": 47.164,
+      "gpu_usage_mb": 0.0,
+      "gpu_reserved_mb": 0.0
+    }
+  },
+  {
+    "image_path": "input\\image\\damaged_canon_plug_pins.jpg",
+    "model_name": "anomalib_patchcore",
+    "segmented_image_path": "output\\segmented_images\\damaged_canon_plug_pins_anomalib_patchcore_segmented.png",
+    "triples_path": "output\\segmented_image_triples\\damaged_canon_plug_pins_anomalib_patchcore_triples.json",
+    "predicted_labels": [
+      {
+        "label": "corroded area",
+        "score": 1.0,
+        "bbox": [
+          20,
+          20,
+          132,
+          131
+        ]
+      },
+      {
+        "label": "cracked pane",
+        "score": 0.95,
+        "bbox": [
+          142,
+          20,
+          254,
+          131
+        ]
+      },
+      {
+        "label": "missing rivet",
+        "score": 0.9,
+        "bbox": [
+          264,
+          20,
+          376,
+          131
+        ]
+      },
+      {
+        "label": "damaged wire",
+        "score": 0.85,
+        "bbox": [
+          20,
+          141,
+          132,
+          252
+        ]
+      },
+      {
+        "label": "broken panel",
+        "score": 0.8,
+        "bbox": [
+          142,
+          141,
+          254,
+          252
+        ]
+      },
+      {
+        "label": "wing",
+        "score": 0.75,
+        "bbox": [
+          264,
+          141,
+          376,
+          252
+        ]
+      }
+    ],
+    "triples": [
+      {
+        "subject": "damaged_canon_plug_pins",
+        "predicate": "contains",
+        "object": "corroded area",
+        "confidence": 1.0
+      },
+      {
+        "subject": "damaged_canon_plug_pins",
+        "predicate": "contains",
+        "object": "cracked pane",
+        "confidence": 0.95
+      },
+      {
+        "subject": "damaged_canon_plug_pins",
+        "predicate": "contains",
+        "object": "missing rivet",
+        "confidence": 0.9
+      },
+      {
+        "subject": "damaged_canon_plug_pins",
+        "predicate": "contains",
+        "object": "damaged wire",
+        "confidence": 0.85
+      },
+      {
+        "subject": "damaged_canon_plug_pins",
+        "predicate": "contains",
+        "object": "broken panel",
+        "confidence": 0.8
+      },
+      {
+        "subject": "damaged_canon_plug_pins",
+        "predicate": "contains",
+        "object": "wing",
+        "confidence": 0.75
+      }
+    ],
+    "metrics": {
+      "inference_latency_ms": 44.659,
+      "gpu_usage_mb": 0.0,
+      "gpu_reserved_mb": 0.0
+    }
+  },
+  {
+    "image_path": "input\\image\\engine_blade_damage.jpg",
+    "model_name": "anomalib_patchcore",
+    "segmented_image_path": "output\\segmented_images\\engine_blade_damage_anomalib_patchcore_segmented.png",
+    "triples_path": "output\\segmented_image_triples\\engine_blade_damage_anomalib_patchcore_triples.json",
+    "predicted_labels": [
+      {
+        "label": "corroded area",
+        "score": 1.0,
+        "bbox": [
+          20,
+          20,
+          179,
+          140
+        ]
+      },
+      {
+        "label": "cracked pane",
+        "score": 0.95,
+        "bbox": [
+          189,
+          20,
+          348,
+          140
+        ]
+      },
+      {
+        "label": "missing rivet",
+        "score": 0.9,
+        "bbox": [
+          358,
+          20,
+          517,
+          140
+        ]
+      },
+      {
+        "label": "damaged wire",
+        "score": 0.85,
+        "bbox": [
+          20,
+          150,
+          179,
+          270
+        ]
+      },
+      {
+        "label": "broken panel",
+        "score": 0.8,
+        "bbox": [
+          189,
+          150,
+          348,
+          270
+        ]
+      },
+      {
+        "label": "wing",
+        "score": 0.75,
+        "bbox": [
+          358,
+          150,
+          517,
+          270
+        ]
+      }
+    ],
+    "triples": [
+      {
+        "subject": "engine_blade_damage",
+        "predicate": "contains",
+        "object": "corroded area",
+        "confidence": 1.0
+      },
+      {
+        "subject": "engine_blade_damage",
+        "predicate": "contains",
+        "object": "cracked pane",
+        "confidence": 0.95
+      },
+      {
+        "subject": "engine_blade_damage",
+        "predicate": "contains",
+        "object": "missing rivet",
+        "confidence": 0.9
+      },
+      {
+        "subject": "engine_blade_damage",
+        "predicate": "contains",
+        "object": "damaged wire",
+        "confidence": 0.85
+      },
+      {
+        "subject": "engine_blade_damage",
+        "predicate": "contains",
+        "object": "broken panel",
+        "confidence": 0.8
+      },
+      {
+        "subject": "engine_blade_damage",
+        "predicate": "contains",
+        "object": "wing",
+        "confidence": 0.75
+      }
+    ],
+    "metrics": {
+      "inference_latency_ms": 42.823,
+      "gpu_usage_mb": 0.0,
+      "gpu_reserved_mb": 0.0
+    }
+  },
+  {
+    "image_path": "input\\image\\Frayed_Electrical_Wiring.jpg",
+    "model_name": "anomalib_patchcore",
+    "segmented_image_path": "output\\segmented_images\\Frayed_Electrical_Wiring_anomalib_patchcore_segmented.png",
+    "triples_path": "output\\segmented_image_triples\\Frayed_Electrical_Wiring_anomalib_patchcore_triples.json",
+    "predicted_labels": [
+      {
+        "label": "corroded area",
+        "score": 1.0,
+        "bbox": [
+          20,
+          20,
+          148,
+          117
+        ]
+      },
+      {
+        "label": "cracked pane",
+        "score": 0.95,
+        "bbox": [
+          158,
+          20,
+          286,
+          117
+        ]
+      },
+      {
+        "label": "missing rivet",
+        "score": 0.9,
+        "bbox": [
+          296,
+          20,
+          424,
+          117
+        ]
+      },
+      {
+        "label": "damaged wire",
+        "score": 0.85,
+        "bbox": [
+          20,
+          127,
+          148,
+          224
+        ]
+      },
+      {
+        "label": "broken panel",
+        "score": 0.8,
+        "bbox": [
+          158,
+          127,
+          286,
+          224
+        ]
+      },
+      {
+        "label": "wing",
+        "score": 0.75,
+        "bbox": [
+          296,
+          127,
+          424,
+          224
+        ]
+      }
+    ],
+    "triples": [
+      {
+        "subject": "Frayed_Electrical_Wiring",
+        "predicate": "contains",
+        "object": "corroded area",
+        "confidence": 1.0
+      },
+      {
+        "subject": "Frayed_Electrical_Wiring",
+        "predicate": "contains",
+        "object": "cracked pane",
+        "confidence": 0.95
+      },
+      {
+        "subject": "Frayed_Electrical_Wiring",
+        "predicate": "contains",
+        "object": "missing rivet",
+        "confidence": 0.9
+      },
+      {
+        "subject": "Frayed_Electrical_Wiring",
+        "predicate": "contains",
+        "object": "damaged wire",
+        "confidence": 0.85
+      },
+      {
+        "subject": "Frayed_Electrical_Wiring",
+        "predicate": "contains",
+        "object": "broken panel",
+        "confidence": 0.8
+      },
+      {
+        "subject": "Frayed_Electrical_Wiring",
+        "predicate": "contains",
+        "object": "wing",
+        "confidence": 0.75
+      }
+    ],
+    "metrics": {
+      "inference_latency_ms": 43.012,
+      "gpu_usage_mb": 0.0,
+      "gpu_reserved_mb": 0.0
+    }
+  },
+  {
+    "image_path": "input\\image\\prop_damage.jpg",
+    "model_name": "anomalib_patchcore",
+    "segmented_image_path": "output\\segmented_images\\prop_damage_anomalib_patchcore_segmented.png",
+    "triples_path": "output\\segmented_image_triples\\prop_damage_anomalib_patchcore_triples.json",
+    "predicted_labels": [
+      {
+        "label": "corroded area",
+        "score": 1.0,
+        "bbox": [
+          20,
+          20,
+          189,
+          133
+        ]
+      },
+      {
+        "label": "cracked pane",
+        "score": 0.95,
+        "bbox": [
+          199,
+          20,
+          368,
+          133
+        ]
+      },
+      {
+        "label": "missing rivet",
+        "score": 0.9,
+        "bbox": [
+          378,
+          20,
+          547,
+          133
+        ]
+      },
+      {
+        "label": "damaged wire",
+        "score": 0.85,
+        "bbox": [
+          20,
+          143,
+          189,
+          256
+        ]
+      },
+      {
+        "label": "broken panel",
+        "score": 0.8,
+        "bbox": [
+          199,
+          143,
+          368,
+          256
+        ]
+      },
+      {
+        "label": "wing",
+        "score": 0.75,
+        "bbox": [
+          378,
+          143,
+          547,
+          256
+        ]
+      }
+    ],
+    "triples": [
+      {
+        "subject": "prop_damage",
+        "predicate": "contains",
+        "object": "corroded area",
+        "confidence": 1.0
+      },
+      {
+        "subject": "prop_damage",
+        "predicate": "contains",
+        "object": "cracked pane",
+        "confidence": 0.95
+      },
+      {
+        "subject": "prop_damage",
+        "predicate": "contains",
+        "object": "missing rivet",
+        "confidence": 0.9
+      },
+      {
+        "subject": "prop_damage",
+        "predicate": "contains",
+        "object": "damaged wire",
+        "confidence": 0.85
+      },
+      {
+        "subject": "prop_damage",
+        "predicate": "contains",
+        "object": "broken panel",
+        "confidence": 0.8
+      },
+      {
+        "subject": "prop_damage",
+        "predicate": "contains",
+        "object": "wing",
+        "confidence": 0.75
+      }
+    ],
+    "metrics": {
+      "inference_latency_ms": 46.823,
+      "gpu_usage_mb": 0.0,
+      "gpu_reserved_mb": 0.0
+    }
+  },
+  {
+    "image_path": "input\\image\\prop_strike.jpg",
+    "model_name": "anomalib_patchcore",
+    "segmented_image_path": "output\\segmented_images\\prop_strike_anomalib_patchcore_segmented.png",
+    "triples_path": "output\\segmented_image_triples\\prop_strike_anomalib_patchcore_triples.json",
+    "predicted_labels": [
+      {
+        "label": "corroded area",
+        "score": 1.0,
+        "bbox": [
+          20,
+          20,
+          148,
+          117
+        ]
+      },
+      {
+        "label": "cracked pane",
+        "score": 0.95,
+        "bbox": [
+          158,
+          20,
+          286,
+          117
+        ]
+      },
+      {
+        "label": "missing rivet",
+        "score": 0.9,
+        "bbox": [
+          296,
+          20,
+          424,
+          117
+        ]
+      },
+      {
+        "label": "damaged wire",
+        "score": 0.85,
+        "bbox": [
+          20,
+          127,
+          148,
+          224
+        ]
+      },
+      {
+        "label": "broken panel",
+        "score": 0.8,
+        "bbox": [
+          158,
+          127,
+          286,
+          224
+        ]
+      },
+      {
+        "label": "wing",
+        "score": 0.75,
+        "bbox": [
+          296,
+          127,
+          424,
+          224
+        ]
+      }
+    ],
+    "triples": [
+      {
+        "subject": "prop_strike",
+        "predicate": "contains",
+        "object": "corroded area",
+        "confidence": 1.0
+      },
+      {
+        "subject": "prop_strike",
+        "predicate": "contains",
+        "object": "cracked pane",
+        "confidence": 0.95
+      },
+      {
+        "subject": "prop_strike",
+        "predicate": "contains",
+        "object": "missing rivet",
+        "confidence": 0.9
+      },
+      {
+        "subject": "prop_strike",
+        "predicate": "contains",
+        "object": "damaged wire",
+        "confidence": 0.85
+      },
+      {
+        "subject": "prop_strike",
+        "predicate": "contains",
+        "object": "broken panel",
+        "confidence": 0.8
+      },
+      {
+        "subject": "prop_strike",
+        "predicate": "contains",
+        "object": "wing",
+        "confidence": 0.75
+      }
+    ],
+    "metrics": {
+      "inference_latency_ms": 47.472,
+      "gpu_usage_mb": 0.0,
+      "gpu_reserved_mb": 0.0
+    }
+  }
+]

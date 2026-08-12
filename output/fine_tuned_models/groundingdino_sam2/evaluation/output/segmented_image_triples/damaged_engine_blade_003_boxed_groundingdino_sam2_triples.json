@@ -1,0 +1,56 @@
+[
+  {
+    "subject": "damaged_engine_blade_003_boxed",
+    "predicate": "contains",
+    "object": "crack",
+    "confidence": 0.859
+  },
+  {
+    "subject": "damaged_engine_blade_003_boxed",
+    "predicate": "contains",
+    "object": "damaged aircraft engine",
+    "confidence": 0.823
+  },
+  {
+    "subject": "damaged_engine_blade_003_boxed",
+    "predicate": "contains",
+    "object": "broken blade",
+    "confidence": 0.804
+  },
+  {
+    "subject": "damaged_engine_blade_003_boxed",
+    "predicate": "contains",
+    "object": "fan blade",
+    "confidence": 0.668
+  },
+  {
+    "subject": "damaged_engine_blade_003_boxed",
+    "predicate": "contains",
+    "object": "engine damage",
+    "confidence": 0.504
+  },
+  {
+    "subject": "damaged_engine_blade_003_boxed",
+    "predicate": "contains",
+    "object": "deformation",
+    "confidence": 0.367
+  },
+  {
+    "subject": "damaged_engine_blade_003_boxed",
+    "predicate": "contains",
+    "object": "corrosion",
+    "confidence": 0.346
+  },
+  {
+    "subject": "damaged_engine_blade_003_boxed",
+    "predicate": "contains",
+    "object": "dent",
+    "confidence": 0.243
+  },
+  {
+    "subject": "damaged_engine_blade_003_boxed",
+    "predicate": "contains",
+    "object": "aircraft propulsion system",
+    "confidence": 0.234
+  }
+]

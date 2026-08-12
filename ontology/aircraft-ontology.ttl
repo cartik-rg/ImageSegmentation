@@ -1,0 +1,236 @@
+@prefix : <http://www.robbins-gioia.com/aircraft-ontology#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+ 
+#################################################################
+# Property
+#################################################################
+ 
+:part_of rdf:type rdf:Property ;
+rdfs:label "part of" .
+ 
+#################################################################
+# Top Level
+#################################################################
+ 
+:Aircraft rdf:type rdfs:Class .
+ 
+#################################################################
+# Major Airframe Assemblies
+#################################################################
+ 
+:Fuselage :part_of :Aircraft .
+:WingSystem :part_of :Aircraft .
+:Empennage :part_of :Aircraft .
+:LandingGearSystem :part_of :Aircraft .
+:PropulsionSystem :part_of :Aircraft .
+:FlightControlSystem :part_of :Aircraft .
+:HydraulicSystem :part_of :Aircraft .
+:ElectricalSystem :part_of :Aircraft .
+:AvionicsSystem :part_of :Aircraft .
+:FuelSystem :part_of :Aircraft .
+:EnvironmentalControlSystem :part_of :Aircraft .
+:CabinInterior :part_of :Aircraft .
+ 
+#################################################################
+# Fuselage
+#################################################################
+ 
+:ForwardFuselage :part_of :Fuselage .
+:CenterFuselage :part_of :Fuselage .
+:AftFuselage :part_of :Fuselage .
+ 
+:FuselageSkin :part_of :Fuselage .
+:Frames :part_of :Fuselage .
+:Stringers :part_of :Fuselage .
+:FloorStructure :part_of :Fuselage .
+:PressureBulkhead :part_of :Fuselage .
+ 
+:Frame :part_of :Frames .
+:Stringer :part_of :Stringers .
+:SkinPanel :part_of :FuselageSkin .
+ 
+:Fastener :part_of :SkinPanel .
+:Rivet :part_of :Fastener .
+:Bolt :part_of :Fastener .
+ 
+:RivetShank :part_of :Rivet .
+:RivetHead :part_of :Rivet .
+ 
+:AluminumAlloyRegion :part_of :RivetShank .
+:MetalGrainStructure :part_of :AluminumAlloyRegion .
+ 
+#################################################################
+# Wings
+#################################################################
+ 
+:LeftWing :part_of :WingSystem .
+:RightWing :part_of :WingSystem .
+ 
+:WingBox :part_of :LeftWing .
+:FrontSpar :part_of :WingBox .
+:RearSpar :part_of :WingBox .
+:WingRib :part_of :WingBox .
+:WingSkinPanel :part_of :WingBox .
+ 
+:Fastener_Wing :part_of :WingSkinPanel .
+:ProtectiveCoating :part_of :WingSkinPanel .
+:PaintLayer :part_of :ProtectiveCoating .
+ 
+:PigmentRegion :part_of :PaintLayer .
+ 
+#################################################################
+# Empennage
+#################################################################
+ 
+:HorizontalStabilizer :part_of :Empennage .
+:VerticalStabilizer :part_of :Empennage .
+ 
+:Elevator :part_of :HorizontalStabilizer .
+:Rudder :part_of :VerticalStabilizer .
+ 
+:ElevatorHinge :part_of :Elevator .
+:HingePin :part_of :ElevatorHinge .
+ 
+:HingePinMaterial :part_of :HingePin .
+ 
+#################################################################
+# Flight Controls
+#################################################################
+ 
+:Aileron :part_of :FlightControlSystem .
+:ElevatorControlSubsystem :part_of :FlightControlSystem .
+:RudderControlSubsystem :part_of :FlightControlSystem .
+ 
+:ControlCable :part_of :Aileron .
+:CableEndFitting :part_of :ControlCable .
+:WireStrandBundle :part_of :ControlCable .
+:SingleWireStrand :part_of :WireStrandBundle .
+ 
+:SteelMaterialRegion :part_of :SingleWireStrand .
+ 
+#################################################################
+# Landing Gear
+#################################################################
+ 
+:NoseLandingGear :part_of :LandingGearSystem .
+:MainLandingGear :part_of :LandingGearSystem .
+ 
+:ShockStrut :part_of :MainLandingGear .
+:WheelAssembly :part_of :MainLandingGear .
+ 
+:Tire :part_of :WheelAssembly .
+:WheelHub :part_of :WheelAssembly .
+:BearingAssembly :part_of :WheelHub .
+ 
+:BearingRoller :part_of :BearingAssembly .
+:BearingSteelRegion :part_of :BearingRoller .
+ 
+#################################################################
+# Propulsion
+#################################################################
+ 
+:Engine :part_of :PropulsionSystem .
+:Nacelle :part_of :PropulsionSystem .
+ 
+:FanSection :part_of :Engine .
+:CompressorSection :part_of :Engine .
+:CombustorSection :part_of :Engine .
+:TurbineSection :part_of :Engine .
+ 
+:FanBlade :part_of :FanSection .
+:BladeRoot :part_of :FanBlade .
+ 
+:TitaniumRegion :part_of :BladeRoot .
+:CrystalGrain :part_of :TitaniumRegion .
+ 
+#################################################################
+# Fuel System
+#################################################################
+ 
+:FuelTank :part_of :FuelSystem .
+:FuelPump :part_of :FuelSystem .
+:FuelLine :part_of :FuelSystem .
+ 
+:PumpMotor :part_of :FuelPump .
+:MotorWinding :part_of :PumpMotor .
+:CopperConductor :part_of :MotorWinding .
+ 
+:CopperMaterialRegion :part_of :CopperConductor .
+ 
+#################################################################
+# Hydraulic System
+#################################################################
+ 
+:HydraulicReservoir :part_of :HydraulicSystem .
+:HydraulicPump :part_of :HydraulicSystem .
+:HydraulicActuator :part_of :HydraulicSystem .
+:HydraulicTube :part_of :HydraulicSystem .
+ 
+:PistonAssembly :part_of :HydraulicActuator .
+:PistonRod :part_of :PistonAssembly .
+:ChromeCoating :part_of :PistonRod .
+ 
+:ChromeMaterialRegion :part_of :ChromeCoating .
+ 
+#################################################################
+# Electrical System
+#################################################################
+ 
+:PowerDistributionUnit :part_of :ElectricalSystem .
+:WireHarness :part_of :ElectricalSystem .
+:CircuitBreaker :part_of :ElectricalSystem .
+ 
+:ElectricalWire :part_of :WireHarness .
+:WireInsulation :part_of :ElectricalWire .
+:WireConductor :part_of :ElectricalWire .
+ 
+:PolymerRegion :part_of :WireInsulation .
+:CopperRegion :part_of :WireConductor .
+ 
+#################################################################
+# Avionics
+#################################################################
+ 
+:FlightManagementComputer :part_of :AvionicsSystem .
+:NavigationRadio :part_of :AvionicsSystem .
+:DisplayUnit :part_of :AvionicsSystem .
+ 
+:CircuitCardAssembly :part_of :DisplayUnit .
+:PrintedCircuitBoard :part_of :CircuitCardAssembly .
+ 
+:ElectronicComponent :part_of :PrintedCircuitBoard .
+:IntegratedCircuit :part_of :ElectronicComponent .
+:Resistor :part_of :ElectronicComponent .
+ 
+:SemiconductorDie :part_of :IntegratedCircuit .
+:SiliconRegion :part_of :SemiconductorDie .
+ 
+#################################################################
+# Cabin Interior
+#################################################################
+ 
+:PilotSeat :part_of :CabinInterior .
+:PassengerSeat :part_of :CabinInterior .
+:OverheadBin :part_of :CabinInterior .
+ 
+:SeatFrame :part_of :PassengerSeat .
+:SeatCushion :part_of :PassengerSeat .
+ 
+:FoamCellStructure :part_of :SeatCushion .
+:PolymerMaterialRegion_Seat :part_of :FoamCellStructure .
+ 
+#################################################################
+# Environmental Control System
+#################################################################
+ 
+:AirConditioningPack :part_of :EnvironmentalControlSystem .
+:Ducting :part_of :EnvironmentalControlSystem .
+ 
+:DuctSection :part_of :Ducting .
+:CompositeLaminate :part_of :DuctSection .
+ 
+:CarbonFiberLayer :part_of :CompositeLaminate .
+:CarbonFiber :part_of :CarbonFiberLayer .
+ 
+:FiberMaterialRegion :part_of :CarbonFiber .

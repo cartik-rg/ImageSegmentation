@@ -1,0 +1,38 @@
+[
+  {
+    "subject": "sample_cli",
+    "predicate": "contains",
+    "object": "corroded area",
+    "confidence": 1.0
+  },
+  {
+    "subject": "sample_cli",
+    "predicate": "contains",
+    "object": "cracked pane",
+    "confidence": 0.95
+  },
+  {
+    "subject": "sample_cli",
+    "predicate": "contains",
+    "object": "missing rivet",
+    "confidence": 0.9
+  },
+  {
+    "subject": "sample_cli",
+    "predicate": "contains",
+    "object": "damaged wire",
+    "confidence": 0.85
+  },
+  {
+    "subject": "sample_cli",
+    "predicate": "contains",
+    "object": "broken panel",
+    "confidence": 0.8
+  },
+  {
+    "subject": "sample_cli",
+    "predicate": "contains",
+    "object": "wing",
+    "confidence": 0.75
+  }
+]

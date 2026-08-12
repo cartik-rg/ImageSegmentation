@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "knowledge-graph-image-segmentation"
+version = "0.1.0"
+description = "Image segmentation and object-recognition utilities for damaged aircraft engine detection"
+requires-python = ">=3.10"
+dependencies = [
+  "pillow>=10.0.0",
+  "transformers>=4.0.0",
+  "torch>=2.4.0",
+  "torchvision>=0.19.0",
+  "ultralytics>=8.3.0",
+  "opencv-python-headless>=4.10.0",
+  "anomalib>=1.0.0",
+  "groundingdino-py>=0.1.0",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["image_processing*"]

@@ -1,0 +1,92 @@
+[
+  {
+    "subject": "engine_blade_damage",
+    "predicate": "contains",
+    "object": "wing",
+    "confidence": 0.942
+  },
+  {
+    "subject": "engine_blade_damage",
+    "predicate": "contains",
+    "object": "damaged wire",
+    "confidence": 0.94
+  },
+  {
+    "subject": "engine_blade_damage",
+    "predicate": "contains",
+    "object": "broken panel",
+    "confidence": 0.937
+  },
+  {
+    "subject": "engine_blade_damage",
+    "predicate": "contains",
+    "object": "engine",
+    "confidence": 0.923
+  },
+  {
+    "subject": "engine_blade_damage",
+    "predicate": "contains",
+    "object": "propeller",
+    "confidence": 0.893
+  },
+  {
+    "subject": "engine_blade_damage",
+    "predicate": "contains",
+    "object": "flap",
+    "confidence": 0.85
+  },
+  {
+    "subject": "engine_blade_damage",
+    "predicate": "contains",
+    "object": "wheel assembly",
+    "confidence": 0.843
+  },
+  {
+    "subject": "engine_blade_damage",
+    "predicate": "contains",
+    "object": "cockpit",
+    "confidence": 0.81
+  },
+  {
+    "subject": "engine_blade_damage",
+    "predicate": "contains",
+    "object": "aileron",
+    "confidence": 0.741
+  },
+  {
+    "subject": "engine_blade_damage",
+    "predicate": "contains",
+    "object": "cracked pane",
+    "confidence": 0.655
+  },
+  {
+    "subject": "engine_blade_damage",
+    "predicate": "contains",
+    "object": "corroded area",
+    "confidence": 0.648
+  },
+  {
+    "subject": "engine_blade_damage",
+    "predicate": "contains",
+    "object": "tail",
+    "confidence": 0.538
+  },
+  {
+    "subject": "engine_blade_damage",
+    "predicate": "contains",
+    "object": "fuselage",
+    "confidence": 0.274
+  },
+  {
+    "subject": "engine_blade_damage",
+    "predicate": "contains",
+    "object": "missing rivet",
+    "confidence": 0.176
+  },
+  {
+    "subject": "engine_blade_damage",
+    "predicate": "contains",
+    "object": "landing gear",
+    "confidence": 0.111
+  }
+]

@@ -1,0 +1,47 @@
+{
+  "model_summary": [
+    {
+      "model_name": "sam2",
+      "status": "trained",
+      "output_dir": "output\\fine_tuned_models\\damaged_engines\\sam2",
+      "calibration_file": "output\\fine_tuned_models\\damaged_engines\\sam2\\sam2_calibration.json",
+      "calibration_prompt": "damaged engine fan blade . engine fan blade crack"
+    },
+    {
+      "model_name": "groundingdino_sam2",
+      "status": "trained",
+      "output_dir": "output\\fine_tuned_models\\damaged_engines\\groundingdino_sam2",
+      "calibration_file": "output\\fine_tuned_models\\damaged_engines\\groundingdino_sam2\\groundingdino_sam2_calibration.json",
+      "calibration_prompt": "damaged engine fan blade . engine fan blade crack"
+    },
+    {
+      "model_name": "mask2former",
+      "status": "trained",
+      "output_dir": "output\\fine_tuned_models\\damaged_engines\\mask2former",
+      "calibration_file": "output\\fine_tuned_models\\damaged_engines\\mask2former\\mask2former_calibration.json",
+      "calibration_prompt": "damaged engine fan blade . engine fan blade crack"
+    },
+    {
+      "model_name": "yolo_seg",
+      "status": "failed",
+      "output_dir": "output\\fine_tuned_models\\damaged_engines\\yolo_seg",
+      "error": "argument should be a str or an os.PathLike object where __fspath__ returns a str, not 'dict'"
+    },
+    {
+      "model_name": "anomalib_patchcore",
+      "status": "trained",
+      "output_dir": "output\\fine_tuned_models\\damaged_engines\\anomalib_patchcore",
+      "calibration_file": "output\\fine_tuned_models\\damaged_engines\\anomalib_patchcore\\anomalib_patchcore_calibration.json",
+      "calibration_prompt": "damaged engine fan blade . engine fan blade crack"
+    }
+  ],
+  "evaluation_path": "output\\fine_tuned_models\\damaged_engines\\fine_tuned_evaluation.json",
+  "sample_count": 4,
+  "models": [
+    "sam2",
+    "groundingdino_sam2",
+    "mask2former",
+    "yolo_seg",
+    "anomalib_patchcore"
+  ]
+}

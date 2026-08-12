@@ -1,0 +1,181 @@
+{
+"@context": {
+"@vocab": "http://www.robbins-gioia.com/aircraft-ontology#",
+"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+"part_of": {
+"@id": "http://www.robbins-gioia.com/aircraft-ontology#part_of"
+}
+},
+"property": {
+"id": "part_of",
+"type": "rdf:Property",
+"label": "part of"
+},
+"entities": [
+{
+"id": "Aircraft",
+"type": "rdfs:Class"
+},
+
+{ "id": "Fuselage", "part_of": "Aircraft" },
+{ "id": "WingSystem", "part_of": "Aircraft" },
+{ "id": "Empennage", "part_of": "Aircraft" },
+{ "id": "LandingGearSystem", "part_of": "Aircraft" },
+{ "id": "PropulsionSystem", "part_of": "Aircraft" },
+{ "id": "FlightControlSystem", "part_of": "Aircraft" },
+{ "id": "HydraulicSystem", "part_of": "Aircraft" },
+{ "id": "ElectricalSystem", "part_of": "Aircraft" },
+{ "id": "AvionicsSystem", "part_of": "Aircraft" },
+{ "id": "FuelSystem", "part_of": "Aircraft" },
+{ "id": "EnvironmentalControlSystem", "part_of": "Aircraft" },
+{ "id": "CabinInterior", "part_of": "Aircraft" },
+
+{ "id": "ForwardFuselage", "part_of": "Fuselage" },
+{ "id": "CenterFuselage", "part_of": "Fuselage" },
+{ "id": "AftFuselage", "part_of": "Fuselage" },
+{ "id": "FuselageSkin", "part_of": "Fuselage" },
+{ "id": "Frames", "part_of": "Fuselage" },
+{ "id": "Stringers", "part_of": "Fuselage" },
+{ "id": "FloorStructure", "part_of": "Fuselage" },
+{ "id": "PressureBulkhead", "part_of": "Fuselage" },
+
+{ "id": "Frame", "part_of": "Frames" },
+{ "id": "Stringer", "part_of": "Stringers" },
+{ "id": "SkinPanel", "part_of": "FuselageSkin" },
+
+{ "id": "Fastener", "part_of": "SkinPanel" },
+{ "id": "Rivet", "part_of": "Fastener" },
+{ "id": "Bolt", "part_of": "Fastener" },
+
+{ "id": "RivetShank", "part_of": "Rivet" },
+{ "id": "RivetHead", "part_of": "Rivet" },
+{ "id": "AluminumAlloyRegion", "part_of": "RivetShank" },
+{ "id": "MetalGrainStructure", "part_of": "AluminumAlloyRegion" },
+
+{ "id": "LeftWing", "part_of": "WingSystem" },
+{ "id": "RightWing", "part_of": "WingSystem" },
+
+{ "id": "WingBox", "part_of": "LeftWing" },
+{ "id": "FrontSpar", "part_of": "WingBox" },
+{ "id": "RearSpar", "part_of": "WingBox" },
+{ "id": "WingRib", "part_of": "WingBox" },
+{ "id": "WingSkinPanel", "part_of": "WingBox" },
+
+{ "id": "Fastener_Wing", "part_of": "WingSkinPanel" },
+{ "id": "ProtectiveCoating", "part_of": "WingSkinPanel" },
+{ "id": "PaintLayer", "part_of": "ProtectiveCoating" },
+{ "id": "PigmentRegion", "part_of": "PaintLayer" },
+
+{ "id": "HorizontalStabilizer", "part_of": "Empennage" },
+{ "id": "VerticalStabilizer", "part_of": "Empennage" },
+
+{ "id": "Elevator", "part_of": "HorizontalStabilizer" },
+{ "id": "Rudder", "part_of": "VerticalStabilizer" },
+
+{ "id": "ElevatorHinge", "part_of": "Elevator" },
+{ "id": "HingePin", "part_of": "ElevatorHinge" },
+{ "id": "HingePinMaterial", "part_of": "HingePin" },
+
+{ "id": "Aileron", "part_of": "FlightControlSystem" },
+{ "id": "ElevatorControlSubsystem", "part_of": "FlightControlSystem" },
+{ "id": "RudderControlSubsystem", "part_of": "FlightControlSystem" },
+
+{ "id": "ControlCable", "part_of": "Aileron" },
+{ "id": "CableEndFitting", "part_of": "ControlCable" },
+{ "id": "WireStrandBundle", "part_of": "ControlCable" },
+{ "id": "SingleWireStrand", "part_of": "WireStrandBundle" },
+{ "id": "SteelMaterialRegion", "part_of": "SingleWireStrand" },
+
+{ "id": "NoseLandingGear", "part_of": "LandingGearSystem" },
+{ "id": "MainLandingGear", "part_of": "LandingGearSystem" },
+
+{ "id": "ShockStrut", "part_of": "MainLandingGear" },
+{ "id": "WheelAssembly", "part_of": "MainLandingGear" },
+
+{ "id": "Tire", "part_of": "WheelAssembly" },
+{ "id": "WheelHub", "part_of": "WheelAssembly" },
+{ "id": "BearingAssembly", "part_of": "WheelHub" },
+
+{ "id": "BearingRoller", "part_of": "BearingAssembly" },
+{ "id": "BearingSteelRegion", "part_of": "BearingRoller" },
+
+{ "id": "Engine", "part_of": "PropulsionSystem" },
+{ "id": "Nacelle", "part_of": "PropulsionSystem" },
+
+{ "id": "FanSection", "part_of": "Engine" },
+{ "id": "CompressorSection", "part_of": "Engine" },
+{ "id": "CombustorSection", "part_of": "Engine" },
+{ "id": "TurbineSection", "part_of": "Engine" },
+
+{ "id": "FanBlade", "part_of": "FanSection" },
+{ "id": "BladeRoot", "part_of": "FanBlade" },
+
+{ "id": "TitaniumRegion", "part_of": "BladeRoot" },
+{ "id": "CrystalGrain", "part_of": "TitaniumRegion" },
+
+{ "id": "FuelTank", "part_of": "FuelSystem" },
+{ "id": "FuelPump", "part_of": "FuelSystem" },
+{ "id": "FuelLine", "part_of": "FuelSystem" },
+
+{ "id": "PumpMotor", "part_of": "FuelPump" },
+{ "id": "MotorWinding", "part_of": "PumpMotor" },
+{ "id": "CopperConductor", "part_of": "MotorWinding" },
+{ "id": "CopperMaterialRegion", "part_of": "CopperConductor" },
+
+{ "id": "HydraulicReservoir", "part_of": "HydraulicSystem" },
+{ "id": "HydraulicPump", "part_of": "HydraulicSystem" },
+{ "id": "HydraulicActuator", "part_of": "HydraulicSystem" },
+{ "id": "HydraulicTube", "part_of": "HydraulicSystem" },
+
+{ "id": "PistonAssembly", "part_of": "HydraulicActuator" },
+{ "id": "PistonRod", "part_of": "PistonAssembly" },
+{ "id": "ChromeCoating", "part_of": "PistonRod" },
+{ "id": "ChromeMaterialRegion", "part_of": "ChromeCoating" },
+
+{ "id": "PowerDistributionUnit", "part_of": "ElectricalSystem" },
+{ "id": "WireHarness", "part_of": "ElectricalSystem" },
+{ "id": "CircuitBreaker", "part_of": "ElectricalSystem" },
+
+{ "id": "ElectricalWire", "part_of": "WireHarness" },
+{ "id": "WireInsulation", "part_of": "ElectricalWire" },
+{ "id": "WireConductor", "part_of": "ElectricalWire" },
+
+{ "id": "PolymerRegion", "part_of": "WireInsulation" },
+{ "id": "CopperRegion", "part_of": "WireConductor" },
+
+{ "id": "FlightManagementComputer", "part_of": "AvionicsSystem" },
+{ "id": "NavigationRadio", "part_of": "AvionicsSystem" },
+{ "id": "DisplayUnit", "part_of": "AvionicsSystem" },
+
+{ "id": "CircuitCardAssembly", "part_of": "DisplayUnit" },
+{ "id": "PrintedCircuitBoard", "part_of": "CircuitCardAssembly" },
+
+{ "id": "ElectronicComponent", "part_of": "PrintedCircuitBoard" },
+{ "id": "IntegratedCircuit", "part_of": "ElectronicComponent" },
+{ "id": "Resistor", "part_of": "ElectronicComponent" },
+
+{ "id": "SemiconductorDie", "part_of": "IntegratedCircuit" },
+{ "id": "SiliconRegion", "part_of": "SemiconductorDie" },
+
+{ "id": "PilotSeat", "part_of": "CabinInterior" },
+{ "id": "PassengerSeat", "part_of": "CabinInterior" },
+{ "id": "OverheadBin", "part_of": "CabinInterior" },
+
+{ "id": "SeatFrame", "part_of": "PassengerSeat" },
+{ "id": "SeatCushion", "part_of": "PassengerSeat" },
+
+{ "id": "FoamCellStructure", "part_of": "SeatCushion" },
+{ "id": "PolymerMaterialRegion_Seat", "part_of": "FoamCellStructure" },
+
+{ "id": "AirConditioningPack", "part_of": "EnvironmentalControlSystem" },
+{ "id": "Ducting", "part_of": "EnvironmentalControlSystem" },
+
+{ "id": "DuctSection", "part_of": "Ducting" },
+{ "id": "CompositeLaminate", "part_of": "DuctSection" },
+
+{ "id": "CarbonFiberLayer", "part_of": "CompositeLaminate" },
+{ "id": "CarbonFiber", "part_of": "CarbonFiberLayer" },
+{ "id": "FiberMaterialRegion", "part_of": "CarbonFiber" }
+]
+}

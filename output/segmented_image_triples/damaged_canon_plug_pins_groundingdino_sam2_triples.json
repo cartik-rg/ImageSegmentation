@@ -1,0 +1,92 @@
+[
+  {
+    "subject": "damaged_canon_plug_pins",
+    "predicate": "contains",
+    "object": "engine",
+    "confidence": 0.999
+  },
+  {
+    "subject": "damaged_canon_plug_pins",
+    "predicate": "contains",
+    "object": "cracked pane",
+    "confidence": 0.999
+  },
+  {
+    "subject": "damaged_canon_plug_pins",
+    "predicate": "contains",
+    "object": "missing rivet",
+    "confidence": 0.901
+  },
+  {
+    "subject": "damaged_canon_plug_pins",
+    "predicate": "contains",
+    "object": "damaged wire",
+    "confidence": 0.586
+  },
+  {
+    "subject": "damaged_canon_plug_pins",
+    "predicate": "contains",
+    "object": "fuselage",
+    "confidence": 0.496
+  },
+  {
+    "subject": "damaged_canon_plug_pins",
+    "predicate": "contains",
+    "object": "tail",
+    "confidence": 0.451
+  },
+  {
+    "subject": "damaged_canon_plug_pins",
+    "predicate": "contains",
+    "object": "corroded area",
+    "confidence": 0.417
+  },
+  {
+    "subject": "damaged_canon_plug_pins",
+    "predicate": "contains",
+    "object": "cockpit",
+    "confidence": 0.384
+  },
+  {
+    "subject": "damaged_canon_plug_pins",
+    "predicate": "contains",
+    "object": "wheel assembly",
+    "confidence": 0.334
+  },
+  {
+    "subject": "damaged_canon_plug_pins",
+    "predicate": "contains",
+    "object": "wing",
+    "confidence": 0.334
+  },
+  {
+    "subject": "damaged_canon_plug_pins",
+    "predicate": "contains",
+    "object": "aileron",
+    "confidence": 0.302
+  },
+  {
+    "subject": "damaged_canon_plug_pins",
+    "predicate": "contains",
+    "object": "landing gear",
+    "confidence": 0.297
+  },
+  {
+    "subject": "damaged_canon_plug_pins",
+    "predicate": "contains",
+    "object": "broken panel",
+    "confidence": 0.292
+  },
+  {
+    "subject": "damaged_canon_plug_pins",
+    "predicate": "contains",
+    "object": "propeller",
+    "confidence": 0.169
+  },
+  {
+    "subject": "damaged_canon_plug_pins",
+    "predicate": "contains",
+    "object": "flap",
+    "confidence": 0.16
+  }
+]

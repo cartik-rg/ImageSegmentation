@@ -1,0 +1,92 @@
+[
+  {
+    "subject": "corrosion_wing",
+    "predicate": "contains",
+    "object": "wheel assembly",
+    "confidence": 0.915
+  },
+  {
+    "subject": "corrosion_wing",
+    "predicate": "contains",
+    "object": "landing gear",
+    "confidence": 0.907
+  },
+  {
+    "subject": "corrosion_wing",
+    "predicate": "contains",
+    "object": "tail",
+    "confidence": 0.893
+  },
+  {
+    "subject": "corrosion_wing",
+    "predicate": "contains",
+    "object": "broken panel",
+    "confidence": 0.828
+  },
+  {
+    "subject": "corrosion_wing",
+    "predicate": "contains",
+    "object": "wing",
+    "confidence": 0.811
+  },
+  {
+    "subject": "corrosion_wing",
+    "predicate": "contains",
+    "object": "fuselage",
+    "confidence": 0.769
+  },
+  {
+    "subject": "corrosion_wing",
+    "predicate": "contains",
+    "object": "cockpit",
+    "confidence": 0.585
+  },
+  {
+    "subject": "corrosion_wing",
+    "predicate": "contains",
+    "object": "propeller",
+    "confidence": 0.541
+  },
+  {
+    "subject": "corrosion_wing",
+    "predicate": "contains",
+    "object": "missing rivet",
+    "confidence": 0.527
+  },
+  {
+    "subject": "corrosion_wing",
+    "predicate": "contains",
+    "object": "corroded area",
+    "confidence": 0.48
+  },
+  {
+    "subject": "corrosion_wing",
+    "predicate": "contains",
+    "object": "engine",
+    "confidence": 0.418
+  },
+  {
+    "subject": "corrosion_wing",
+    "predicate": "contains",
+    "object": "aileron",
+    "confidence": 0.371
+  },
+  {
+    "subject": "corrosion_wing",
+    "predicate": "contains",
+    "object": "cracked pane",
+    "confidence": 0.368
+  },
+  {
+    "subject": "corrosion_wing",
+    "predicate": "contains",
+    "object": "damaged wire",
+    "confidence": 0.224
+  },
+  {
+    "subject": "corrosion_wing",
+    "predicate": "contains",
+    "object": "flap",
+    "confidence": 0.154
+  }
+]

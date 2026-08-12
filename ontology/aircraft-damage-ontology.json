@@ -1,0 +1,105 @@
+{
+"@context": {
+"@vocab": "http://www.robbins-gioia.com/aircraft-damage-ontology#",
+"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+"subClassOf": "rdfs:subClassOf"
+},
+"classes": [
+{ "id": "AircraftDamage" },
+
+{ "id": "StructuralDamage", "subClassOf": "AircraftDamage" },
+{ "id": "MetalStructuralDamage", "subClassOf": "StructuralDamage" },
+{ "id": "CompositeStructuralDamage", "subClassOf": "StructuralDamage" },
+
+{ "id": "Crack", "subClassOf": "MetalStructuralDamage" },
+{ "id": "FatigueCrack", "subClassOf": "Crack" },
+{ "id": "StressCorrosionCrack", "subClassOf": "Crack" },
+{ "id": "ThermalCrack", "subClassOf": "Crack" },
+{ "id": "WeldCrack", "subClassOf": "Crack" },
+{ "id": "GrindingCrack", "subClassOf": "Crack" },
+
+{ "id": "CorrosionDamage", "subClassOf": "MetalStructuralDamage" },
+{ "id": "UniformCorrosion", "subClassOf": "CorrosionDamage" },
+{ "id": "PittingCorrosion", "subClassOf": "CorrosionDamage" },
+{ "id": "GalvanicCorrosion", "subClassOf": "CorrosionDamage" },
+{ "id": "IntergranularCorrosion", "subClassOf": "CorrosionDamage" },
+{ "id": "ExfoliationCorrosion", "subClassOf": "CorrosionDamage" },
+{ "id": "FiliformCorrosion", "subClassOf": "CorrosionDamage" },
+{ "id": "CreviceCorrosion", "subClassOf": "CorrosionDamage" },
+{ "id": "MicrobiologicallyInducedCorrosion", "subClassOf": "CorrosionDamage" },
+
+{ "id": "DeformationDamage", "subClassOf": "StructuralDamage" },
+{ "id": "Dent", "subClassOf": "DeformationDamage" },
+{ "id": "Buckle", "subClassOf": "DeformationDamage" },
+{ "id": "Wrinkle", "subClassOf": "DeformationDamage" },
+{ "id": "Warping", "subClassOf": "DeformationDamage" },
+{ "id": "Bending", "subClassOf": "DeformationDamage" },
+{ "id": "PermanentSet", "subClassOf": "DeformationDamage" },
+
+{ "id": "SurfaceDamage", "subClassOf": "StructuralDamage" },
+{ "id": "Scratch", "subClassOf": "SurfaceDamage" },
+{ "id": "Gouge", "subClassOf": "SurfaceDamage" },
+{ "id": "ScoreMark", "subClassOf": "SurfaceDamage" },
+{ "id": "Abrasion", "subClassOf": "SurfaceDamage" },
+{ "id": "Erosion", "subClassOf": "SurfaceDamage" },
+{ "id": "FrettingDamage", "subClassOf": "SurfaceDamage" },
+
+{ "id": "ImpactDamage", "subClassOf": "SurfaceDamage" },
+{ "id": "ForeignObjectDamage", "subClassOf": "ImpactDamage" },
+{ "id": "BirdStrikeDamage", "subClassOf": "ImpactDamage" },
+{ "id": "HailDamage", "subClassOf": "ImpactDamage" },
+{ "id": "ToolDamage", "subClassOf": "ImpactDamage" },
+
+{ "id": "FastenerDamage", "subClassOf": "StructuralDamage" },
+{ "id": "LooseFastener", "subClassOf": "FastenerDamage" },
+{ "id": "PulledFastener", "subClassOf": "FastenerDamage" },
+{ "id": "FailedFastener", "subClassOf": "FastenerDamage" },
+{ "id": "FastenerHoleElongation", "subClassOf": "FastenerDamage" },
+
+{ "id": "Delamination", "subClassOf": "CompositeStructuralDamage" },
+{ "id": "Disbond", "subClassOf": "CompositeStructuralDamage" },
+{ "id": "CoreCrush", "subClassOf": "CompositeStructuralDamage" },
+{ "id": "MatrixCracking", "subClassOf": "CompositeStructuralDamage" },
+{ "id": "FiberBreakage", "subClassOf": "CompositeStructuralDamage" },
+{ "id": "BarelyVisibleImpactDamage", "subClassOf": "CompositeStructuralDamage" },
+{ "id": "MoistureIngressDamage", "subClassOf": "CompositeStructuralDamage" },
+
+{ "id": "CoatingDamage", "subClassOf": "AircraftDamage" },
+{ "id": "PaintDamage", "subClassOf": "CoatingDamage" },
+{ "id": "PaintPeeling", "subClassOf": "PaintDamage" },
+{ "id": "PaintBlistering", "subClassOf": "PaintDamage" },
+{ "id": "PaintCracking", "subClassOf": "PaintDamage" },
+{ "id": "CoatingDisbond", "subClassOf": "CoatingDamage" },
+
+{ "id": "ThermalDamage", "subClassOf": "AircraftDamage" },
+{ "id": "OverheatDamage", "subClassOf": "ThermalDamage" },
+{ "id": "FireDamage", "subClassOf": "ThermalDamage" },
+{ "id": "HeatDiscoloration", "subClassOf": "ThermalDamage" },
+
+{ "id": "ElectricalDamage", "subClassOf": "AircraftDamage" },
+{ "id": "ArcDamage", "subClassOf": "ElectricalDamage" },
+{ "id": "ArcTracking", "subClassOf": "ElectricalDamage" },
+{ "id": "BurnDamage", "subClassOf": "ElectricalDamage" },
+{ "id": "WireChafing", "subClassOf": "ElectricalDamage" },
+{ "id": "InsulationFailure", "subClassOf": "ElectricalDamage" },
+
+{ "id": "FluidSystemDamage", "subClassOf": "AircraftDamage" },
+{ "id": "LeakDamage", "subClassOf": "FluidSystemDamage" },
+{ "id": "HydraulicLeakDamage", "subClassOf": "LeakDamage" },
+{ "id": "FuelLeakDamage", "subClassOf": "LeakDamage" },
+{ "id": "PneumaticLeakDamage", "subClassOf": "LeakDamage" },
+
+{ "id": "WearDamage", "subClassOf": "AircraftDamage" },
+{ "id": "AdhesiveWear", "subClassOf": "WearDamage" },
+{ "id": "AbrasiveWear", "subClassOf": "WearDamage" },
+{ "id": "CorrosiveWear", "subClassOf": "WearDamage" },
+{ "id": "RollingContactWear", "subClassOf": "WearDamage" },
+
+{ "id": "EnvironmentalDamage", "subClassOf": "AircraftDamage" },
+{ "id": "LightningStrikeDamage", "subClassOf": "EnvironmentalDamage" },
+{ "id": "UVDegradation", "subClassOf": "EnvironmentalDamage" },
+{ "id": "WaterIngressDamage", "subClassOf": "EnvironmentalDamage" },
+{ "id": "ContaminationDamage", "subClassOf": "EnvironmentalDamage" },
+{ "id": "ChemicalAttackDamage", "subClassOf": "EnvironmentalDamage" }
+]
+}

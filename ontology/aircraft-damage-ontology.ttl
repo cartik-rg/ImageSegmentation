@@ -1,0 +1,270 @@
+@prefix : <http://www.robbins-gioia.com/aircraft-damage-ontology#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+ 
+#################################################################
+# Root Damage Class
+#################################################################
+ 
+:AircraftDamage rdf:type rdfs:Class .
+ 
+#################################################################
+# Structural Damage
+#################################################################
+ 
+:StructuralDamage rdf:type rdfs:Class ;
+rdfs:subClassOf :AircraftDamage .
+ 
+:MetalStructuralDamage rdf:type rdfs:Class ;
+rdfs:subClassOf :StructuralDamage .
+ 
+:CompositeStructuralDamage rdf:type rdfs:Class ;
+rdfs:subClassOf :StructuralDamage .
+ 
+#################################################################
+# Cracking
+#################################################################
+ 
+:Crack rdf:type rdfs:Class ;
+rdfs:subClassOf :MetalStructuralDamage .
+ 
+:FatigueCrack rdf:type rdfs:Class ;
+rdfs:subClassOf :Crack .
+ 
+:StressCorrosionCrack rdf:type rdfs:Class ;
+rdfs:subClassOf :Crack .
+ 
+:ThermalCrack rdf:type rdfs:Class ;
+rdfs:subClassOf :Crack .
+ 
+:WeldCrack rdf:type rdfs:Class ;
+rdfs:subClassOf :Crack .
+ 
+:GrindingCrack rdf:type rdfs:Class ;
+rdfs:subClassOf :Crack .
+ 
+#################################################################
+# Corrosion
+#################################################################
+ 
+:CorrosionDamage rdf:type rdfs:Class ;
+rdfs:subClassOf :MetalStructuralDamage .
+ 
+:UniformCorrosion rdf:type rdfs:Class ;
+rdfs:subClassOf :CorrosionDamage .
+ 
+:PittingCorrosion rdf:type rdfs:Class ;
+rdfs:subClassOf :CorrosionDamage .
+ 
+:GalvanicCorrosion rdf:type rdfs:Class ;
+rdfs:subClassOf :CorrosionDamage .
+ 
+:IntergranularCorrosion rdf:type rdfs:Class ;
+rdfs:subClassOf :CorrosionDamage .
+ 
+:ExfoliationCorrosion rdf:type rdfs:Class ;
+rdfs:subClassOf :CorrosionDamage .
+ 
+:FiliformCorrosion rdf:type rdfs:Class ;
+rdfs:subClassOf :CorrosionDamage .
+ 
+:CreviceCorrosion rdf:type rdfs:Class ;
+rdfs:subClassOf :CorrosionDamage .
+ 
+:MicrobiologicallyInducedCorrosion rdf:type rdfs:Class ;
+rdfs:subClassOf :CorrosionDamage .
+ 
+#################################################################
+# Deformation
+#################################################################
+ 
+:DeformationDamage rdf:type rdfs:Class ;
+rdfs:subClassOf :StructuralDamage .
+ 
+:Dent rdf:type rdfs:Class ;
+rdfs:subClassOf :DeformationDamage .
+ 
+:Buckle rdf:type rdfs:Class ;
+rdfs:subClassOf :DeformationDamage .
+ 
+:Wrinkle rdf:type rdfs:Class ;
+rdfs:subClassOf :DeformationDamage .
+ 
+:Warping rdf:type rdfs:Class ;
+rdfs:subClassOf :DeformationDamage .
+ 
+:Bending rdf:type rdfs:Class ;
+rdfs:subClassOf :DeformationDamage .
+ 
+:PermanentSet rdf:type rdfs:Class ;
+rdfs:subClassOf :DeformationDamage .
+ 
+#################################################################
+# Surface Damage
+#################################################################
+ 
+:SurfaceDamage rdf:type rdfs:Class ;
+rdfs:subClassOf :StructuralDamage .
+ 
+:Scratch rdf:type rdfs:Class ;
+rdfs:subClassOf :SurfaceDamage .
+ 
+:Gouge rdf:type rdfs:Class ;
+rdfs:subClassOf :SurfaceDamage .
+ 
+:ScoreMark rdf:type rdfs:Class ;
+rdfs:subClassOf :SurfaceDamage .
+ 
+:Abrasion rdf:type rdfs:Class ;
+rdfs:subClassOf :SurfaceDamage .
+ 
+:Erosion rdf:type rdfs:Class ;
+rdfs:subClassOf :SurfaceDamage .
+ 
+:FrettingDamage rdf:type rdfs:Class ;
+rdfs:subClassOf :SurfaceDamage .
+ 
+:ImpactDamage rdf:type rdfs:Class ;
+rdfs:subClassOf :SurfaceDamage .
+ 
+:ForeignObjectDamage rdf:type rdfs:Class ;
+rdfs:subClassOf :ImpactDamage .
+ 
+:BirdStrikeDamage rdf:type rdfs:Class ;
+rdfs:subClassOf :ImpactDamage .
+ 
+:HailDamage rdf:type rdfs:Class ;
+rdfs:subClassOf :ImpactDamage .
+ 
+:ToolDamage rdf:type rdfs:Class ;
+rdfs:subClassOf :ImpactDamage .
+ 
+#################################################################
+# Fastener Damage
+#################################################################
+ 
+:FastenerDamage rdf:type rdfs:Class ;
+rdfs:subClassOf :StructuralDamage .
+ 
+:LooseFastener rdf:type rdfs:Class ;
+rdfs:subClassOf :FastenerDamage .
+ 
+:PulledFastener rdf:type rdfs:Class ;
+rdfs:subClassOf :FastenerDamage .
+ 
+:FailedFastener rdf:type rdfs:Class ;
+rdfs:subClassOf :FastenerDamage .
+ 
+:FastenerHoleElongation rdf:type rdfs:Class ;
+rdfs:subClassOf :FastenerDamage .
+ 
+#################################################################
+# Composite Damage
+#################################################################
+ 
+:Delamination rdf:type rdfs:Class ;
+rdfs:subClassOf :CompositeStructuralDamage .
+ 
+:Disbond rdf:type rdfs:Class ;
+rdfs:subClassOf :CompositeStructuralDamage .
+ 
+:CoreCrush rdf:type rdfs:Class ;
+rdfs:subClassOf :CompositeStructuralDamage .
+ 
+:MatrixCracking rdf:type rdfs:Class ;
+rdfs:subClassOf :CompositeStructuralDamage .
+ 
+:FiberBreakage rdf:type rdfs:Class ;
+rdfs:subClassOf :CompositeStructuralDamage .
+ 
+:BarelyVisibleImpactDamage rdf:type rdfs:Class ;
+rdfs:subClassOf :CompositeStructuralDamage .
+ 
+:MoistureIngressDamage rdf:type rdfs:Class ;
+rdfs:subClassOf :CompositeStructuralDamage .
+ 
+#################################################################
+# Coating and Finish Damage
+#################################################################
+ 
+:CoatingDamage rdf:type rdfs:Class ;
+rdfs:subClassOf :AircraftDamage .
+ 
+:PaintDamage rdf:type rdfs:Class ;
+rdfs:subClassOf :CoatingDamage .
+ 
+:PaintPeeling rdf:type rdfs:Class ;
+rdfs:subClassOf :PaintDamage .
+ 
+:PaintBlistering rdf:type rdfs:Class ;
+rdfs:subClassOf :PaintDamage .
+ 
+:PaintCracking rdf:type rdfs:Class ;
+rdfs:subClassOf :PaintDamage .
+ 
+:CoatingDisbond rdf:type rdfs:Class ;
+rdfs:subClassOf :CoatingDamage .
+ 
+#################################################################
+# Thermal Damage
+#################################################################
+ 
+:ThermalDamage rdf:type rdfs:Class ;
+rdfs:subClassOf :AircraftDamage .
+ 
+:OverheatDamage rdf:type rdfs:Class ;
+rdfs:subClassOf :ThermalDamage .
+ 
+:FireDamage rdf:type rdfs:Class ;
+rdfs:subClassOf :ThermalDamage .
+ 
+:HeatDiscoloration rdf:type rdfs:Class ;
+rdfs:subClassOf :ThermalDamage .
+ 
+#################################################################
+# Electrical Damage
+#################################################################
+ 
+:ElectricalDamage rdf:type rdfs:Class ;
+rdfs:subClassOf :AircraftDamage .
+ 
+:ArcDamage rdf:type rdfs:Class ;
+rdfs:subClassOf :ElectricalDamage .
+ 
+:ArcTracking rdf:type rdfs:Class ;
+rdfs:subClassOf :ElectricalDamage .
+ 
+:BurnDamage rdf:type rdfs:Class ;
+rdfs:subClassOf :ElectricalDamage .
+ 
+:WireChafing rdf:type rdfs:Class ;
+rdfs:subClassOf :ElectricalDamage .
+ 
+:InsulationFailure rdf:type rdfs:Class ;
+rdfs:subClassOf :ElectricalDamage .
+ 
+#################################################################
+# Fluid System Damage
+#################################################################
+ 
+:FluidSystemDamage rdf:type rdfs:Class ;
+rdfs:subClassOf :AircraftDamage .
+ 
+:LeakDamage rdf:type rdfs:Class ;
+rdfs:subClassOf :FluidSystemDamage .
+ 
+:HydraulicLeakDamage rdf:type rdfs:Class ;
+rdfs:subClassOf :LeakDamage .
+ 
+:FuelLeakDamage rdf:type rdfs:Class ;
+rdfs:subClassOf :LeakDamage .
+ 
+:PneumaticLeakDamage rdf:type rdfs:Class ;
+rdfs:subClassOf :LeakDamage .
+ 
+#################################################################
+# Wear Damage
+#################################################################
+ 
+:WearDamage rdf:type rdfs:Class ;
+rdfs:subClassOf :AircraftDamage .

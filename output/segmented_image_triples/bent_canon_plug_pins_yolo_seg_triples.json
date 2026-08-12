@@ -1,0 +1,92 @@
+[
+  {
+    "subject": "bent_canon_plug_pins",
+    "predicate": "contains",
+    "object": "cracked pane",
+    "confidence": 0.88
+  },
+  {
+    "subject": "bent_canon_plug_pins",
+    "predicate": "contains",
+    "object": "wing",
+    "confidence": 0.84
+  },
+  {
+    "subject": "bent_canon_plug_pins",
+    "predicate": "contains",
+    "object": "damaged wire",
+    "confidence": 0.741
+  },
+  {
+    "subject": "bent_canon_plug_pins",
+    "predicate": "contains",
+    "object": "aileron",
+    "confidence": 0.726
+  },
+  {
+    "subject": "bent_canon_plug_pins",
+    "predicate": "contains",
+    "object": "tail",
+    "confidence": 0.625
+  },
+  {
+    "subject": "bent_canon_plug_pins",
+    "predicate": "contains",
+    "object": "corroded area",
+    "confidence": 0.59
+  },
+  {
+    "subject": "bent_canon_plug_pins",
+    "predicate": "contains",
+    "object": "broken panel",
+    "confidence": 0.532
+  },
+  {
+    "subject": "bent_canon_plug_pins",
+    "predicate": "contains",
+    "object": "cockpit",
+    "confidence": 0.37
+  },
+  {
+    "subject": "bent_canon_plug_pins",
+    "predicate": "contains",
+    "object": "engine",
+    "confidence": 0.361
+  },
+  {
+    "subject": "bent_canon_plug_pins",
+    "predicate": "contains",
+    "object": "propeller",
+    "confidence": 0.216
+  },
+  {
+    "subject": "bent_canon_plug_pins",
+    "predicate": "contains",
+    "object": "fuselage",
+    "confidence": 0.207
+  },
+  {
+    "subject": "bent_canon_plug_pins",
+    "predicate": "contains",
+    "object": "landing gear",
+    "confidence": 0.171
+  },
+  {
+    "subject": "bent_canon_plug_pins",
+    "predicate": "contains",
+    "object": "flap",
+    "confidence": 0.165
+  },
+  {
+    "subject": "bent_canon_plug_pins",
+    "predicate": "contains",
+    "object": "missing rivet",
+    "confidence": 0.162
+  },
+  {
+    "subject": "bent_canon_plug_pins",
+    "predicate": "contains",
+    "object": "wheel assembly",
+    "confidence": 0.148
+  }
+]

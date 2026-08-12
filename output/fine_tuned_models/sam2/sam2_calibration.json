@@ -1,0 +1,17 @@
+{
+  "model_name": "sam2",
+  "vocabulary": [
+    "damaged engine fan blade",
+    "engine fan blade crack"
+  ],
+  "average_bbox": {
+    "x0": 163,
+    "y0": 213,
+    "x1": 657,
+    "y1": 578
+  },
+  "label_counts": {
+    "damaged engine fan blade": 4,
+    "engine fan blade crack": 4
+  }
+}

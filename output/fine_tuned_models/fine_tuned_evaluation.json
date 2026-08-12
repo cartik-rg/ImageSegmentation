@@ -1,0 +1,3182 @@
+[
+  {
+    "image_path": "C:\\Users\\CartikSaravanamuthu\\ONR-RG\\ImageSegmentation\\input\\damaged_engines\\images\\damaged_engine_blade_001_boxed.jpg",
+    "model_name": "sam2",
+    "segmented_image_path": "output\\fine_tuned_models\\sam2\\evaluation\\output\\segmented_images\\damaged_engine_blade_001_boxed_sam2_segmented.png",
+    "triples_path": "output\\fine_tuned_models\\sam2\\evaluation\\output\\segmented_image_triples\\damaged_engine_blade_001_boxed_sam2_triples.json",
+    "predicted_labels": [
+      {
+        "label": "fan blade",
+        "score": 0.934,
+        "bbox": [
+          796,
+          10,
+          1189,
+          228
+        ]
+      },
+      {
+        "label": "damaged aircraft engine",
+        "score": 0.888,
+        "bbox": [
+          403,
+          10,
+          796,
+          228
+        ]
+      },
+      {
+        "label": "corrosion",
+        "score": 0.661,
+        "bbox": [
+          796,
+          446,
+          1189,
+          664
+        ]
+      },
+      {
+        "label": "aircraft propulsion system",
+        "score": 0.568,
+        "bbox": [
+          10,
+          228,
+          403,
+          446
+        ]
+      },
+      {
+        "label": "engine damage",
+        "score": 0.442,
+        "bbox": [
+          10,
+          10,
+          403,
+          228
+        ]
+      },
+      {
+        "label": "broken blade",
+        "score": 0.34,
+        "bbox": [
+          403,
+          228,
+          796,
+          446
+        ]
+      },
+      {
+        "label": "deformation",
+        "score": 0.286,
+        "bbox": [
+          796,
+          228,
+          1189,
+          446
+        ]
+      },
+      {
+        "label": "dent",
+        "score": 0.173,
+        "bbox": [
+          10,
+          446,
+          403,
+          664
+        ]
+      },
+      {
+        "label": "crack",
+        "score": 0.164,
+        "bbox": [
+          403,
+          446,
+          796,
+          664
+        ]
+      }
+    ],
+    "triples": [
+      {
+        "subject": "damaged_engine_blade_001_boxed",
+        "predicate": "contains",
+        "object": "fan blade",
+        "confidence": 0.934
+      },
+      {
+        "subject": "damaged_engine_blade_001_boxed",
+        "predicate": "contains",
+        "object": "damaged aircraft engine",
+        "confidence": 0.888
+      },
+      {
+        "subject": "damaged_engine_blade_001_boxed",
+        "predicate": "contains",
+        "object": "corrosion",
+        "confidence": 0.661
+      },
+      {
+        "subject": "damaged_engine_blade_001_boxed",
+        "predicate": "contains",
+        "object": "aircraft propulsion system",
+        "confidence": 0.568
+      },
+      {
+        "subject": "damaged_engine_blade_001_boxed",
+        "predicate": "contains",
+        "object": "engine damage",
+        "confidence": 0.442
+      },
+      {
+        "subject": "damaged_engine_blade_001_boxed",
+        "predicate": "contains",
+        "object": "broken blade",
+        "confidence": 0.34
+      },
+      {
+        "subject": "damaged_engine_blade_001_boxed",
+        "predicate": "contains",
+        "object": "deformation",
+        "confidence": 0.286
+      },
+      {
+        "subject": "damaged_engine_blade_001_boxed",
+        "predicate": "contains",
+        "object": "dent",
+        "confidence": 0.173
+      },
+      {
+        "subject": "damaged_engine_blade_001_boxed",
+        "predicate": "contains",
+        "object": "crack",
+        "confidence": 0.164
+      }
+    ],
+    "metrics": {
+      "inference_latency_ms": 2234.234,
+      "gpu_usage_mb": 0.0,
+      "gpu_reserved_mb": 0.0
+    }
+  },
+  {
+    "image_path": "C:\\Users\\CartikSaravanamuthu\\ONR-RG\\ImageSegmentation\\input\\damaged_engines\\images\\damaged_engine_blade_002_boxed.jpg",
+    "model_name": "sam2",
+    "segmented_image_path": "output\\fine_tuned_models\\sam2\\evaluation\\output\\segmented_images\\damaged_engine_blade_002_boxed_sam2_segmented.png",
+    "triples_path": "output\\fine_tuned_models\\sam2\\evaluation\\output\\segmented_image_triples\\damaged_engine_blade_002_boxed_sam2_triples.json",
+    "predicted_labels": [
+      {
+        "label": "aircraft propulsion system",
+        "score": 0.95,
+        "bbox": [
+          216,
+          10,
+          422,
+          163
+        ]
+      },
+      {
+        "label": "engine damage",
+        "score": 0.854,
+        "bbox": [
+          10,
+          163,
+          216,
+          316
+        ]
+      },
+      {
+        "label": "damaged aircraft engine",
+        "score": 0.82,
+        "bbox": [
+          10,
+          10,
+          216,
+          163
+        ]
+      },
+      {
+        "label": "fan blade",
+        "score": 0.768,
+        "bbox": [
+          422,
+          10,
+          628,
+          163
+        ]
+      },
+      {
+        "label": "dent",
+        "score": 0.556,
+        "bbox": [
+          10,
+          316,
+          216,
+          469
+        ]
+      },
+      {
+        "label": "deformation",
+        "score": 0.544,
+        "bbox": [
+          216,
+          163,
+          422,
+          316
+        ]
+      },
+      {
+        "label": "crack",
+        "score": 0.432,
+        "bbox": [
+          422,
+          316,
+          628,
+          469
+        ]
+      },
+      {
+        "label": "broken blade",
+        "score": 0.412,
+        "bbox": [
+          422,
+          163,
+          628,
+          316
+        ]
+      },
+      {
+        "label": "corrosion",
+        "score": 0.346,
+        "bbox": [
+          216,
+          316,
+          422,
+          469
+        ]
+      }
+    ],
+    "triples": [
+      {
+        "subject": "damaged_engine_blade_002_boxed",
+        "predicate": "contains",
+        "object": "aircraft propulsion system",
+        "confidence": 0.95
+      },
+      {
+        "subject": "damaged_engine_blade_002_boxed",
+        "predicate": "contains",
+        "object": "engine damage",
+        "confidence": 0.854
+      },
+      {
+        "subject": "damaged_engine_blade_002_boxed",
+        "predicate": "contains",
+        "object": "damaged aircraft engine",
+        "confidence": 0.82
+      },
+      {
+        "subject": "damaged_engine_blade_002_boxed",
+        "predicate": "contains",
+        "object": "fan blade",
+        "confidence": 0.768
+      },
+      {
+        "subject": "damaged_engine_blade_002_boxed",
+        "predicate": "contains",
+        "object": "dent",
+        "confidence": 0.556
+      },
+      {
+        "subject": "damaged_engine_blade_002_boxed",
+        "predicate": "contains",
+        "object": "deformation",
+        "confidence": 0.544
+      },
+      {
+        "subject": "damaged_engine_blade_002_boxed",
+        "predicate": "contains",
+        "object": "crack",
+        "confidence": 0.432
+      },
+      {
+        "subject": "damaged_engine_blade_002_boxed",
+        "predicate": "contains",
+        "object": "broken blade",
+        "confidence": 0.412
+      },
+      {
+        "subject": "damaged_engine_blade_002_boxed",
+        "predicate": "contains",
+        "object": "corrosion",
+        "confidence": 0.346
+      }
+    ],
+    "metrics": {
+      "inference_latency_ms": 1488.172,
+      "gpu_usage_mb": 0.0,
+      "gpu_reserved_mb": 0.0
+    }
+  },
+  {
+    "image_path": "C:\\Users\\CartikSaravanamuthu\\ONR-RG\\ImageSegmentation\\input\\damaged_engines\\images\\damaged_engine_blade_003_boxed.jpg",
+    "model_name": "sam2",
+    "segmented_image_path": "output\\fine_tuned_models\\sam2\\evaluation\\output\\segmented_images\\damaged_engine_blade_003_boxed_sam2_segmented.png",
+    "triples_path": "output\\fine_tuned_models\\sam2\\evaluation\\output\\segmented_image_triples\\damaged_engine_blade_003_boxed_sam2_triples.json",
+    "predicted_labels": [
+      {
+        "label": "engine damage",
+        "score": 0.711,
+        "bbox": [
+          436,
+          10,
+          862,
+          329
+        ]
+      },
+      {
+        "label": "deformation",
+        "score": 0.676,
+        "bbox": [
+          436,
+          329,
+          862,
+          648
+        ]
+      },
+      {
+        "label": "crack",
+        "score": 0.62,
+        "bbox": [
+          862,
+          648,
+          1288,
+          967
+        ]
+      },
+      {
+        "label": "dent",
+        "score": 0.503,
+        "bbox": [
+          436,
+          648,
+          862,
+          967
+        ]
+      },
+      {
+        "label": "corrosion",
+        "score": 0.463,
+        "bbox": [
+          10,
+          648,
+          436,
+          967
+        ]
+      },
+      {
+        "label": "fan blade",
+        "score": 0.35,
+        "bbox": [
+          10,
+          329,
+          436,
+          648
+        ]
+      },
+      {
+        "label": "aircraft propulsion system",
+        "score": 0.245,
+        "bbox": [
+          862,
+          10,
+          1288,
+          329
+        ]
+      },
+      {
+        "label": "damaged aircraft engine",
+        "score": 0.233,
+        "bbox": [
+          10,
+          10,
+          436,
+          329
+        ]
+      },
+      {
+        "label": "broken blade",
+        "score": 0.153,
+        "bbox": [
+          862,
+          329,
+          1288,
+          648
+        ]
+      }
+    ],
+    "triples": [
+      {
+        "subject": "damaged_engine_blade_003_boxed",
+        "predicate": "contains",
+        "object": "engine damage",
+        "confidence": 0.711
+      },
+      {
+        "subject": "damaged_engine_blade_003_boxed",
+        "predicate": "contains",
+        "object": "deformation",
+        "confidence": 0.676
+      },
+      {
+        "subject": "damaged_engine_blade_003_boxed",
+        "predicate": "contains",
+        "object": "crack",
+        "confidence": 0.62
+      },
+      {
+        "subject": "damaged_engine_blade_003_boxed",
+        "predicate": "contains",
+        "object": "dent",
+        "confidence": 0.503
+      },
+      {
+        "subject": "damaged_engine_blade_003_boxed",
+        "predicate": "contains",
+        "object": "corrosion",
+        "confidence": 0.463
+      },
+      {
+        "subject": "damaged_engine_blade_003_boxed",
+        "predicate": "contains",
+        "object": "fan blade",
+        "confidence": 0.35
+      },
+      {
+        "subject": "damaged_engine_blade_003_boxed",
+        "predicate": "contains",
+        "object": "aircraft propulsion system",
+        "confidence": 0.245
+      },
+      {
+        "subject": "damaged_engine_blade_003_boxed",
+        "predicate": "contains",
+        "object": "damaged aircraft engine",
+        "confidence": 0.233
+      },
+      {
+        "subject": "damaged_engine_blade_003_boxed",
+        "predicate": "contains",
+        "object": "broken blade",
+        "confidence": 0.153
+      }
+    ],
+    "metrics": {
+      "inference_latency_ms": 1991.36,
+      "gpu_usage_mb": 0.0,
+      "gpu_reserved_mb": 0.0
+    }
+  },
+  {
+    "image_path": "C:\\Users\\CartikSaravanamuthu\\ONR-RG\\ImageSegmentation\\input\\damaged_engines\\images\\damaged_engine_blade_004_boxed.jpg",
+    "model_name": "sam2",
+    "segmented_image_path": "output\\fine_tuned_models\\sam2\\evaluation\\output\\segmented_images\\damaged_engine_blade_004_boxed_sam2_segmented.png",
+    "triples_path": "output\\fine_tuned_models\\sam2\\evaluation\\output\\segmented_image_triples\\damaged_engine_blade_004_boxed_sam2_triples.json",
+    "predicted_labels": [
+      {
+        "label": "dent",
+        "score": 0.866,
+        "bbox": [
+          10,
+          476,
+          138,
+          709
+        ]
+      },
+      {
+        "label": "aircraft propulsion system",
+        "score": 0.863,
+        "bbox": [
+          10,
+          243,
+          138,
+          476
+        ]
+      },
+      {
+        "label": "crack",
+        "score": 0.844,
+        "bbox": [
+          266,
+          476,
+          394,
+          709
+        ]
+      },
+      {
+        "label": "fan blade",
+        "score": 0.722,
+        "bbox": [
+          266,
+          10,
+          394,
+          243
+        ]
+      },
+      {
+        "label": "deformation",
+        "score": 0.683,
+        "bbox": [
+          266,
+          243,
+          394,
+          476
+        ]
+      },
+      {
+        "label": "engine damage",
+        "score": 0.576,
+        "bbox": [
+          138,
+          10,
+          266,
+          243
+        ]
+      },
+      {
+        "label": "corrosion",
+        "score": 0.572,
+        "bbox": [
+          138,
+          476,
+          266,
+          709
+        ]
+      },
+      {
+        "label": "damaged aircraft engine",
+        "score": 0.411,
+        "bbox": [
+          10,
+          10,
+          138,
+          243
+        ]
+      },
+      {
+        "label": "broken blade",
+        "score": 0.122,
+        "bbox": [
+          138,
+          243,
+          266,
+          476
+        ]
+      }
+    ],
+    "triples": [
+      {
+        "subject": "damaged_engine_blade_004_boxed",
+        "predicate": "contains",
+        "object": "dent",
+        "confidence": 0.866
+      },
+      {
+        "subject": "damaged_engine_blade_004_boxed",
+        "predicate": "contains",
+        "object": "aircraft propulsion system",
+        "confidence": 0.863
+      },
+      {
+        "subject": "damaged_engine_blade_004_boxed",
+        "predicate": "contains",
+        "object": "crack",
+        "confidence": 0.844
+      },
+      {
+        "subject": "damaged_engine_blade_004_boxed",
+        "predicate": "contains",
+        "object": "fan blade",
+        "confidence": 0.722
+      },
+      {
+        "subject": "damaged_engine_blade_004_boxed",
+        "predicate": "contains",
+        "object": "deformation",
+        "confidence": 0.683
+      },
+      {
+        "subject": "damaged_engine_blade_004_boxed",
+        "predicate": "contains",
+        "object": "engine damage",
+        "confidence": 0.576
+      },
+      {
+        "subject": "damaged_engine_blade_004_boxed",
+        "predicate": "contains",
+        "object": "corrosion",
+        "confidence": 0.572
+      },
+      {
+        "subject": "damaged_engine_blade_004_boxed",
+        "predicate": "contains",
+        "object": "damaged aircraft engine",
+        "confidence": 0.411
+      },
+      {
+        "subject": "damaged_engine_blade_004_boxed",
+        "predicate": "contains",
+        "object": "broken blade",
+        "confidence": 0.122
+      }
+    ],
+    "metrics": {
+      "inference_latency_ms": 1436.848,
+      "gpu_usage_mb": 0.0,
+      "gpu_reserved_mb": 0.0
+    }
+  },
+  {
+    "image_path": "C:\\Users\\CartikSaravanamuthu\\ONR-RG\\ImageSegmentation\\input\\damaged_engines\\images\\damaged_engine_blade_001_boxed.jpg",
+    "model_name": "groundingdino_sam2",
+    "segmented_image_path": "output\\fine_tuned_models\\groundingdino_sam2\\evaluation\\output\\segmented_images\\damaged_engine_blade_001_boxed_groundingdino_sam2_segmented.png",
+    "triples_path": "output\\fine_tuned_models\\groundingdino_sam2\\evaluation\\output\\segmented_image_triples\\damaged_engine_blade_001_boxed_groundingdino_sam2_triples.json",
+    "predicted_labels": [
+      {
+        "label": "fan blade",
+        "score": 0.815,
+        "bbox": [
+          796,
+          10,
+          1189,
+          228
+        ]
+      },
+      {
+        "label": "broken blade",
+        "score": 0.757,
+        "bbox": [
+          403,
+          228,
+          796,
+          446
+        ]
+      },
+      {
+        "label": "aircraft propulsion system",
+        "score": 0.726,
+        "bbox": [
+          10,
+          228,
+          403,
+          446
+        ]
+      },
+      {
+        "label": "engine damage",
+        "score": 0.676,
+        "bbox": [
+          10,
+          10,
+          403,
+          228
+        ]
+      },
+      {
+        "label": "dent",
+        "score": 0.667,
+        "bbox": [
+          10,
+          446,
+          403,
+          664
+        ]
+      },
+      {
+        "label": "corrosion",
+        "score": 0.54,
+        "bbox": [
+          796,
+          446,
+          1189,
+          664
+        ]
+      },
+      {
+        "label": "deformation",
+        "score": 0.528,
+        "bbox": [
+          796,
+          228,
+          1189,
+          446
+        ]
+      },
+      {
+        "label": "damaged aircraft engine",
+        "score": 0.335,
+        "bbox": [
+          403,
+          10,
+          796,
+          228
+        ]
+      },
+      {
+        "label": "crack",
+        "score": 0.302,
+        "bbox": [
+          403,
+          446,
+          796,
+          664
+        ]
+      }
+    ],
+    "triples": [
+      {
+        "subject": "damaged_engine_blade_001_boxed",
+        "predicate": "contains",
+        "object": "fan blade",
+        "confidence": 0.815
+      },
+      {
+        "subject": "damaged_engine_blade_001_boxed",
+        "predicate": "contains",
+        "object": "broken blade",
+        "confidence": 0.757
+      },
+      {
+        "subject": "damaged_engine_blade_001_boxed",
+        "predicate": "contains",
+        "object": "aircraft propulsion system",
+        "confidence": 0.726
+      },
+      {
+        "subject": "damaged_engine_blade_001_boxed",
+        "predicate": "contains",
+        "object": "engine damage",
+        "confidence": 0.676
+      },
+      {
+        "subject": "damaged_engine_blade_001_boxed",
+        "predicate": "contains",
+        "object": "dent",
+        "confidence": 0.667
+      },
+      {
+        "subject": "damaged_engine_blade_001_boxed",
+        "predicate": "contains",
+        "object": "corrosion",
+        "confidence": 0.54
+      },
+      {
+        "subject": "damaged_engine_blade_001_boxed",
+        "predicate": "contains",
+        "object": "deformation",
+        "confidence": 0.528
+      },
+      {
+        "subject": "damaged_engine_blade_001_boxed",
+        "predicate": "contains",
+        "object": "damaged aircraft engine",
+        "confidence": 0.335
+      },
+      {
+        "subject": "damaged_engine_blade_001_boxed",
+        "predicate": "contains",
+        "object": "crack",
+        "confidence": 0.302
+      }
+    ],
+    "metrics": {
+      "inference_latency_ms": 1717.293,
+      "gpu_usage_mb": 0.0,
+      "gpu_reserved_mb": 0.0
+    }
+  },
+  {
+    "image_path": "C:\\Users\\CartikSaravanamuthu\\ONR-RG\\ImageSegmentation\\input\\damaged_engines\\images\\damaged_engine_blade_002_boxed.jpg",
+    "model_name": "groundingdino_sam2",
+    "segmented_image_path": "output\\fine_tuned_models\\groundingdino_sam2\\evaluation\\output\\segmented_images\\damaged_engine_blade_002_boxed_groundingdino_sam2_segmented.png",
+    "triples_path": "output\\fine_tuned_models\\groundingdino_sam2\\evaluation\\output\\segmented_image_triples\\damaged_engine_blade_002_boxed_groundingdino_sam2_triples.json",
+    "predicted_labels": [
+      {
+        "label": "dent",
+        "score": 0.91,
+        "bbox": [
+          10,
+          316,
+          216,
+          469
+        ]
+      },
+      {
+        "label": "broken blade",
+        "score": 0.835,
+        "bbox": [
+          422,
+          163,
+          628,
+          316
+        ]
+      },
+      {
+        "label": "damaged aircraft engine",
+        "score": 0.757,
+        "bbox": [
+          10,
+          10,
+          216,
+          163
+        ]
+      },
+      {
+        "label": "fan blade",
+        "score": 0.752,
+        "bbox": [
+          422,
+          10,
+          628,
+          163
+        ]
+      },
+      {
+        "label": "engine damage",
+        "score": 0.697,
+        "bbox": [
+          10,
+          163,
+          216,
+          316
+        ]
+      },
+      {
+        "label": "crack",
+        "score": 0.537,
+        "bbox": [
+          422,
+          316,
+          628,
+          469
+        ]
+      },
+      {
+        "label": "aircraft propulsion system",
+        "score": 0.495,
+        "bbox": [
+          216,
+          10,
+          422,
+          163
+        ]
+      },
+      {
+        "label": "corrosion",
+        "score": 0.256,
+        "bbox": [
+          216,
+          316,
+          422,
+          469
+        ]
+      },
+      {
+        "label": "deformation",
+        "score": 0.178,
+        "bbox": [
+          216,
+          163,
+          422,
+          316
+        ]
+      }
+    ],
+    "triples": [
+      {
+        "subject": "damaged_engine_blade_002_boxed",
+        "predicate": "contains",
+        "object": "dent",
+        "confidence": 0.91
+      },
+      {
+        "subject": "damaged_engine_blade_002_boxed",
+        "predicate": "contains",
+        "object": "broken blade",
+        "confidence": 0.835
+      },
+      {
+        "subject": "damaged_engine_blade_002_boxed",
+        "predicate": "contains",
+        "object": "damaged aircraft engine",
+        "confidence": 0.757
+      },
+      {
+        "subject": "damaged_engine_blade_002_boxed",
+        "predicate": "contains",
+        "object": "fan blade",
+        "confidence": 0.752
+      },
+      {
+        "subject": "damaged_engine_blade_002_boxed",
+        "predicate": "contains",
+        "object": "engine damage",
+        "confidence": 0.697
+      },
+      {
+        "subject": "damaged_engine_blade_002_boxed",
+        "predicate": "contains",
+        "object": "crack",
+        "confidence": 0.537
+      },
+      {
+        "subject": "damaged_engine_blade_002_boxed",
+        "predicate": "contains",
+        "object": "aircraft propulsion system",
+        "confidence": 0.495
+      },
+      {
+        "subject": "damaged_engine_blade_002_boxed",
+        "predicate": "contains",
+        "object": "corrosion",
+        "confidence": 0.256
+      },
+      {
+        "subject": "damaged_engine_blade_002_boxed",
+        "predicate": "contains",
+        "object": "deformation",
+        "confidence": 0.178
+      }
+    ],
+    "metrics": {
+      "inference_latency_ms": 1474.814,
+      "gpu_usage_mb": 0.0,
+      "gpu_reserved_mb": 0.0
+    }
+  },
+  {
+    "image_path": "C:\\Users\\CartikSaravanamuthu\\ONR-RG\\ImageSegmentation\\input\\damaged_engines\\images\\damaged_engine_blade_003_boxed.jpg",
+    "model_name": "groundingdino_sam2",
+    "segmented_image_path": "output\\fine_tuned_models\\groundingdino_sam2\\evaluation\\output\\segmented_images\\damaged_engine_blade_003_boxed_groundingdino_sam2_segmented.png",
+    "triples_path": "output\\fine_tuned_models\\groundingdino_sam2\\evaluation\\output\\segmented_image_triples\\damaged_engine_blade_003_boxed_groundingdino_sam2_triples.json",
+    "predicted_labels": [
+      {
+        "label": "crack",
+        "score": 0.859,
+        "bbox": [
+          862,
+          648,
+          1288,
+          967
+        ]
+      },
+      {
+        "label": "damaged aircraft engine",
+        "score": 0.823,
+        "bbox": [
+          10,
+          10,
+          436,
+          329
+        ]
+      },
+      {
+        "label": "broken blade",
+        "score": 0.804,
+        "bbox": [
+          862,
+          329,
+          1288,
+          648
+        ]
+      },
+      {
+        "label": "fan blade",
+        "score": 0.668,
+        "bbox": [
+          10,
+          329,
+          436,
+          648
+        ]
+      },
+      {
+        "label": "engine damage",
+        "score": 0.504,
+        "bbox": [
+          436,
+          10,
+          862,
+          329
+        ]
+      },
+      {
+        "label": "deformation",
+        "score": 0.367,
+        "bbox": [
+          436,
+          329,
+          862,
+          648
+        ]
+      },
+      {
+        "label": "corrosion",
+        "score": 0.346,
+        "bbox": [
+          10,
+          648,
+          436,
+          967
+        ]
+      },
+      {
+        "label": "dent",
+        "score": 0.243,
+        "bbox": [
+          436,
+          648,
+          862,
+          967
+        ]
+      },
+      {
+        "label": "aircraft propulsion system",
+        "score": 0.234,
+        "bbox": [
+          862,
+          10,
+          1288,
+          329
+        ]
+      }
+    ],
+    "triples": [
+      {
+        "subject": "damaged_engine_blade_003_boxed",
+        "predicate": "contains",
+        "object": "crack",
+        "confidence": 0.859
+      },
+      {
+        "subject": "damaged_engine_blade_003_boxed",
+        "predicate": "contains",
+        "object": "damaged aircraft engine",
+        "confidence": 0.823
+      },
+      {
+        "subject": "damaged_engine_blade_003_boxed",
+        "predicate": "contains",
+        "object": "broken blade",
+        "confidence": 0.804
+      },
+      {
+        "subject": "damaged_engine_blade_003_boxed",
+        "predicate": "contains",
+        "object": "fan blade",
+        "confidence": 0.668
+      },
+      {
+        "subject": "damaged_engine_blade_003_boxed",
+        "predicate": "contains",
+        "object": "engine damage",
+        "confidence": 0.504
+      },
+      {
+        "subject": "damaged_engine_blade_003_boxed",
+        "predicate": "contains",
+        "object": "deformation",
+        "confidence": 0.367
+      },
+      {
+        "subject": "damaged_engine_blade_003_boxed",
+        "predicate": "contains",
+        "object": "corrosion",
+        "confidence": 0.346
+      },
+      {
+        "subject": "damaged_engine_blade_003_boxed",
+        "predicate": "contains",
+        "object": "dent",
+        "confidence": 0.243
+      },
+      {
+        "subject": "damaged_engine_blade_003_boxed",
+        "predicate": "contains",
+        "object": "aircraft propulsion system",
+        "confidence": 0.234
+      }
+    ],
+    "metrics": {
+      "inference_latency_ms": 2037.779,
+      "gpu_usage_mb": 0.0,
+      "gpu_reserved_mb": 0.0
+    }
+  },
+  {
+    "image_path": "C:\\Users\\CartikSaravanamuthu\\ONR-RG\\ImageSegmentation\\input\\damaged_engines\\images\\damaged_engine_blade_004_boxed.jpg",
+    "model_name": "groundingdino_sam2",
+    "segmented_image_path": "output\\fine_tuned_models\\groundingdino_sam2\\evaluation\\output\\segmented_images\\damaged_engine_blade_004_boxed_groundingdino_sam2_segmented.png",
+    "triples_path": "output\\fine_tuned_models\\groundingdino_sam2\\evaluation\\output\\segmented_image_triples\\damaged_engine_blade_004_boxed_groundingdino_sam2_triples.json",
+    "predicted_labels": [
+      {
+        "label": "crack",
+        "score": 0.961,
+        "bbox": [
+          266,
+          476,
+          394,
+          709
+        ]
+      },
+      {
+        "label": "deformation",
+        "score": 0.938,
+        "bbox": [
+          266,
+          243,
+          394,
+          476
+        ]
+      },
+      {
+        "label": "damaged aircraft engine",
+        "score": 0.846,
+        "bbox": [
+          10,
+          10,
+          138,
+          243
+        ]
+      },
+      {
+        "label": "aircraft propulsion system",
+        "score": 0.677,
+        "bbox": [
+          10,
+          243,
+          138,
+          476
+        ]
+      },
+      {
+        "label": "fan blade",
+        "score": 0.489,
+        "bbox": [
+          266,
+          10,
+          394,
+          243
+        ]
+      },
+      {
+        "label": "broken blade",
+        "score": 0.365,
+        "bbox": [
+          138,
+          243,
+          266,
+          476
+        ]
+      },
+      {
+        "label": "engine damage",
+        "score": 0.354,
+        "bbox": [
+          138,
+          10,
+          266,
+          243
+        ]
+      },
+      {
+        "label": "corrosion",
+        "score": 0.192,
+        "bbox": [
+          138,
+          476,
+          266,
+          709
+        ]
+      },
+      {
+        "label": "dent",
+        "score": 0.161,
+        "bbox": [
+          10,
+          476,
+          138,
+          709
+        ]
+      }
+    ],
+    "triples": [
+      {
+        "subject": "damaged_engine_blade_004_boxed",
+        "predicate": "contains",
+        "object": "crack",
+        "confidence": 0.961
+      },
+      {
+        "subject": "damaged_engine_blade_004_boxed",
+        "predicate": "contains",
+        "object": "deformation",
+        "confidence": 0.938
+      },
+      {
+        "subject": "damaged_engine_blade_004_boxed",
+        "predicate": "contains",
+        "object": "damaged aircraft engine",
+        "confidence": 0.846
+      },
+      {
+        "subject": "damaged_engine_blade_004_boxed",
+        "predicate": "contains",
+        "object": "aircraft propulsion system",
+        "confidence": 0.677
+      },
+      {
+        "subject": "damaged_engine_blade_004_boxed",
+        "predicate": "contains",
+        "object": "fan blade",
+        "confidence": 0.489
+      },
+      {
+        "subject": "damaged_engine_blade_004_boxed",
+        "predicate": "contains",
+        "object": "broken blade",
+        "confidence": 0.365
+      },
+      {
+        "subject": "damaged_engine_blade_004_boxed",
+        "predicate": "contains",
+        "object": "engine damage",
+        "confidence": 0.354
+      },
+      {
+        "subject": "damaged_engine_blade_004_boxed",
+        "predicate": "contains",
+        "object": "corrosion",
+        "confidence": 0.192
+      },
+      {
+        "subject": "damaged_engine_blade_004_boxed",
+        "predicate": "contains",
+        "object": "dent",
+        "confidence": 0.161
+      }
+    ],
+    "metrics": {
+      "inference_latency_ms": 1406.397,
+      "gpu_usage_mb": 0.0,
+      "gpu_reserved_mb": 0.0
+    }
+  },
+  {
+    "image_path": "C:\\Users\\CartikSaravanamuthu\\ONR-RG\\ImageSegmentation\\input\\damaged_engines\\images\\damaged_engine_blade_001_boxed.jpg",
+    "model_name": "mask2former",
+    "segmented_image_path": "output\\fine_tuned_models\\mask2former\\evaluation\\output\\segmented_images\\damaged_engine_blade_001_boxed_mask2former_segmented.png",
+    "triples_path": "output\\fine_tuned_models\\mask2former\\evaluation\\output\\segmented_image_triples\\damaged_engine_blade_001_boxed_mask2former_triples.json",
+    "predicted_labels": [
+      {
+        "label": "aircraft propulsion system",
+        "score": 0.945,
+        "bbox": [
+          10,
+          228,
+          403,
+          446
+        ]
+      },
+      {
+        "label": "corrosion",
+        "score": 0.764,
+        "bbox": [
+          796,
+          446,
+          1189,
+          664
+        ]
+      },
+      {
+        "label": "dent",
+        "score": 0.646,
+        "bbox": [
+          10,
+          446,
+          403,
+          664
+        ]
+      },
+      {
+        "label": "deformation",
+        "score": 0.596,
+        "bbox": [
+          796,
+          228,
+          1189,
+          446
+        ]
+      },
+      {
+        "label": "broken blade",
+        "score": 0.582,
+        "bbox": [
+          403,
+          228,
+          796,
+          446
+        ]
+      },
+      {
+        "label": "engine damage",
+        "score": 0.571,
+        "bbox": [
+          10,
+          10,
+          403,
+          228
+        ]
+      },
+      {
+        "label": "damaged aircraft engine",
+        "score": 0.433,
+        "bbox": [
+          403,
+          10,
+          796,
+          228
+        ]
+      },
+      {
+        "label": "crack",
+        "score": 0.417,
+        "bbox": [
+          403,
+          446,
+          796,
+          664
+        ]
+      },
+      {
+        "label": "fan blade",
+        "score": 0.134,
+        "bbox": [
+          796,
+          10,
+          1189,
+          228
+        ]
+      }
+    ],
+    "triples": [
+      {
+        "subject": "damaged_engine_blade_001_boxed",
+        "predicate": "contains",
+        "object": "aircraft propulsion system",
+        "confidence": 0.945
+      },
+      {
+        "subject": "damaged_engine_blade_001_boxed",
+        "predicate": "contains",
+        "object": "corrosion",
+        "confidence": 0.764
+      },
+      {
+        "subject": "damaged_engine_blade_001_boxed",
+        "predicate": "contains",
+        "object": "dent",
+        "confidence": 0.646
+      },
+      {
+        "subject": "damaged_engine_blade_001_boxed",
+        "predicate": "contains",
+        "object": "deformation",
+        "confidence": 0.596
+      },
+      {
+        "subject": "damaged_engine_blade_001_boxed",
+        "predicate": "contains",
+        "object": "broken blade",
+        "confidence": 0.582
+      },
+      {
+        "subject": "damaged_engine_blade_001_boxed",
+        "predicate": "contains",
+        "object": "engine damage",
+        "confidence": 0.571
+      },
+      {
+        "subject": "damaged_engine_blade_001_boxed",
+        "predicate": "contains",
+        "object": "damaged aircraft engine",
+        "confidence": 0.433
+      },
+      {
+        "subject": "damaged_engine_blade_001_boxed",
+        "predicate": "contains",
+        "object": "crack",
+        "confidence": 0.417
+      },
+      {
+        "subject": "damaged_engine_blade_001_boxed",
+        "predicate": "contains",
+        "object": "fan blade",
+        "confidence": 0.134
+      }
+    ],
+    "metrics": {
+      "inference_latency_ms": 1707.551,
+      "gpu_usage_mb": 0.0,
+      "gpu_reserved_mb": 0.0
+    }
+  },
+  {
+    "image_path": "C:\\Users\\CartikSaravanamuthu\\ONR-RG\\ImageSegmentation\\input\\damaged_engines\\images\\damaged_engine_blade_002_boxed.jpg",
+    "model_name": "mask2former",
+    "segmented_image_path": "output\\fine_tuned_models\\mask2former\\evaluation\\output\\segmented_images\\damaged_engine_blade_002_boxed_mask2former_segmented.png",
+    "triples_path": "output\\fine_tuned_models\\mask2former\\evaluation\\output\\segmented_image_triples\\damaged_engine_blade_002_boxed_mask2former_triples.json",
+    "predicted_labels": [
+      {
+        "label": "engine damage",
+        "score": 0.78,
+        "bbox": [
+          10,
+          163,
+          216,
+          316
+        ]
+      },
+      {
+        "label": "dent",
+        "score": 0.715,
+        "bbox": [
+          10,
+          316,
+          216,
+          469
+        ]
+      },
+      {
+        "label": "corrosion",
+        "score": 0.713,
+        "bbox": [
+          216,
+          316,
+          422,
+          469
+        ]
+      },
+      {
+        "label": "fan blade",
+        "score": 0.664,
+        "bbox": [
+          422,
+          10,
+          628,
+          163
+        ]
+      },
+      {
+        "label": "crack",
+        "score": 0.576,
+        "bbox": [
+          422,
+          316,
+          628,
+          469
+        ]
+      },
+      {
+        "label": "broken blade",
+        "score": 0.566,
+        "bbox": [
+          422,
+          163,
+          628,
+          316
+        ]
+      },
+      {
+        "label": "damaged aircraft engine",
+        "score": 0.281,
+        "bbox": [
+          10,
+          10,
+          216,
+          163
+        ]
+      },
+      {
+        "label": "deformation",
+        "score": 0.239,
+        "bbox": [
+          216,
+          163,
+          422,
+          316
+        ]
+      },
+      {
+        "label": "aircraft propulsion system",
+        "score": 0.13,
+        "bbox": [
+          216,
+          10,
+          422,
+          163
+        ]
+      }
+    ],
+    "triples": [
+      {
+        "subject": "damaged_engine_blade_002_boxed",
+        "predicate": "contains",
+        "object": "engine damage",
+        "confidence": 0.78
+      },
+      {
+        "subject": "damaged_engine_blade_002_boxed",
+        "predicate": "contains",
+        "object": "dent",
+        "confidence": 0.715
+      },
+      {
+        "subject": "damaged_engine_blade_002_boxed",
+        "predicate": "contains",
+        "object": "corrosion",
+        "confidence": 0.713
+      },
+      {
+        "subject": "damaged_engine_blade_002_boxed",
+        "predicate": "contains",
+        "object": "fan blade",
+        "confidence": 0.664
+      },
+      {
+        "subject": "damaged_engine_blade_002_boxed",
+        "predicate": "contains",
+        "object": "crack",
+        "confidence": 0.576
+      },
+      {
+        "subject": "damaged_engine_blade_002_boxed",
+        "predicate": "contains",
+        "object": "broken blade",
+        "confidence": 0.566
+      },
+      {
+        "subject": "damaged_engine_blade_002_boxed",
+        "predicate": "contains",
+        "object": "damaged aircraft engine",
+        "confidence": 0.281
+      },
+      {
+        "subject": "damaged_engine_blade_002_boxed",
+        "predicate": "contains",
+        "object": "deformation",
+        "confidence": 0.239
+      },
+      {
+        "subject": "damaged_engine_blade_002_boxed",
+        "predicate": "contains",
+        "object": "aircraft propulsion system",
+        "confidence": 0.13
+      }
+    ],
+    "metrics": {
+      "inference_latency_ms": 1526.158,
+      "gpu_usage_mb": 0.0,
+      "gpu_reserved_mb": 0.0
+    }
+  },
+  {
+    "image_path": "C:\\Users\\CartikSaravanamuthu\\ONR-RG\\ImageSegmentation\\input\\damaged_engines\\images\\damaged_engine_blade_003_boxed.jpg",
+    "model_name": "mask2former",
+    "segmented_image_path": "output\\fine_tuned_models\\mask2former\\evaluation\\output\\segmented_images\\damaged_engine_blade_003_boxed_mask2former_segmented.png",
+    "triples_path": "output\\fine_tuned_models\\mask2former\\evaluation\\output\\segmented_image_triples\\damaged_engine_blade_003_boxed_mask2former_triples.json",
+    "predicted_labels": [
+      {
+        "label": "aircraft propulsion system",
+        "score": 0.751,
+        "bbox": [
+          862,
+          10,
+          1288,
+          329
+        ]
+      },
+      {
+        "label": "damaged aircraft engine",
+        "score": 0.731,
+        "bbox": [
+          10,
+          10,
+          436,
+          329
+        ]
+      },
+      {
+        "label": "broken blade",
+        "score": 0.726,
+        "bbox": [
+          862,
+          329,
+          1288,
+          648
+        ]
+      },
+      {
+        "label": "fan blade",
+        "score": 0.584,
+        "bbox": [
+          10,
+          329,
+          436,
+          648
+        ]
+      },
+      {
+        "label": "corrosion",
+        "score": 0.483,
+        "bbox": [
+          10,
+          648,
+          436,
+          967
+        ]
+      },
+      {
+        "label": "engine damage",
+        "score": 0.457,
+        "bbox": [
+          436,
+          10,
+          862,
+          329
+        ]
+      },
+      {
+        "label": "dent",
+        "score": 0.36,
+        "bbox": [
+          436,
+          648,
+          862,
+          967
+        ]
+      },
+      {
+        "label": "deformation",
+        "score": 0.301,
+        "bbox": [
+          436,
+          329,
+          862,
+          648
+        ]
+      },
+      {
+        "label": "crack",
+        "score": 0.293,
+        "bbox": [
+          862,
+          648,
+          1288,
+          967
+        ]
+      }
+    ],
+    "triples": [
+      {
+        "subject": "damaged_engine_blade_003_boxed",
+        "predicate": "contains",
+        "object": "aircraft propulsion system",
+        "confidence": 0.751
+      },
+      {
+        "subject": "damaged_engine_blade_003_boxed",
+        "predicate": "contains",
+        "object": "damaged aircraft engine",
+        "confidence": 0.731
+      },
+      {
+        "subject": "damaged_engine_blade_003_boxed",
+        "predicate": "contains",
+        "object": "broken blade",
+        "confidence": 0.726
+      },
+      {
+        "subject": "damaged_engine_blade_003_boxed",
+        "predicate": "contains",
+        "object": "fan blade",
+        "confidence": 0.584
+      },
+      {
+        "subject": "damaged_engine_blade_003_boxed",
+        "predicate": "contains",
+        "object": "corrosion",
+        "confidence": 0.483
+      },
+      {
+        "subject": "damaged_engine_blade_003_boxed",
+        "predicate": "contains",
+        "object": "engine damage",
+        "confidence": 0.457
+      },
+      {
+        "subject": "damaged_engine_blade_003_boxed",
+        "predicate": "contains",
+        "object": "dent",
+        "confidence": 0.36
+      },
+      {
+        "subject": "damaged_engine_blade_003_boxed",
+        "predicate": "contains",
+        "object": "deformation",
+        "confidence": 0.301
+      },
+      {
+        "subject": "damaged_engine_blade_003_boxed",
+        "predicate": "contains",
+        "object": "crack",
+        "confidence": 0.293
+      }
+    ],
+    "metrics": {
+      "inference_latency_ms": 2596.079,
+      "gpu_usage_mb": 0.0,
+      "gpu_reserved_mb": 0.0
+    }
+  },
+  {
+    "image_path": "C:\\Users\\CartikSaravanamuthu\\ONR-RG\\ImageSegmentation\\input\\damaged_engines\\images\\damaged_engine_blade_004_boxed.jpg",
+    "model_name": "mask2former",
+    "segmented_image_path": "output\\fine_tuned_models\\mask2former\\evaluation\\output\\segmented_images\\damaged_engine_blade_004_boxed_mask2former_segmented.png",
+    "triples_path": "output\\fine_tuned_models\\mask2former\\evaluation\\output\\segmented_image_triples\\damaged_engine_blade_004_boxed_mask2former_triples.json",
+    "predicted_labels": [
+      {
+        "label": "engine damage",
+        "score": 0.948,
+        "bbox": [
+          138,
+          10,
+          266,
+          243
+        ]
+      },
+      {
+        "label": "damaged aircraft engine",
+        "score": 0.867,
+        "bbox": [
+          10,
+          10,
+          138,
+          243
+        ]
+      },
+      {
+        "label": "dent",
+        "score": 0.726,
+        "bbox": [
+          10,
+          476,
+          138,
+          709
+        ]
+      },
+      {
+        "label": "broken blade",
+        "score": 0.661,
+        "bbox": [
+          138,
+          243,
+          266,
+          476
+        ]
+      },
+      {
+        "label": "corrosion",
+        "score": 0.656,
+        "bbox": [
+          138,
+          476,
+          266,
+          709
+        ]
+      },
+      {
+        "label": "crack",
+        "score": 0.392,
+        "bbox": [
+          266,
+          476,
+          394,
+          709
+        ]
+      },
+      {
+        "label": "fan blade",
+        "score": 0.383,
+        "bbox": [
+          266,
+          10,
+          394,
+          243
+        ]
+      },
+      {
+        "label": "deformation",
+        "score": 0.378,
+        "bbox": [
+          266,
+          243,
+          394,
+          476
+        ]
+      },
+      {
+        "label": "aircraft propulsion system",
+        "score": 0.178,
+        "bbox": [
+          10,
+          243,
+          138,
+          476
+        ]
+      }
+    ],
+    "triples": [
+      {
+        "subject": "damaged_engine_blade_004_boxed",
+        "predicate": "contains",
+        "object": "engine damage",
+        "confidence": 0.948
+      },
+      {
+        "subject": "damaged_engine_blade_004_boxed",
+        "predicate": "contains",
+        "object": "damaged aircraft engine",
+        "confidence": 0.867
+      },
+      {
+        "subject": "damaged_engine_blade_004_boxed",
+        "predicate": "contains",
+        "object": "dent",
+        "confidence": 0.726
+      },
+      {
+        "subject": "damaged_engine_blade_004_boxed",
+        "predicate": "contains",
+        "object": "broken blade",
+        "confidence": 0.661
+      },
+      {
+        "subject": "damaged_engine_blade_004_boxed",
+        "predicate": "contains",
+        "object": "corrosion",
+        "confidence": 0.656
+      },
+      {
+        "subject": "damaged_engine_blade_004_boxed",
+        "predicate": "contains",
+        "object": "crack",
+        "confidence": 0.392
+      },
+      {
+        "subject": "damaged_engine_blade_004_boxed",
+        "predicate": "contains",
+        "object": "fan blade",
+        "confidence": 0.383
+      },
+      {
+        "subject": "damaged_engine_blade_004_boxed",
+        "predicate": "contains",
+        "object": "deformation",
+        "confidence": 0.378
+      },
+      {
+        "subject": "damaged_engine_blade_004_boxed",
+        "predicate": "contains",
+        "object": "aircraft propulsion system",
+        "confidence": 0.178
+      }
+    ],
+    "metrics": {
+      "inference_latency_ms": 1457.506,
+      "gpu_usage_mb": 0.0,
+      "gpu_reserved_mb": 0.0
+    }
+  },
+  {
+    "image_path": "C:\\Users\\CartikSaravanamuthu\\ONR-RG\\ImageSegmentation\\input\\damaged_engines\\images\\damaged_engine_blade_001_boxed.jpg",
+    "model_name": "yolo_seg",
+    "segmented_image_path": "output\\fine_tuned_models\\yolo_seg\\evaluation\\output\\segmented_images\\damaged_engine_blade_001_boxed_yolo_seg_segmented.png",
+    "triples_path": "output\\fine_tuned_models\\yolo_seg\\evaluation\\output\\segmented_image_triples\\damaged_engine_blade_001_boxed_yolo_seg_triples.json",
+    "predicted_labels": [
+      {
+        "label": "corrosion",
+        "score": 0.896,
+        "bbox": [
+          796,
+          446,
+          1189,
+          664
+        ]
+      },
+      {
+        "label": "dent",
+        "score": 0.776,
+        "bbox": [
+          10,
+          446,
+          403,
+          664
+        ]
+      },
+      {
+        "label": "aircraft propulsion system",
+        "score": 0.733,
+        "bbox": [
+          10,
+          228,
+          403,
+          446
+        ]
+      },
+      {
+        "label": "deformation",
+        "score": 0.48,
+        "bbox": [
+          796,
+          228,
+          1189,
+          446
+        ]
+      },
+      {
+        "label": "crack",
+        "score": 0.444,
+        "bbox": [
+          403,
+          446,
+          796,
+          664
+        ]
+      },
+      {
+        "label": "damaged aircraft engine",
+        "score": 0.443,
+        "bbox": [
+          403,
+          10,
+          796,
+          228
+        ]
+      },
+      {
+        "label": "broken blade",
+        "score": 0.31,
+        "bbox": [
+          403,
+          228,
+          796,
+          446
+        ]
+      },
+      {
+        "label": "fan blade",
+        "score": 0.165,
+        "bbox": [
+          796,
+          10,
+          1189,
+          228
+        ]
+      },
+      {
+        "label": "engine damage",
+        "score": 0.153,
+        "bbox": [
+          10,
+          10,
+          403,
+          228
+        ]
+      }
+    ],
+    "triples": [
+      {
+        "subject": "damaged_engine_blade_001_boxed",
+        "predicate": "contains",
+        "object": "corrosion",
+        "confidence": 0.896
+      },
+      {
+        "subject": "damaged_engine_blade_001_boxed",
+        "predicate": "contains",
+        "object": "dent",
+        "confidence": 0.776
+      },
+      {
+        "subject": "damaged_engine_blade_001_boxed",
+        "predicate": "contains",
+        "object": "aircraft propulsion system",
+        "confidence": 0.733
+      },
+      {
+        "subject": "damaged_engine_blade_001_boxed",
+        "predicate": "contains",
+        "object": "deformation",
+        "confidence": 0.48
+      },
+      {
+        "subject": "damaged_engine_blade_001_boxed",
+        "predicate": "contains",
+        "object": "crack",
+        "confidence": 0.444
+      },
+      {
+        "subject": "damaged_engine_blade_001_boxed",
+        "predicate": "contains",
+        "object": "damaged aircraft engine",
+        "confidence": 0.443
+      },
+      {
+        "subject": "damaged_engine_blade_001_boxed",
+        "predicate": "contains",
+        "object": "broken blade",
+        "confidence": 0.31
+      },
+      {
+        "subject": "damaged_engine_blade_001_boxed",
+        "predicate": "contains",
+        "object": "fan blade",
+        "confidence": 0.165
+      },
+      {
+        "subject": "damaged_engine_blade_001_boxed",
+        "predicate": "contains",
+        "object": "engine damage",
+        "confidence": 0.153
+      }
+    ],
+    "metrics": {
+      "inference_latency_ms": 2266.147,
+      "gpu_usage_mb": 0.0,
+      "gpu_reserved_mb": 0.0
+    }
+  },
+  {
+    "image_path": "C:\\Users\\CartikSaravanamuthu\\ONR-RG\\ImageSegmentation\\input\\damaged_engines\\images\\damaged_engine_blade_002_boxed.jpg",
+    "model_name": "yolo_seg",
+    "segmented_image_path": "output\\fine_tuned_models\\yolo_seg\\evaluation\\output\\segmented_images\\damaged_engine_blade_002_boxed_yolo_seg_segmented.png",
+    "triples_path": "output\\fine_tuned_models\\yolo_seg\\evaluation\\output\\segmented_image_triples\\damaged_engine_blade_002_boxed_yolo_seg_triples.json",
+    "predicted_labels": [
+      {
+        "label": "dent",
+        "score": 0.941,
+        "bbox": [
+          10,
+          316,
+          216,
+          469
+        ]
+      },
+      {
+        "label": "aircraft propulsion system",
+        "score": 0.932,
+        "bbox": [
+          216,
+          10,
+          422,
+          163
+        ]
+      },
+      {
+        "label": "fan blade",
+        "score": 0.884,
+        "bbox": [
+          422,
+          10,
+          628,
+          163
+        ]
+      },
+      {
+        "label": "engine damage",
+        "score": 0.698,
+        "bbox": [
+          10,
+          163,
+          216,
+          316
+        ]
+      },
+      {
+        "label": "corrosion",
+        "score": 0.693,
+        "bbox": [
+          216,
+          316,
+          422,
+          469
+        ]
+      },
+      {
+        "label": "deformation",
+        "score": 0.554,
+        "bbox": [
+          216,
+          163,
+          422,
+          316
+        ]
+      },
+      {
+        "label": "damaged aircraft engine",
+        "score": 0.289,
+        "bbox": [
+          10,
+          10,
+          216,
+          163
+        ]
+      },
+      {
+        "label": "crack",
+        "score": 0.172,
+        "bbox": [
+          422,
+          316,
+          628,
+          469
+        ]
+      },
+      {
+        "label": "broken blade",
+        "score": 0.147,
+        "bbox": [
+          422,
+          163,
+          628,
+          316
+        ]
+      }
+    ],
+    "triples": [
+      {
+        "subject": "damaged_engine_blade_002_boxed",
+        "predicate": "contains",
+        "object": "dent",
+        "confidence": 0.941
+      },
+      {
+        "subject": "damaged_engine_blade_002_boxed",
+        "predicate": "contains",
+        "object": "aircraft propulsion system",
+        "confidence": 0.932
+      },
+      {
+        "subject": "damaged_engine_blade_002_boxed",
+        "predicate": "contains",
+        "object": "fan blade",
+        "confidence": 0.884
+      },
+      {
+        "subject": "damaged_engine_blade_002_boxed",
+        "predicate": "contains",
+        "object": "engine damage",
+        "confidence": 0.698
+      },
+      {
+        "subject": "damaged_engine_blade_002_boxed",
+        "predicate": "contains",
+        "object": "corrosion",
+        "confidence": 0.693
+      },
+      {
+        "subject": "damaged_engine_blade_002_boxed",
+        "predicate": "contains",
+        "object": "deformation",
+        "confidence": 0.554
+      },
+      {
+        "subject": "damaged_engine_blade_002_boxed",
+        "predicate": "contains",
+        "object": "damaged aircraft engine",
+        "confidence": 0.289
+      },
+      {
+        "subject": "damaged_engine_blade_002_boxed",
+        "predicate": "contains",
+        "object": "crack",
+        "confidence": 0.172
+      },
+      {
+        "subject": "damaged_engine_blade_002_boxed",
+        "predicate": "contains",
+        "object": "broken blade",
+        "confidence": 0.147
+      }
+    ],
+    "metrics": {
+      "inference_latency_ms": 2127.319,
+      "gpu_usage_mb": 0.0,
+      "gpu_reserved_mb": 0.0
+    }
+  },
+  {
+    "image_path": "C:\\Users\\CartikSaravanamuthu\\ONR-RG\\ImageSegmentation\\input\\damaged_engines\\images\\damaged_engine_blade_003_boxed.jpg",
+    "model_name": "yolo_seg",
+    "segmented_image_path": "output\\fine_tuned_models\\yolo_seg\\evaluation\\output\\segmented_images\\damaged_engine_blade_003_boxed_yolo_seg_segmented.png",
+    "triples_path": "output\\fine_tuned_models\\yolo_seg\\evaluation\\output\\segmented_image_triples\\damaged_engine_blade_003_boxed_yolo_seg_triples.json",
+    "predicted_labels": [
+      {
+        "label": "deformation",
+        "score": 0.961,
+        "bbox": [
+          436,
+          329,
+          862,
+          648
+        ]
+      },
+      {
+        "label": "corrosion",
+        "score": 0.911,
+        "bbox": [
+          10,
+          648,
+          436,
+          967
+        ]
+      },
+      {
+        "label": "aircraft propulsion system",
+        "score": 0.865,
+        "bbox": [
+          862,
+          10,
+          1288,
+          329
+        ]
+      },
+      {
+        "label": "fan blade",
+        "score": 0.851,
+        "bbox": [
+          10,
+          329,
+          436,
+          648
+        ]
+      },
+      {
+        "label": "broken blade",
+        "score": 0.802,
+        "bbox": [
+          862,
+          329,
+          1288,
+          648
+        ]
+      },
+      {
+        "label": "dent",
+        "score": 0.729,
+        "bbox": [
+          436,
+          648,
+          862,
+          967
+        ]
+      },
+      {
+        "label": "crack",
+        "score": 0.554,
+        "bbox": [
+          862,
+          648,
+          1288,
+          967
+        ]
+      },
+      {
+        "label": "damaged aircraft engine",
+        "score": 0.172,
+        "bbox": [
+          10,
+          10,
+          436,
+          329
+        ]
+      },
+      {
+        "label": "engine damage",
+        "score": 0.152,
+        "bbox": [
+          436,
+          10,
+          862,
+          329
+        ]
+      }
+    ],
+    "triples": [
+      {
+        "subject": "damaged_engine_blade_003_boxed",
+        "predicate": "contains",
+        "object": "deformation",
+        "confidence": 0.961
+      },
+      {
+        "subject": "damaged_engine_blade_003_boxed",
+        "predicate": "contains",
+        "object": "corrosion",
+        "confidence": 0.911
+      },
+      {
+        "subject": "damaged_engine_blade_003_boxed",
+        "predicate": "contains",
+        "object": "aircraft propulsion system",
+        "confidence": 0.865
+      },
+      {
+        "subject": "damaged_engine_blade_003_boxed",
+        "predicate": "contains",
+        "object": "fan blade",
+        "confidence": 0.851
+      },
+      {
+        "subject": "damaged_engine_blade_003_boxed",
+        "predicate": "contains",
+        "object": "broken blade",
+        "confidence": 0.802
+      },
+      {
+        "subject": "damaged_engine_blade_003_boxed",
+        "predicate": "contains",
+        "object": "dent",
+        "confidence": 0.729
+      },
+      {
+        "subject": "damaged_engine_blade_003_boxed",
+        "predicate": "contains",
+        "object": "crack",
+        "confidence": 0.554
+      },
+      {
+        "subject": "damaged_engine_blade_003_boxed",
+        "predicate": "contains",
+        "object": "damaged aircraft engine",
+        "confidence": 0.172
+      },
+      {
+        "subject": "damaged_engine_blade_003_boxed",
+        "predicate": "contains",
+        "object": "engine damage",
+        "confidence": 0.152
+      }
+    ],
+    "metrics": {
+      "inference_latency_ms": 2143.671,
+      "gpu_usage_mb": 0.0,
+      "gpu_reserved_mb": 0.0
+    }
+  },
+  {
+    "image_path": "C:\\Users\\CartikSaravanamuthu\\ONR-RG\\ImageSegmentation\\input\\damaged_engines\\images\\damaged_engine_blade_004_boxed.jpg",
+    "model_name": "yolo_seg",
+    "segmented_image_path": "output\\fine_tuned_models\\yolo_seg\\evaluation\\output\\segmented_images\\damaged_engine_blade_004_boxed_yolo_seg_segmented.png",
+    "triples_path": "output\\fine_tuned_models\\yolo_seg\\evaluation\\output\\segmented_image_triples\\damaged_engine_blade_004_boxed_yolo_seg_triples.json",
+    "predicted_labels": [
+      {
+        "label": "broken blade",
+        "score": 0.879,
+        "bbox": [
+          138,
+          243,
+          266,
+          476
+        ]
+      },
+      {
+        "label": "damaged aircraft engine",
+        "score": 0.677,
+        "bbox": [
+          10,
+          10,
+          138,
+          243
+        ]
+      },
+      {
+        "label": "fan blade",
+        "score": 0.676,
+        "bbox": [
+          266,
+          10,
+          394,
+          243
+        ]
+      },
+      {
+        "label": "engine damage",
+        "score": 0.596,
+        "bbox": [
+          138,
+          10,
+          266,
+          243
+        ]
+      },
+      {
+        "label": "corrosion",
+        "score": 0.573,
+        "bbox": [
+          138,
+          476,
+          266,
+          709
+        ]
+      },
+      {
+        "label": "deformation",
+        "score": 0.502,
+        "bbox": [
+          266,
+          243,
+          394,
+          476
+        ]
+      },
+      {
+        "label": "aircraft propulsion system",
+        "score": 0.426,
+        "bbox": [
+          10,
+          243,
+          138,
+          476
+        ]
+      },
+      {
+        "label": "crack",
+        "score": 0.412,
+        "bbox": [
+          266,
+          476,
+          394,
+          709
+        ]
+      },
+      {
+        "label": "dent",
+        "score": 0.183,
+        "bbox": [
+          10,
+          476,
+          138,
+          709
+        ]
+      }
+    ],
+    "triples": [
+      {
+        "subject": "damaged_engine_blade_004_boxed",
+        "predicate": "contains",
+        "object": "broken blade",
+        "confidence": 0.879
+      },
+      {
+        "subject": "damaged_engine_blade_004_boxed",
+        "predicate": "contains",
+        "object": "damaged aircraft engine",
+        "confidence": 0.677
+      },
+      {
+        "subject": "damaged_engine_blade_004_boxed",
+        "predicate": "contains",
+        "object": "fan blade",
+        "confidence": 0.676
+      },
+      {
+        "subject": "damaged_engine_blade_004_boxed",
+        "predicate": "contains",
+        "object": "engine damage",
+        "confidence": 0.596
+      },
+      {
+        "subject": "damaged_engine_blade_004_boxed",
+        "predicate": "contains",
+        "object": "corrosion",
+        "confidence": 0.573
+      },
+      {
+        "subject": "damaged_engine_blade_004_boxed",
+        "predicate": "contains",
+        "object": "deformation",
+        "confidence": 0.502
+      },
+      {
+        "subject": "damaged_engine_blade_004_boxed",
+        "predicate": "contains",
+        "object": "aircraft propulsion system",
+        "confidence": 0.426
+      },
+      {
+        "subject": "damaged_engine_blade_004_boxed",
+        "predicate": "contains",
+        "object": "crack",
+        "confidence": 0.412
+      },
+      {
+        "subject": "damaged_engine_blade_004_boxed",
+        "predicate": "contains",
+        "object": "dent",
+        "confidence": 0.183
+      }
+    ],
+    "metrics": {
+      "inference_latency_ms": 1362.499,
+      "gpu_usage_mb": 0.0,
+      "gpu_reserved_mb": 0.0
+    }
+  },
+  {
+    "image_path": "C:\\Users\\CartikSaravanamuthu\\ONR-RG\\ImageSegmentation\\input\\damaged_engines\\images\\damaged_engine_blade_001_boxed.jpg",
+    "model_name": "anomalib_patchcore",
+    "segmented_image_path": "output\\fine_tuned_models\\anomalib_patchcore\\evaluation\\output\\segmented_images\\damaged_engine_blade_001_boxed_anomalib_patchcore_segmented.png",
+    "triples_path": "output\\fine_tuned_models\\anomalib_patchcore\\evaluation\\output\\segmented_image_triples\\damaged_engine_blade_001_boxed_anomalib_patchcore_triples.json",
+    "predicted_labels": [
+      {
+        "label": "crack",
+        "score": 0.906,
+        "bbox": [
+          403,
+          446,
+          796,
+          664
+        ]
+      },
+      {
+        "label": "aircraft propulsion system",
+        "score": 0.722,
+        "bbox": [
+          10,
+          228,
+          403,
+          446
+        ]
+      },
+      {
+        "label": "dent",
+        "score": 0.52,
+        "bbox": [
+          10,
+          446,
+          403,
+          664
+        ]
+      },
+      {
+        "label": "fan blade",
+        "score": 0.505,
+        "bbox": [
+          796,
+          10,
+          1189,
+          228
+        ]
+      },
+      {
+        "label": "deformation",
+        "score": 0.44,
+        "bbox": [
+          796,
+          228,
+          1189,
+          446
+        ]
+      },
+      {
+        "label": "damaged aircraft engine",
+        "score": 0.406,
+        "bbox": [
+          403,
+          10,
+          796,
+          228
+        ]
+      },
+      {
+        "label": "engine damage",
+        "score": 0.355,
+        "bbox": [
+          10,
+          10,
+          403,
+          228
+        ]
+      },
+      {
+        "label": "broken blade",
+        "score": 0.177,
+        "bbox": [
+          403,
+          228,
+          796,
+          446
+        ]
+      },
+      {
+        "label": "corrosion",
+        "score": 0.113,
+        "bbox": [
+          796,
+          446,
+          1189,
+          664
+        ]
+      }
+    ],
+    "triples": [
+      {
+        "subject": "damaged_engine_blade_001_boxed",
+        "predicate": "contains",
+        "object": "crack",
+        "confidence": 0.906
+      },
+      {
+        "subject": "damaged_engine_blade_001_boxed",
+        "predicate": "contains",
+        "object": "aircraft propulsion system",
+        "confidence": 0.722
+      },
+      {
+        "subject": "damaged_engine_blade_001_boxed",
+        "predicate": "contains",
+        "object": "dent",
+        "confidence": 0.52
+      },
+      {
+        "subject": "damaged_engine_blade_001_boxed",
+        "predicate": "contains",
+        "object": "fan blade",
+        "confidence": 0.505
+      },
+      {
+        "subject": "damaged_engine_blade_001_boxed",
+        "predicate": "contains",
+        "object": "deformation",
+        "confidence": 0.44
+      },
+      {
+        "subject": "damaged_engine_blade_001_boxed",
+        "predicate": "contains",
+        "object": "damaged aircraft engine",
+        "confidence": 0.406
+      },
+      {
+        "subject": "damaged_engine_blade_001_boxed",
+        "predicate": "contains",
+        "object": "engine damage",
+        "confidence": 0.355
+      },
+      {
+        "subject": "damaged_engine_blade_001_boxed",
+        "predicate": "contains",
+        "object": "broken blade",
+        "confidence": 0.177
+      },
+      {
+        "subject": "damaged_engine_blade_001_boxed",
+        "predicate": "contains",
+        "object": "corrosion",
+        "confidence": 0.113
+      }
+    ],
+    "metrics": {
+      "inference_latency_ms": 1737.45,
+      "gpu_usage_mb": 0.0,
+      "gpu_reserved_mb": 0.0
+    }
+  },
+  {
+    "image_path": "C:\\Users\\CartikSaravanamuthu\\ONR-RG\\ImageSegmentation\\input\\damaged_engines\\images\\damaged_engine_blade_002_boxed.jpg",
+    "model_name": "anomalib_patchcore",
+    "segmented_image_path": "output\\fine_tuned_models\\anomalib_patchcore\\evaluation\\output\\segmented_images\\damaged_engine_blade_002_boxed_anomalib_patchcore_segmented.png",
+    "triples_path": "output\\fine_tuned_models\\anomalib_patchcore\\evaluation\\output\\segmented_image_triples\\damaged_engine_blade_002_boxed_anomalib_patchcore_triples.json",
+    "predicted_labels": [
+      {
+        "label": "crack",
+        "score": 0.938,
+        "bbox": [
+          422,
+          316,
+          628,
+          469
+        ]
+      },
+      {
+        "label": "damaged aircraft engine",
+        "score": 0.832,
+        "bbox": [
+          10,
+          10,
+          216,
+          163
+        ]
+      },
+      {
+        "label": "broken blade",
+        "score": 0.755,
+        "bbox": [
+          422,
+          163,
+          628,
+          316
+        ]
+      },
+      {
+        "label": "fan blade",
+        "score": 0.37,
+        "bbox": [
+          422,
+          10,
+          628,
+          163
+        ]
+      },
+      {
+        "label": "corrosion",
+        "score": 0.336,
+        "bbox": [
+          216,
+          316,
+          422,
+          469
+        ]
+      },
+      {
+        "label": "dent",
+        "score": 0.293,
+        "bbox": [
+          10,
+          316,
+          216,
+          469
+        ]
+      },
+      {
+        "label": "engine damage",
+        "score": 0.236,
+        "bbox": [
+          10,
+          163,
+          216,
+          316
+        ]
+      },
+      {
+        "label": "deformation",
+        "score": 0.186,
+        "bbox": [
+          216,
+          163,
+          422,
+          316
+        ]
+      },
+      {
+        "label": "aircraft propulsion system",
+        "score": 0.118,
+        "bbox": [
+          216,
+          10,
+          422,
+          163
+        ]
+      }
+    ],
+    "triples": [
+      {
+        "subject": "damaged_engine_blade_002_boxed",
+        "predicate": "contains",
+        "object": "crack",
+        "confidence": 0.938
+      },
+      {
+        "subject": "damaged_engine_blade_002_boxed",
+        "predicate": "contains",
+        "object": "damaged aircraft engine",
+        "confidence": 0.832
+      },
+      {
+        "subject": "damaged_engine_blade_002_boxed",
+        "predicate": "contains",
+        "object": "broken blade",
+        "confidence": 0.755
+      },
+      {
+        "subject": "damaged_engine_blade_002_boxed",
+        "predicate": "contains",
+        "object": "fan blade",
+        "confidence": 0.37
+      },
+      {
+        "subject": "damaged_engine_blade_002_boxed",
+        "predicate": "contains",
+        "object": "corrosion",
+        "confidence": 0.336
+      },
+      {
+        "subject": "damaged_engine_blade_002_boxed",
+        "predicate": "contains",
+        "object": "dent",
+        "confidence": 0.293
+      },
+      {
+        "subject": "damaged_engine_blade_002_boxed",
+        "predicate": "contains",
+        "object": "engine damage",
+        "confidence": 0.236
+      },
+      {
+        "subject": "damaged_engine_blade_002_boxed",
+        "predicate": "contains",
+        "object": "deformation",
+        "confidence": 0.186
+      },
+      {
+        "subject": "damaged_engine_blade_002_boxed",
+        "predicate": "contains",
+        "object": "aircraft propulsion system",
+        "confidence": 0.118
+      }
+    ],
+    "metrics": {
+      "inference_latency_ms": 1349.583,
+      "gpu_usage_mb": 0.0,
+      "gpu_reserved_mb": 0.0
+    }
+  },
+  {
+    "image_path": "C:\\Users\\CartikSaravanamuthu\\ONR-RG\\ImageSegmentation\\input\\damaged_engines\\images\\damaged_engine_blade_003_boxed.jpg",
+    "model_name": "anomalib_patchcore",
+    "segmented_image_path": "output\\fine_tuned_models\\anomalib_patchcore\\evaluation\\output\\segmented_images\\damaged_engine_blade_003_boxed_anomalib_patchcore_segmented.png",
+    "triples_path": "output\\fine_tuned_models\\anomalib_patchcore\\evaluation\\output\\segmented_image_triples\\damaged_engine_blade_003_boxed_anomalib_patchcore_triples.json",
+    "predicted_labels": [
+      {
+        "label": "corrosion",
+        "score": 0.747,
+        "bbox": [
+          10,
+          648,
+          436,
+          967
+        ]
+      },
+      {
+        "label": "damaged aircraft engine",
+        "score": 0.665,
+        "bbox": [
+          10,
+          10,
+          436,
+          329
+        ]
+      },
+      {
+        "label": "deformation",
+        "score": 0.407,
+        "bbox": [
+          436,
+          329,
+          862,
+          648
+        ]
+      },
+      {
+        "label": "engine damage",
+        "score": 0.356,
+        "bbox": [
+          436,
+          10,
+          862,
+          329
+        ]
+      },
+      {
+        "label": "fan blade",
+        "score": 0.353,
+        "bbox": [
+          10,
+          329,
+          436,
+          648
+        ]
+      },
+      {
+        "label": "aircraft propulsion system",
+        "score": 0.333,
+        "bbox": [
+          862,
+          10,
+          1288,
+          329
+        ]
+      },
+      {
+        "label": "crack",
+        "score": 0.33,
+        "bbox": [
+          862,
+          648,
+          1288,
+          967
+        ]
+      },
+      {
+        "label": "dent",
+        "score": 0.221,
+        "bbox": [
+          436,
+          648,
+          862,
+          967
+        ]
+      },
+      {
+        "label": "broken blade",
+        "score": 0.21,
+        "bbox": [
+          862,
+          329,
+          1288,
+          648
+        ]
+      }
+    ],
+    "triples": [
+      {
+        "subject": "damaged_engine_blade_003_boxed",
+        "predicate": "contains",
+        "object": "corrosion",
+        "confidence": 0.747
+      },
+      {
+        "subject": "damaged_engine_blade_003_boxed",
+        "predicate": "contains",
+        "object": "damaged aircraft engine",
+        "confidence": 0.665
+      },
+      {
+        "subject": "damaged_engine_blade_003_boxed",
+        "predicate": "contains",
+        "object": "deformation",
+        "confidence": 0.407
+      },
+      {
+        "subject": "damaged_engine_blade_003_boxed",
+        "predicate": "contains",
+        "object": "engine damage",
+        "confidence": 0.356
+      },
+      {
+        "subject": "damaged_engine_blade_003_boxed",
+        "predicate": "contains",
+        "object": "fan blade",
+        "confidence": 0.353
+      },
+      {
+        "subject": "damaged_engine_blade_003_boxed",
+        "predicate": "contains",
+        "object": "aircraft propulsion system",
+        "confidence": 0.333
+      },
+      {
+        "subject": "damaged_engine_blade_003_boxed",
+        "predicate": "contains",
+        "object": "crack",
+        "confidence": 0.33
+      },
+      {
+        "subject": "damaged_engine_blade_003_boxed",
+        "predicate": "contains",
+        "object": "dent",
+        "confidence": 0.221
+      },
+      {
+        "subject": "damaged_engine_blade_003_boxed",
+        "predicate": "contains",
+        "object": "broken blade",
+        "confidence": 0.21
+      }
+    ],
+    "metrics": {
+      "inference_latency_ms": 1994.633,
+      "gpu_usage_mb": 0.0,
+      "gpu_reserved_mb": 0.0
+    }
+  },
+  {
+    "image_path": "C:\\Users\\CartikSaravanamuthu\\ONR-RG\\ImageSegmentation\\input\\damaged_engines\\images\\damaged_engine_blade_004_boxed.jpg",
+    "model_name": "anomalib_patchcore",
+    "segmented_image_path": "output\\fine_tuned_models\\anomalib_patchcore\\evaluation\\output\\segmented_images\\damaged_engine_blade_004_boxed_anomalib_patchcore_segmented.png",
+    "triples_path": "output\\fine_tuned_models\\anomalib_patchcore\\evaluation\\output\\segmented_image_triples\\damaged_engine_blade_004_boxed_anomalib_patchcore_triples.json",
+    "predicted_labels": [
+      {
+        "label": "fan blade",
+        "score": 0.752,
+        "bbox": [
+          266,
+          10,
+          394,
+          243
+        ]
+      },
+      {
+        "label": "crack",
+        "score": 0.598,
+        "bbox": [
+          266,
+          476,
+          394,
+          709
+        ]
+      },
+      {
+        "label": "damaged aircraft engine",
+        "score": 0.568,
+        "bbox": [
+          10,
+          10,
+          138,
+          243
+        ]
+      },
+      {
+        "label": "broken blade",
+        "score": 0.522,
+        "bbox": [
+          138,
+          243,
+          266,
+          476
+        ]
+      },
+      {
+        "label": "corrosion",
+        "score": 0.456,
+        "bbox": [
+          138,
+          476,
+          266,
+          709
+        ]
+      },
+      {
+        "label": "engine damage",
+        "score": 0.301,
+        "bbox": [
+          138,
+          10,
+          266,
+          243
+        ]
+      },
+      {
+        "label": "dent",
+        "score": 0.265,
+        "bbox": [
+          10,
+          476,
+          138,
+          709
+        ]
+      },
+      {
+        "label": "aircraft propulsion system",
+        "score": 0.196,
+        "bbox": [
+          10,
+          243,
+          138,
+          476
+        ]
+      },
+      {
+        "label": "deformation",
+        "score": 0.11,
+        "bbox": [
+          266,
+          243,
+          394,
+          476
+        ]
+      }
+    ],
+    "triples": [
+      {
+        "subject": "damaged_engine_blade_004_boxed",
+        "predicate": "contains",
+        "object": "fan blade",
+        "confidence": 0.752
+      },
+      {
+        "subject": "damaged_engine_blade_004_boxed",
+        "predicate": "contains",
+        "object": "crack",
+        "confidence": 0.598
+      },
+      {
+        "subject": "damaged_engine_blade_004_boxed",
+        "predicate": "contains",
+        "object": "damaged aircraft engine",
+        "confidence": 0.568
+      },
+      {
+        "subject": "damaged_engine_blade_004_boxed",
+        "predicate": "contains",
+        "object": "broken blade",
+        "confidence": 0.522
+      },
+      {
+        "subject": "damaged_engine_blade_004_boxed",
+        "predicate": "contains",
+        "object": "corrosion",
+        "confidence": 0.456
+      },
+      {
+        "subject": "damaged_engine_blade_004_boxed",
+        "predicate": "contains",
+        "object": "engine damage",
+        "confidence": 0.301
+      },
+      {
+        "subject": "damaged_engine_blade_004_boxed",
+        "predicate": "contains",
+        "object": "dent",
+        "confidence": 0.265
+      },
+      {
+        "subject": "damaged_engine_blade_004_boxed",
+        "predicate": "contains",
+        "object": "aircraft propulsion system",
+        "confidence": 0.196
+      },
+      {
+        "subject": "damaged_engine_blade_004_boxed",
+        "predicate": "contains",
+        "object": "deformation",
+        "confidence": 0.11
+      }
+    ],
+    "metrics": {
+      "inference_latency_ms": 1282.392,
+      "gpu_usage_mb": 0.0,
+      "gpu_reserved_mb": 0.0
+    }
+  }
+]

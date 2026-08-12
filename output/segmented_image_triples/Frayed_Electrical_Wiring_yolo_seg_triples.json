@@ -1,0 +1,92 @@
+[
+  {
+    "subject": "Frayed_Electrical_Wiring",
+    "predicate": "contains",
+    "object": "wheel assembly",
+    "confidence": 0.942
+  },
+  {
+    "subject": "Frayed_Electrical_Wiring",
+    "predicate": "contains",
+    "object": "damaged wire",
+    "confidence": 0.892
+  },
+  {
+    "subject": "Frayed_Electrical_Wiring",
+    "predicate": "contains",
+    "object": "wing",
+    "confidence": 0.829
+  },
+  {
+    "subject": "Frayed_Electrical_Wiring",
+    "predicate": "contains",
+    "object": "cockpit",
+    "confidence": 0.773
+  },
+  {
+    "subject": "Frayed_Electrical_Wiring",
+    "predicate": "contains",
+    "object": "missing rivet",
+    "confidence": 0.713
+  },
+  {
+    "subject": "Frayed_Electrical_Wiring",
+    "predicate": "contains",
+    "object": "fuselage",
+    "confidence": 0.675
+  },
+  {
+    "subject": "Frayed_Electrical_Wiring",
+    "predicate": "contains",
+    "object": "broken panel",
+    "confidence": 0.643
+  },
+  {
+    "subject": "Frayed_Electrical_Wiring",
+    "predicate": "contains",
+    "object": "corroded area",
+    "confidence": 0.628
+  },
+  {
+    "subject": "Frayed_Electrical_Wiring",
+    "predicate": "contains",
+    "object": "propeller",
+    "confidence": 0.618
+  },
+  {
+    "subject": "Frayed_Electrical_Wiring",
+    "predicate": "contains",
+    "object": "flap",
+    "confidence": 0.554
+  },
+  {
+    "subject": "Frayed_Electrical_Wiring",
+    "predicate": "contains",
+    "object": "tail",
+    "confidence": 0.411
+  },
+  {
+    "subject": "Frayed_Electrical_Wiring",
+    "predicate": "contains",
+    "object": "engine",
+    "confidence": 0.408
+  },
+  {
+    "subject": "Frayed_Electrical_Wiring",
+    "predicate": "contains",
+    "object": "landing gear",
+    "confidence": 0.346
+  },
+  {
+    "subject": "Frayed_Electrical_Wiring",
+    "predicate": "contains",
+    "object": "cracked pane",
+    "confidence": 0.259
+  },
+  {
+    "subject": "Frayed_Electrical_Wiring",
+    "predicate": "contains",
+    "object": "aileron",
+    "confidence": 0.214
+  }
+]

@@ -1,0 +1,92 @@
+[
+  {
+    "subject": "prop_damage",
+    "predicate": "contains",
+    "object": "corroded area",
+    "confidence": 0.934
+  },
+  {
+    "subject": "prop_damage",
+    "predicate": "contains",
+    "object": "wheel assembly",
+    "confidence": 0.92
+  },
+  {
+    "subject": "prop_damage",
+    "predicate": "contains",
+    "object": "damaged wire",
+    "confidence": 0.899
+  },
+  {
+    "subject": "prop_damage",
+    "predicate": "contains",
+    "object": "cockpit",
+    "confidence": 0.721
+  },
+  {
+    "subject": "prop_damage",
+    "predicate": "contains",
+    "object": "cracked pane",
+    "confidence": 0.694
+  },
+  {
+    "subject": "prop_damage",
+    "predicate": "contains",
+    "object": "missing rivet",
+    "confidence": 0.669
+  },
+  {
+    "subject": "prop_damage",
+    "predicate": "contains",
+    "object": "landing gear",
+    "confidence": 0.628
+  },
+  {
+    "subject": "prop_damage",
+    "predicate": "contains",
+    "object": "tail",
+    "confidence": 0.622
+  },
+  {
+    "subject": "prop_damage",
+    "predicate": "contains",
+    "object": "engine",
+    "confidence": 0.619
+  },
+  {
+    "subject": "prop_damage",
+    "predicate": "contains",
+    "object": "broken panel",
+    "confidence": 0.479
+  },
+  {
+    "subject": "prop_damage",
+    "predicate": "contains",
+    "object": "propeller",
+    "confidence": 0.319
+  },
+  {
+    "subject": "prop_damage",
+    "predicate": "contains",
+    "object": "flap",
+    "confidence": 0.253
+  },
+  {
+    "subject": "prop_damage",
+    "predicate": "contains",
+    "object": "wing",
+    "confidence": 0.2
+  },
+  {
+    "subject": "prop_damage",
+    "predicate": "contains",
+    "object": "aileron",
+    "confidence": 0.18
+  },
+  {
+    "subject": "prop_damage",
+    "predicate": "contains",
+    "object": "fuselage",
+    "confidence": 0.154
+  }
+]

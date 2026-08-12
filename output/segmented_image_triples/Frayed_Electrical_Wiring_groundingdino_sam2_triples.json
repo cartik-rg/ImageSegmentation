@@ -1,0 +1,92 @@
+[
+  {
+    "subject": "Frayed_Electrical_Wiring",
+    "predicate": "contains",
+    "object": "cracked pane",
+    "confidence": 0.977
+  },
+  {
+    "subject": "Frayed_Electrical_Wiring",
+    "predicate": "contains",
+    "object": "tail",
+    "confidence": 0.949
+  },
+  {
+    "subject": "Frayed_Electrical_Wiring",
+    "predicate": "contains",
+    "object": "cockpit",
+    "confidence": 0.918
+  },
+  {
+    "subject": "Frayed_Electrical_Wiring",
+    "predicate": "contains",
+    "object": "wing",
+    "confidence": 0.905
+  },
+  {
+    "subject": "Frayed_Electrical_Wiring",
+    "predicate": "contains",
+    "object": "wheel assembly",
+    "confidence": 0.822
+  },
+  {
+    "subject": "Frayed_Electrical_Wiring",
+    "predicate": "contains",
+    "object": "flap",
+    "confidence": 0.764
+  },
+  {
+    "subject": "Frayed_Electrical_Wiring",
+    "predicate": "contains",
+    "object": "corroded area",
+    "confidence": 0.726
+  },
+  {
+    "subject": "Frayed_Electrical_Wiring",
+    "predicate": "contains",
+    "object": "broken panel",
+    "confidence": 0.696
+  },
+  {
+    "subject": "Frayed_Electrical_Wiring",
+    "predicate": "contains",
+    "object": "landing gear",
+    "confidence": 0.633
+  },
+  {
+    "subject": "Frayed_Electrical_Wiring",
+    "predicate": "contains",
+    "object": "missing rivet",
+    "confidence": 0.624
+  },
+  {
+    "subject": "Frayed_Electrical_Wiring",
+    "predicate": "contains",
+    "object": "damaged wire",
+    "confidence": 0.597
+  },
+  {
+    "subject": "Frayed_Electrical_Wiring",
+    "predicate": "contains",
+    "object": "propeller",
+    "confidence": 0.479
+  },
+  {
+    "subject": "Frayed_Electrical_Wiring",
+    "predicate": "contains",
+    "object": "aileron",
+    "confidence": 0.476
+  },
+  {
+    "subject": "Frayed_Electrical_Wiring",
+    "predicate": "contains",
+    "object": "engine",
+    "confidence": 0.366
+  },
+  {
+    "subject": "Frayed_Electrical_Wiring",
+    "predicate": "contains",
+    "object": "fuselage",
+    "confidence": 0.304
+  }
+]

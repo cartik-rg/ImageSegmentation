@@ -1,0 +1,92 @@
+[
+  {
+    "subject": "cracked_spar",
+    "predicate": "contains",
+    "object": "flap",
+    "confidence": 0.943
+  },
+  {
+    "subject": "cracked_spar",
+    "predicate": "contains",
+    "object": "engine",
+    "confidence": 0.93
+  },
+  {
+    "subject": "cracked_spar",
+    "predicate": "contains",
+    "object": "aileron",
+    "confidence": 0.879
+  },
+  {
+    "subject": "cracked_spar",
+    "predicate": "contains",
+    "object": "landing gear",
+    "confidence": 0.799
+  },
+  {
+    "subject": "cracked_spar",
+    "predicate": "contains",
+    "object": "wheel assembly",
+    "confidence": 0.788
+  },
+  {
+    "subject": "cracked_spar",
+    "predicate": "contains",
+    "object": "cockpit",
+    "confidence": 0.733
+  },
+  {
+    "subject": "cracked_spar",
+    "predicate": "contains",
+    "object": "missing rivet",
+    "confidence": 0.726
+  },
+  {
+    "subject": "cracked_spar",
+    "predicate": "contains",
+    "object": "cracked pane",
+    "confidence": 0.681
+  },
+  {
+    "subject": "cracked_spar",
+    "predicate": "contains",
+    "object": "propeller",
+    "confidence": 0.535
+  },
+  {
+    "subject": "cracked_spar",
+    "predicate": "contains",
+    "object": "wing",
+    "confidence": 0.46
+  },
+  {
+    "subject": "cracked_spar",
+    "predicate": "contains",
+    "object": "tail",
+    "confidence": 0.421
+  },
+  {
+    "subject": "cracked_spar",
+    "predicate": "contains",
+    "object": "fuselage",
+    "confidence": 0.333
+  },
+  {
+    "subject": "cracked_spar",
+    "predicate": "contains",
+    "object": "broken panel",
+    "confidence": 0.193
+  },
+  {
+    "subject": "cracked_spar",
+    "predicate": "contains",
+    "object": "corroded area",
+    "confidence": 0.181
+  },
+  {
+    "subject": "cracked_spar",
+    "predicate": "contains",
+    "object": "damaged wire",
+    "confidence": 0.158
+  }
+]
