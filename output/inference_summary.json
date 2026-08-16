@@ -1,0 +1,534 @@
+[
+  {
+    "image_name": "damaged-propeller-001-boxed.jpg",
+    "model_name": "anomalib_patchcore",
+    "segmented_image_path": "C:\\Users\\CartikSaravanamuthu\\ONR-RG\\ImageSegmentation\\output\\__model_runs__\\anomalib_patchcore\\segmented_images\\damaged-propeller-001-boxed_anomalib_patchcore_segmented.png",
+    "annotation_path": "C:\\Users\\CartikSaravanamuthu\\ONR-RG\\ImageSegmentation\\output\\annotations\\damaged-propeller-001-boxed_output_annotations.json",
+    "confidence_count": 6
+  },
+  {
+    "image_name": "damaged-propeller-002-boxed.jpg",
+    "model_name": "anomalib_patchcore",
+    "segmented_image_path": "C:\\Users\\CartikSaravanamuthu\\ONR-RG\\ImageSegmentation\\output\\__model_runs__\\anomalib_patchcore\\segmented_images\\damaged-propeller-002-boxed_anomalib_patchcore_segmented.png",
+    "annotation_path": "C:\\Users\\CartikSaravanamuthu\\ONR-RG\\ImageSegmentation\\output\\annotations\\damaged-propeller-002-boxed_output_annotations.json",
+    "confidence_count": 6
+  },
+  {
+    "image_name": "damaged-propeller-003-boxed.jpg",
+    "model_name": "anomalib_patchcore",
+    "segmented_image_path": "C:\\Users\\CartikSaravanamuthu\\ONR-RG\\ImageSegmentation\\output\\__model_runs__\\anomalib_patchcore\\segmented_images\\damaged-propeller-003-boxed_anomalib_patchcore_segmented.png",
+    "annotation_path": "C:\\Users\\CartikSaravanamuthu\\ONR-RG\\ImageSegmentation\\output\\annotations\\damaged-propeller-003-boxed_output_annotations.json",
+    "confidence_count": 6
+  },
+  {
+    "image_name": "damaged-propeller-004-boxed.jpg",
+    "model_name": "anomalib_patchcore",
+    "segmented_image_path": "C:\\Users\\CartikSaravanamuthu\\ONR-RG\\ImageSegmentation\\output\\__model_runs__\\anomalib_patchcore\\segmented_images\\damaged-propeller-004-boxed_anomalib_patchcore_segmented.png",
+    "annotation_path": "C:\\Users\\CartikSaravanamuthu\\ONR-RG\\ImageSegmentation\\output\\annotations\\damaged-propeller-004-boxed_output_annotations.json",
+    "confidence_count": 6
+  },
+  {
+    "image_name": "damaged_engine_blade_001_boxed.jpg",
+    "model_name": "anomalib_patchcore",
+    "segmented_image_path": "C:\\Users\\CartikSaravanamuthu\\ONR-RG\\ImageSegmentation\\output\\__model_runs__\\anomalib_patchcore\\segmented_images\\damaged_engine_blade_001_boxed_anomalib_patchcore_segmented.png",
+    "annotation_path": "C:\\Users\\CartikSaravanamuthu\\ONR-RG\\ImageSegmentation\\output\\annotations\\damaged_engine_blade_001_boxed_output_annotations.json",
+    "confidence_count": 6
+  },
+  {
+    "image_name": "damaged_engine_blade_002_boxed.jpg",
+    "model_name": "anomalib_patchcore",
+    "segmented_image_path": "C:\\Users\\CartikSaravanamuthu\\ONR-RG\\ImageSegmentation\\output\\__model_runs__\\anomalib_patchcore\\segmented_images\\damaged_engine_blade_002_boxed_anomalib_patchcore_segmented.png",
+    "annotation_path": "C:\\Users\\CartikSaravanamuthu\\ONR-RG\\ImageSegmentation\\output\\annotations\\damaged_engine_blade_002_boxed_output_annotations.json",
+    "confidence_count": 6
+  },
+  {
+    "image_name": "damaged_engine_blade_003_boxed.jpg",
+    "model_name": "anomalib_patchcore",
+    "segmented_image_path": "C:\\Users\\CartikSaravanamuthu\\ONR-RG\\ImageSegmentation\\output\\__model_runs__\\anomalib_patchcore\\segmented_images\\damaged_engine_blade_003_boxed_anomalib_patchcore_segmented.png",
+    "annotation_path": "C:\\Users\\CartikSaravanamuthu\\ONR-RG\\ImageSegmentation\\output\\annotations\\damaged_engine_blade_003_boxed_output_annotations.json",
+    "confidence_count": 6
+  },
+  {
+    "image_name": "damaged_engine_blade_004_boxed.jpg",
+    "model_name": "anomalib_patchcore",
+    "segmented_image_path": "C:\\Users\\CartikSaravanamuthu\\ONR-RG\\ImageSegmentation\\output\\__model_runs__\\anomalib_patchcore\\segmented_images\\damaged_engine_blade_004_boxed_anomalib_patchcore_segmented.png",
+    "annotation_path": "C:\\Users\\CartikSaravanamuthu\\ONR-RG\\ImageSegmentation\\output\\annotations\\damaged_engine_blade_004_boxed_output_annotations.json",
+    "confidence_count": 6
+  },
+  {
+    "image_name": "bent_canon_plug_pins.jpg",
+    "model_name": "anomalib_patchcore",
+    "segmented_image_path": "C:\\Users\\CartikSaravanamuthu\\ONR-RG\\ImageSegmentation\\output\\__model_runs__\\anomalib_patchcore\\segmented_images\\bent_canon_plug_pins_anomalib_patchcore_segmented.png",
+    "annotation_path": "C:\\Users\\CartikSaravanamuthu\\ONR-RG\\ImageSegmentation\\output\\annotations\\bent_canon_plug_pins_output_annotations.json",
+    "confidence_count": 6
+  },
+  {
+    "image_name": "damaged_canon_plug_pins.jpg",
+    "model_name": "anomalib_patchcore",
+    "segmented_image_path": "C:\\Users\\CartikSaravanamuthu\\ONR-RG\\ImageSegmentation\\output\\__model_runs__\\anomalib_patchcore\\segmented_images\\damaged_canon_plug_pins_anomalib_patchcore_segmented.png",
+    "annotation_path": "C:\\Users\\CartikSaravanamuthu\\ONR-RG\\ImageSegmentation\\output\\annotations\\damaged_canon_plug_pins_output_annotations.json",
+    "confidence_count": 6
+  },
+  {
+    "image_name": "missing_canon_pins.jpeg",
+    "model_name": "anomalib_patchcore",
+    "segmented_image_path": "C:\\Users\\CartikSaravanamuthu\\ONR-RG\\ImageSegmentation\\output\\__model_runs__\\anomalib_patchcore\\segmented_images\\missing_canon_pins_anomalib_patchcore_segmented.png",
+    "annotation_path": "C:\\Users\\CartikSaravanamuthu\\ONR-RG\\ImageSegmentation\\output\\annotations\\missing_canon_pins_output_annotations.json",
+    "confidence_count": 6
+  },
+  {
+    "image_name": "damaged_engine_blade_001.jpg",
+    "model_name": "anomalib_patchcore",
+    "segmented_image_path": "C:\\Users\\CartikSaravanamuthu\\ONR-RG\\ImageSegmentation\\output\\__model_runs__\\anomalib_patchcore\\segmented_images\\damaged_engine_blade_001_anomalib_patchcore_segmented.png",
+    "annotation_path": "C:\\Users\\CartikSaravanamuthu\\ONR-RG\\ImageSegmentation\\output\\annotations\\damaged_engine_blade_001_output_annotations.json",
+    "confidence_count": 6
+  },
+  {
+    "image_name": "damaged_engine_blade_002.jpg",
+    "model_name": "anomalib_patchcore",
+    "segmented_image_path": "C:\\Users\\CartikSaravanamuthu\\ONR-RG\\ImageSegmentation\\output\\__model_runs__\\anomalib_patchcore\\segmented_images\\damaged_engine_blade_002_anomalib_patchcore_segmented.png",
+    "annotation_path": "C:\\Users\\CartikSaravanamuthu\\ONR-RG\\ImageSegmentation\\output\\annotations\\damaged_engine_blade_002_output_annotations.json",
+    "confidence_count": 6
+  },
+  {
+    "image_name": "damaged_engine_blade_003.png",
+    "model_name": "anomalib_patchcore",
+    "segmented_image_path": "C:\\Users\\CartikSaravanamuthu\\ONR-RG\\ImageSegmentation\\output\\__model_runs__\\anomalib_patchcore\\segmented_images\\damaged_engine_blade_003_anomalib_patchcore_segmented.png",
+    "annotation_path": "C:\\Users\\CartikSaravanamuthu\\ONR-RG\\ImageSegmentation\\output\\annotations\\damaged_engine_blade_003_output_annotations.json",
+    "confidence_count": 6
+  },
+  {
+    "image_name": "damaged_engine_blade_004.jpg",
+    "model_name": "anomalib_patchcore",
+    "segmented_image_path": "C:\\Users\\CartikSaravanamuthu\\ONR-RG\\ImageSegmentation\\output\\__model_runs__\\anomalib_patchcore\\segmented_images\\damaged_engine_blade_004_anomalib_patchcore_segmented.png",
+    "annotation_path": "C:\\Users\\CartikSaravanamuthu\\ONR-RG\\ImageSegmentation\\output\\annotations\\damaged_engine_blade_004_output_annotations.json",
+    "confidence_count": 6
+  },
+  {
+    "image_name": "damaged-propeller-001.jpg",
+    "model_name": "anomalib_patchcore",
+    "segmented_image_path": "C:\\Users\\CartikSaravanamuthu\\ONR-RG\\ImageSegmentation\\output\\__model_runs__\\anomalib_patchcore\\segmented_images\\damaged-propeller-001_anomalib_patchcore_segmented.png",
+    "annotation_path": "C:\\Users\\CartikSaravanamuthu\\ONR-RG\\ImageSegmentation\\output\\annotations\\damaged-propeller-001_output_annotations.json",
+    "confidence_count": 6
+  },
+  {
+    "image_name": "damaged-propeller-002.jpg",
+    "model_name": "anomalib_patchcore",
+    "segmented_image_path": "C:\\Users\\CartikSaravanamuthu\\ONR-RG\\ImageSegmentation\\output\\__model_runs__\\anomalib_patchcore\\segmented_images\\damaged-propeller-002_anomalib_patchcore_segmented.png",
+    "annotation_path": "C:\\Users\\CartikSaravanamuthu\\ONR-RG\\ImageSegmentation\\output\\annotations\\damaged-propeller-002_output_annotations.json",
+    "confidence_count": 6
+  },
+  {
+    "image_name": "damaged-propeller-003.jpg",
+    "model_name": "anomalib_patchcore",
+    "segmented_image_path": "C:\\Users\\CartikSaravanamuthu\\ONR-RG\\ImageSegmentation\\output\\__model_runs__\\anomalib_patchcore\\segmented_images\\damaged-propeller-003_anomalib_patchcore_segmented.png",
+    "annotation_path": "C:\\Users\\CartikSaravanamuthu\\ONR-RG\\ImageSegmentation\\output\\annotations\\damaged-propeller-003_output_annotations.json",
+    "confidence_count": 6
+  },
+  {
+    "image_name": "damaged-propeller-004.jpg",
+    "model_name": "anomalib_patchcore",
+    "segmented_image_path": "C:\\Users\\CartikSaravanamuthu\\ONR-RG\\ImageSegmentation\\output\\__model_runs__\\anomalib_patchcore\\segmented_images\\damaged-propeller-004_anomalib_patchcore_segmented.png",
+    "annotation_path": "C:\\Users\\CartikSaravanamuthu\\ONR-RG\\ImageSegmentation\\output\\annotations\\damaged-propeller-004_output_annotations.json",
+    "confidence_count": 6
+  },
+  {
+    "image_name": "damaged-propeller-001-boxed.jpg",
+    "model_name": "groundingdino_sam2",
+    "segmented_image_path": "C:\\Users\\CartikSaravanamuthu\\ONR-RG\\ImageSegmentation\\output\\__model_runs__\\groundingdino_sam2\\segmented_images\\damaged-propeller-001-boxed_groundingdino_sam2_segmented.png",
+    "annotation_path": "C:\\Users\\CartikSaravanamuthu\\ONR-RG\\ImageSegmentation\\output\\annotations\\damaged-propeller-001-boxed_output_annotations.json",
+    "confidence_count": 6
+  },
+  {
+    "image_name": "damaged-propeller-002-boxed.jpg",
+    "model_name": "groundingdino_sam2",
+    "segmented_image_path": "C:\\Users\\CartikSaravanamuthu\\ONR-RG\\ImageSegmentation\\output\\__model_runs__\\groundingdino_sam2\\segmented_images\\damaged-propeller-002-boxed_groundingdino_sam2_segmented.png",
+    "annotation_path": "C:\\Users\\CartikSaravanamuthu\\ONR-RG\\ImageSegmentation\\output\\annotations\\damaged-propeller-002-boxed_output_annotations.json",
+    "confidence_count": 6
+  },
+  {
+    "image_name": "damaged-propeller-003-boxed.jpg",
+    "model_name": "groundingdino_sam2",
+    "segmented_image_path": "C:\\Users\\CartikSaravanamuthu\\ONR-RG\\ImageSegmentation\\output\\__model_runs__\\groundingdino_sam2\\segmented_images\\damaged-propeller-003-boxed_groundingdino_sam2_segmented.png",
+    "annotation_path": "C:\\Users\\CartikSaravanamuthu\\ONR-RG\\ImageSegmentation\\output\\annotations\\damaged-propeller-003-boxed_output_annotations.json",
+    "confidence_count": 6
+  },
+  {
+    "image_name": "damaged-propeller-004-boxed.jpg",
+    "model_name": "groundingdino_sam2",
+    "segmented_image_path": "C:\\Users\\CartikSaravanamuthu\\ONR-RG\\ImageSegmentation\\output\\__model_runs__\\groundingdino_sam2\\segmented_images\\damaged-propeller-004-boxed_groundingdino_sam2_segmented.png",
+    "annotation_path": "C:\\Users\\CartikSaravanamuthu\\ONR-RG\\ImageSegmentation\\output\\annotations\\damaged-propeller-004-boxed_output_annotations.json",
+    "confidence_count": 6
+  },
+  {
+    "image_name": "damaged_engine_blade_001_boxed.jpg",
+    "model_name": "groundingdino_sam2",
+    "segmented_image_path": "C:\\Users\\CartikSaravanamuthu\\ONR-RG\\ImageSegmentation\\output\\__model_runs__\\groundingdino_sam2\\segmented_images\\damaged_engine_blade_001_boxed_groundingdino_sam2_segmented.png",
+    "annotation_path": "C:\\Users\\CartikSaravanamuthu\\ONR-RG\\ImageSegmentation\\output\\annotations\\damaged_engine_blade_001_boxed_output_annotations.json",
+    "confidence_count": 6
+  },
+  {
+    "image_name": "damaged_engine_blade_002_boxed.jpg",
+    "model_name": "groundingdino_sam2",
+    "segmented_image_path": "C:\\Users\\CartikSaravanamuthu\\ONR-RG\\ImageSegmentation\\output\\__model_runs__\\groundingdino_sam2\\segmented_images\\damaged_engine_blade_002_boxed_groundingdino_sam2_segmented.png",
+    "annotation_path": "C:\\Users\\CartikSaravanamuthu\\ONR-RG\\ImageSegmentation\\output\\annotations\\damaged_engine_blade_002_boxed_output_annotations.json",
+    "confidence_count": 6
+  },
+  {
+    "image_name": "damaged_engine_blade_003_boxed.jpg",
+    "model_name": "groundingdino_sam2",
+    "segmented_image_path": "C:\\Users\\CartikSaravanamuthu\\ONR-RG\\ImageSegmentation\\output\\__model_runs__\\groundingdino_sam2\\segmented_images\\damaged_engine_blade_003_boxed_groundingdino_sam2_segmented.png",
+    "annotation_path": "C:\\Users\\CartikSaravanamuthu\\ONR-RG\\ImageSegmentation\\output\\annotations\\damaged_engine_blade_003_boxed_output_annotations.json",
+    "confidence_count": 6
+  },
+  {
+    "image_name": "damaged_engine_blade_004_boxed.jpg",
+    "model_name": "groundingdino_sam2",
+    "segmented_image_path": "C:\\Users\\CartikSaravanamuthu\\ONR-RG\\ImageSegmentation\\output\\__model_runs__\\groundingdino_sam2\\segmented_images\\damaged_engine_blade_004_boxed_groundingdino_sam2_segmented.png",
+    "annotation_path": "C:\\Users\\CartikSaravanamuthu\\ONR-RG\\ImageSegmentation\\output\\annotations\\damaged_engine_blade_004_boxed_output_annotations.json",
+    "confidence_count": 6
+  },
+  {
+    "image_name": "bent_canon_plug_pins.jpg",
+    "model_name": "groundingdino_sam2",
+    "segmented_image_path": "C:\\Users\\CartikSaravanamuthu\\ONR-RG\\ImageSegmentation\\output\\__model_runs__\\groundingdino_sam2\\segmented_images\\bent_canon_plug_pins_groundingdino_sam2_segmented.png",
+    "annotation_path": "C:\\Users\\CartikSaravanamuthu\\ONR-RG\\ImageSegmentation\\output\\annotations\\bent_canon_plug_pins_output_annotations.json",
+    "confidence_count": 6
+  },
+  {
+    "image_name": "damaged_canon_plug_pins.jpg",
+    "model_name": "groundingdino_sam2",
+    "segmented_image_path": "C:\\Users\\CartikSaravanamuthu\\ONR-RG\\ImageSegmentation\\output\\__model_runs__\\groundingdino_sam2\\segmented_images\\damaged_canon_plug_pins_groundingdino_sam2_segmented.png",
+    "annotation_path": "C:\\Users\\CartikSaravanamuthu\\ONR-RG\\ImageSegmentation\\output\\annotations\\damaged_canon_plug_pins_output_annotations.json",
+    "confidence_count": 6
+  },
+  {
+    "image_name": "missing_canon_pins.jpeg",
+    "model_name": "groundingdino_sam2",
+    "segmented_image_path": "C:\\Users\\CartikSaravanamuthu\\ONR-RG\\ImageSegmentation\\output\\__model_runs__\\groundingdino_sam2\\segmented_images\\missing_canon_pins_groundingdino_sam2_segmented.png",
+    "annotation_path": "C:\\Users\\CartikSaravanamuthu\\ONR-RG\\ImageSegmentation\\output\\annotations\\missing_canon_pins_output_annotations.json",
+    "confidence_count": 6
+  },
+  {
+    "image_name": "damaged_engine_blade_001.jpg",
+    "model_name": "groundingdino_sam2",
+    "segmented_image_path": "C:\\Users\\CartikSaravanamuthu\\ONR-RG\\ImageSegmentation\\output\\__model_runs__\\groundingdino_sam2\\segmented_images\\damaged_engine_blade_001_groundingdino_sam2_segmented.png",
+    "annotation_path": "C:\\Users\\CartikSaravanamuthu\\ONR-RG\\ImageSegmentation\\output\\annotations\\damaged_engine_blade_001_output_annotations.json",
+    "confidence_count": 6
+  },
+  {
+    "image_name": "damaged_engine_blade_002.jpg",
+    "model_name": "groundingdino_sam2",
+    "segmented_image_path": "C:\\Users\\CartikSaravanamuthu\\ONR-RG\\ImageSegmentation\\output\\__model_runs__\\groundingdino_sam2\\segmented_images\\damaged_engine_blade_002_groundingdino_sam2_segmented.png",
+    "annotation_path": "C:\\Users\\CartikSaravanamuthu\\ONR-RG\\ImageSegmentation\\output\\annotations\\damaged_engine_blade_002_output_annotations.json",
+    "confidence_count": 6
+  },
+  {
+    "image_name": "damaged_engine_blade_003.png",
+    "model_name": "groundingdino_sam2",
+    "segmented_image_path": "C:\\Users\\CartikSaravanamuthu\\ONR-RG\\ImageSegmentation\\output\\__model_runs__\\groundingdino_sam2\\segmented_images\\damaged_engine_blade_003_groundingdino_sam2_segmented.png",
+    "annotation_path": "C:\\Users\\CartikSaravanamuthu\\ONR-RG\\ImageSegmentation\\output\\annotations\\damaged_engine_blade_003_output_annotations.json",
+    "confidence_count": 6
+  },
+  {
+    "image_name": "damaged_engine_blade_004.jpg",
+    "model_name": "groundingdino_sam2",
+    "segmented_image_path": "C:\\Users\\CartikSaravanamuthu\\ONR-RG\\ImageSegmentation\\output\\__model_runs__\\groundingdino_sam2\\segmented_images\\damaged_engine_blade_004_groundingdino_sam2_segmented.png",
+    "annotation_path": "C:\\Users\\CartikSaravanamuthu\\ONR-RG\\ImageSegmentation\\output\\annotations\\damaged_engine_blade_004_output_annotations.json",
+    "confidence_count": 6
+  },
+  {
+    "image_name": "damaged-propeller-001.jpg",
+    "model_name": "groundingdino_sam2",
+    "segmented_image_path": "C:\\Users\\CartikSaravanamuthu\\ONR-RG\\ImageSegmentation\\output\\__model_runs__\\groundingdino_sam2\\segmented_images\\damaged-propeller-001_groundingdino_sam2_segmented.png",
+    "annotation_path": "C:\\Users\\CartikSaravanamuthu\\ONR-RG\\ImageSegmentation\\output\\annotations\\damaged-propeller-001_output_annotations.json",
+    "confidence_count": 6
+  },
+  {
+    "image_name": "damaged-propeller-002.jpg",
+    "model_name": "groundingdino_sam2",
+    "segmented_image_path": "C:\\Users\\CartikSaravanamuthu\\ONR-RG\\ImageSegmentation\\output\\__model_runs__\\groundingdino_sam2\\segmented_images\\damaged-propeller-002_groundingdino_sam2_segmented.png",
+    "annotation_path": "C:\\Users\\CartikSaravanamuthu\\ONR-RG\\ImageSegmentation\\output\\annotations\\damaged-propeller-002_output_annotations.json",
+    "confidence_count": 6
+  },
+  {
+    "image_name": "damaged-propeller-003.jpg",
+    "model_name": "groundingdino_sam2",
+    "segmented_image_path": "C:\\Users\\CartikSaravanamuthu\\ONR-RG\\ImageSegmentation\\output\\__model_runs__\\groundingdino_sam2\\segmented_images\\damaged-propeller-003_groundingdino_sam2_segmented.png",
+    "annotation_path": "C:\\Users\\CartikSaravanamuthu\\ONR-RG\\ImageSegmentation\\output\\annotations\\damaged-propeller-003_output_annotations.json",
+    "confidence_count": 6
+  },
+  {
+    "image_name": "damaged-propeller-004.jpg",
+    "model_name": "groundingdino_sam2",
+    "segmented_image_path": "C:\\Users\\CartikSaravanamuthu\\ONR-RG\\ImageSegmentation\\output\\__model_runs__\\groundingdino_sam2\\segmented_images\\damaged-propeller-004_groundingdino_sam2_segmented.png",
+    "annotation_path": "C:\\Users\\CartikSaravanamuthu\\ONR-RG\\ImageSegmentation\\output\\annotations\\damaged-propeller-004_output_annotations.json",
+    "confidence_count": 6
+  },
+  {
+    "image_name": "damaged-propeller-001-boxed.jpg",
+    "model_name": "mask2former",
+    "segmented_image_path": "C:\\Users\\CartikSaravanamuthu\\ONR-RG\\ImageSegmentation\\output\\__model_runs__\\mask2former\\segmented_images\\damaged-propeller-001-boxed_mask2former_segmented.png",
+    "annotation_path": "C:\\Users\\CartikSaravanamuthu\\ONR-RG\\ImageSegmentation\\output\\annotations\\damaged-propeller-001-boxed_output_annotations.json",
+    "confidence_count": 6
+  },
+  {
+    "image_name": "damaged-propeller-002-boxed.jpg",
+    "model_name": "mask2former",
+    "segmented_image_path": "C:\\Users\\CartikSaravanamuthu\\ONR-RG\\ImageSegmentation\\output\\__model_runs__\\mask2former\\segmented_images\\damaged-propeller-002-boxed_mask2former_segmented.png",
+    "annotation_path": "C:\\Users\\CartikSaravanamuthu\\ONR-RG\\ImageSegmentation\\output\\annotations\\damaged-propeller-002-boxed_output_annotations.json",
+    "confidence_count": 6
+  },
+  {
+    "image_name": "damaged-propeller-003-boxed.jpg",
+    "model_name": "mask2former",
+    "segmented_image_path": "C:\\Users\\CartikSaravanamuthu\\ONR-RG\\ImageSegmentation\\output\\__model_runs__\\mask2former\\segmented_images\\damaged-propeller-003-boxed_mask2former_segmented.png",
+    "annotation_path": "C:\\Users\\CartikSaravanamuthu\\ONR-RG\\ImageSegmentation\\output\\annotations\\damaged-propeller-003-boxed_output_annotations.json",
+    "confidence_count": 6
+  },
+  {
+    "image_name": "damaged-propeller-004-boxed.jpg",
+    "model_name": "mask2former",
+    "segmented_image_path": "C:\\Users\\CartikSaravanamuthu\\ONR-RG\\ImageSegmentation\\output\\__model_runs__\\mask2former\\segmented_images\\damaged-propeller-004-boxed_mask2former_segmented.png",
+    "annotation_path": "C:\\Users\\CartikSaravanamuthu\\ONR-RG\\ImageSegmentation\\output\\annotations\\damaged-propeller-004-boxed_output_annotations.json",
+    "confidence_count": 6
+  },
+  {
+    "image_name": "damaged_engine_blade_001_boxed.jpg",
+    "model_name": "mask2former",
+    "segmented_image_path": "C:\\Users\\CartikSaravanamuthu\\ONR-RG\\ImageSegmentation\\output\\__model_runs__\\mask2former\\segmented_images\\damaged_engine_blade_001_boxed_mask2former_segmented.png",
+    "annotation_path": "C:\\Users\\CartikSaravanamuthu\\ONR-RG\\ImageSegmentation\\output\\annotations\\damaged_engine_blade_001_boxed_output_annotations.json",
+    "confidence_count": 6
+  },
+  {
+    "image_name": "damaged_engine_blade_002_boxed.jpg",
+    "model_name": "mask2former",
+    "segmented_image_path": "C:\\Users\\CartikSaravanamuthu\\ONR-RG\\ImageSegmentation\\output\\__model_runs__\\mask2former\\segmented_images\\damaged_engine_blade_002_boxed_mask2former_segmented.png",
+    "annotation_path": "C:\\Users\\CartikSaravanamuthu\\ONR-RG\\ImageSegmentation\\output\\annotations\\damaged_engine_blade_002_boxed_output_annotations.json",
+    "confidence_count": 6
+  },
+  {
+    "image_name": "damaged_engine_blade_003_boxed.jpg",
+    "model_name": "mask2former",
+    "segmented_image_path": "C:\\Users\\CartikSaravanamuthu\\ONR-RG\\ImageSegmentation\\output\\__model_runs__\\mask2former\\segmented_images\\damaged_engine_blade_003_boxed_mask2former_segmented.png",
+    "annotation_path": "C:\\Users\\CartikSaravanamuthu\\ONR-RG\\ImageSegmentation\\output\\annotations\\damaged_engine_blade_003_boxed_output_annotations.json",
+    "confidence_count": 6
+  },
+  {
+    "image_name": "damaged_engine_blade_004_boxed.jpg",
+    "model_name": "mask2former",
+    "segmented_image_path": "C:\\Users\\CartikSaravanamuthu\\ONR-RG\\ImageSegmentation\\output\\__model_runs__\\mask2former\\segmented_images\\damaged_engine_blade_004_boxed_mask2former_segmented.png",
+    "annotation_path": "C:\\Users\\CartikSaravanamuthu\\ONR-RG\\ImageSegmentation\\output\\annotations\\damaged_engine_blade_004_boxed_output_annotations.json",
+    "confidence_count": 6
+  },
+  {
+    "image_name": "bent_canon_plug_pins.jpg",
+    "model_name": "mask2former",
+    "segmented_image_path": "C:\\Users\\CartikSaravanamuthu\\ONR-RG\\ImageSegmentation\\output\\__model_runs__\\mask2former\\segmented_images\\bent_canon_plug_pins_mask2former_segmented.png",
+    "annotation_path": "C:\\Users\\CartikSaravanamuthu\\ONR-RG\\ImageSegmentation\\output\\annotations\\bent_canon_plug_pins_output_annotations.json",
+    "confidence_count": 6
+  },
+  {
+    "image_name": "damaged_canon_plug_pins.jpg",
+    "model_name": "mask2former",
+    "segmented_image_path": "C:\\Users\\CartikSaravanamuthu\\ONR-RG\\ImageSegmentation\\output\\__model_runs__\\mask2former\\segmented_images\\damaged_canon_plug_pins_mask2former_segmented.png",
+    "annotation_path": "C:\\Users\\CartikSaravanamuthu\\ONR-RG\\ImageSegmentation\\output\\annotations\\damaged_canon_plug_pins_output_annotations.json",
+    "confidence_count": 6
+  },
+  {
+    "image_name": "missing_canon_pins.jpeg",
+    "model_name": "mask2former",
+    "segmented_image_path": "C:\\Users\\CartikSaravanamuthu\\ONR-RG\\ImageSegmentation\\output\\__model_runs__\\mask2former\\segmented_images\\missing_canon_pins_mask2former_segmented.png",
+    "annotation_path": "C:\\Users\\CartikSaravanamuthu\\ONR-RG\\ImageSegmentation\\output\\annotations\\missing_canon_pins_output_annotations.json",
+    "confidence_count": 6
+  },
+  {
+    "image_name": "damaged_engine_blade_001.jpg",
+    "model_name": "mask2former",
+    "segmented_image_path": "C:\\Users\\CartikSaravanamuthu\\ONR-RG\\ImageSegmentation\\output\\__model_runs__\\mask2former\\segmented_images\\damaged_engine_blade_001_mask2former_segmented.png",
+    "annotation_path": "C:\\Users\\CartikSaravanamuthu\\ONR-RG\\ImageSegmentation\\output\\annotations\\damaged_engine_blade_001_output_annotations.json",
+    "confidence_count": 6
+  },
+  {
+    "image_name": "damaged_engine_blade_002.jpg",
+    "model_name": "mask2former",
+    "segmented_image_path": "C:\\Users\\CartikSaravanamuthu\\ONR-RG\\ImageSegmentation\\output\\__model_runs__\\mask2former\\segmented_images\\damaged_engine_blade_002_mask2former_segmented.png",
+    "annotation_path": "C:\\Users\\CartikSaravanamuthu\\ONR-RG\\ImageSegmentation\\output\\annotations\\damaged_engine_blade_002_output_annotations.json",
+    "confidence_count": 6
+  },
+  {
+    "image_name": "damaged_engine_blade_003.png",
+    "model_name": "mask2former",
+    "segmented_image_path": "C:\\Users\\CartikSaravanamuthu\\ONR-RG\\ImageSegmentation\\output\\__model_runs__\\mask2former\\segmented_images\\damaged_engine_blade_003_mask2former_segmented.png",
+    "annotation_path": "C:\\Users\\CartikSaravanamuthu\\ONR-RG\\ImageSegmentation\\output\\annotations\\damaged_engine_blade_003_output_annotations.json",
+    "confidence_count": 6
+  },
+  {
+    "image_name": "damaged_engine_blade_004.jpg",
+    "model_name": "mask2former",
+    "segmented_image_path": "C:\\Users\\CartikSaravanamuthu\\ONR-RG\\ImageSegmentation\\output\\__model_runs__\\mask2former\\segmented_images\\damaged_engine_blade_004_mask2former_segmented.png",
+    "annotation_path": "C:\\Users\\CartikSaravanamuthu\\ONR-RG\\ImageSegmentation\\output\\annotations\\damaged_engine_blade_004_output_annotations.json",
+    "confidence_count": 6
+  },
+  {
+    "image_name": "damaged-propeller-001.jpg",
+    "model_name": "mask2former",
+    "segmented_image_path": "C:\\Users\\CartikSaravanamuthu\\ONR-RG\\ImageSegmentation\\output\\__model_runs__\\mask2former\\segmented_images\\damaged-propeller-001_mask2former_segmented.png",
+    "annotation_path": "C:\\Users\\CartikSaravanamuthu\\ONR-RG\\ImageSegmentation\\output\\annotations\\damaged-propeller-001_output_annotations.json",
+    "confidence_count": 6
+  },
+  {
+    "image_name": "damaged-propeller-002.jpg",
+    "model_name": "mask2former",
+    "segmented_image_path": "C:\\Users\\CartikSaravanamuthu\\ONR-RG\\ImageSegmentation\\output\\__model_runs__\\mask2former\\segmented_images\\damaged-propeller-002_mask2former_segmented.png",
+    "annotation_path": "C:\\Users\\CartikSaravanamuthu\\ONR-RG\\ImageSegmentation\\output\\annotations\\damaged-propeller-002_output_annotations.json",
+    "confidence_count": 6
+  },
+  {
+    "image_name": "damaged-propeller-003.jpg",
+    "model_name": "mask2former",
+    "segmented_image_path": "C:\\Users\\CartikSaravanamuthu\\ONR-RG\\ImageSegmentation\\output\\__model_runs__\\mask2former\\segmented_images\\damaged-propeller-003_mask2former_segmented.png",
+    "annotation_path": "C:\\Users\\CartikSaravanamuthu\\ONR-RG\\ImageSegmentation\\output\\annotations\\damaged-propeller-003_output_annotations.json",
+    "confidence_count": 6
+  },
+  {
+    "image_name": "damaged-propeller-004.jpg",
+    "model_name": "mask2former",
+    "segmented_image_path": "C:\\Users\\CartikSaravanamuthu\\ONR-RG\\ImageSegmentation\\output\\__model_runs__\\mask2former\\segmented_images\\damaged-propeller-004_mask2former_segmented.png",
+    "annotation_path": "C:\\Users\\CartikSaravanamuthu\\ONR-RG\\ImageSegmentation\\output\\annotations\\damaged-propeller-004_output_annotations.json",
+    "confidence_count": 6
+  },
+  {
+    "image_name": "damaged-propeller-001-boxed.jpg",
+    "model_name": "sam2",
+    "segmented_image_path": "C:\\Users\\CartikSaravanamuthu\\ONR-RG\\ImageSegmentation\\output\\__model_runs__\\sam2\\segmented_images\\damaged-propeller-001-boxed_sam2_segmented.png",
+    "annotation_path": "C:\\Users\\CartikSaravanamuthu\\ONR-RG\\ImageSegmentation\\output\\annotations\\damaged-propeller-001-boxed_output_annotations.json",
+    "confidence_count": 6
+  },
+  {
+    "image_name": "damaged-propeller-002-boxed.jpg",
+    "model_name": "sam2",
+    "segmented_image_path": "C:\\Users\\CartikSaravanamuthu\\ONR-RG\\ImageSegmentation\\output\\__model_runs__\\sam2\\segmented_images\\damaged-propeller-002-boxed_sam2_segmented.png",
+    "annotation_path": "C:\\Users\\CartikSaravanamuthu\\ONR-RG\\ImageSegmentation\\output\\annotations\\damaged-propeller-002-boxed_output_annotations.json",
+    "confidence_count": 6
+  },
+  {
+    "image_name": "damaged-propeller-003-boxed.jpg",
+    "model_name": "sam2",
+    "segmented_image_path": "C:\\Users\\CartikSaravanamuthu\\ONR-RG\\ImageSegmentation\\output\\__model_runs__\\sam2\\segmented_images\\damaged-propeller-003-boxed_sam2_segmented.png",
+    "annotation_path": "C:\\Users\\CartikSaravanamuthu\\ONR-RG\\ImageSegmentation\\output\\annotations\\damaged-propeller-003-boxed_output_annotations.json",
+    "confidence_count": 6
+  },
+  {
+    "image_name": "damaged-propeller-004-boxed.jpg",
+    "model_name": "sam2",
+    "segmented_image_path": "C:\\Users\\CartikSaravanamuthu\\ONR-RG\\ImageSegmentation\\output\\__model_runs__\\sam2\\segmented_images\\damaged-propeller-004-boxed_sam2_segmented.png",
+    "annotation_path": "C:\\Users\\CartikSaravanamuthu\\ONR-RG\\ImageSegmentation\\output\\annotations\\damaged-propeller-004-boxed_output_annotations.json",
+    "confidence_count": 6
+  },
+  {
+    "image_name": "damaged_engine_blade_001_boxed.jpg",
+    "model_name": "sam2",
+    "segmented_image_path": "C:\\Users\\CartikSaravanamuthu\\ONR-RG\\ImageSegmentation\\output\\__model_runs__\\sam2\\segmented_images\\damaged_engine_blade_001_boxed_sam2_segmented.png",
+    "annotation_path": "C:\\Users\\CartikSaravanamuthu\\ONR-RG\\ImageSegmentation\\output\\annotations\\damaged_engine_blade_001_boxed_output_annotations.json",
+    "confidence_count": 6
+  },
+  {
+    "image_name": "damaged_engine_blade_002_boxed.jpg",
+    "model_name": "sam2",
+    "segmented_image_path": "C:\\Users\\CartikSaravanamuthu\\ONR-RG\\ImageSegmentation\\output\\__model_runs__\\sam2\\segmented_images\\damaged_engine_blade_002_boxed_sam2_segmented.png",
+    "annotation_path": "C:\\Users\\CartikSaravanamuthu\\ONR-RG\\ImageSegmentation\\output\\annotations\\damaged_engine_blade_002_boxed_output_annotations.json",
+    "confidence_count": 6
+  },
+  {
+    "image_name": "damaged_engine_blade_003_boxed.jpg",
+    "model_name": "sam2",
+    "segmented_image_path": "C:\\Users\\CartikSaravanamuthu\\ONR-RG\\ImageSegmentation\\output\\__model_runs__\\sam2\\segmented_images\\damaged_engine_blade_003_boxed_sam2_segmented.png",
+    "annotation_path": "C:\\Users\\CartikSaravanamuthu\\ONR-RG\\ImageSegmentation\\output\\annotations\\damaged_engine_blade_003_boxed_output_annotations.json",
+    "confidence_count": 6
+  },
+  {
+    "image_name": "damaged_engine_blade_004_boxed.jpg",
+    "model_name": "sam2",
+    "segmented_image_path": "C:\\Users\\CartikSaravanamuthu\\ONR-RG\\ImageSegmentation\\output\\__model_runs__\\sam2\\segmented_images\\damaged_engine_blade_004_boxed_sam2_segmented.png",
+    "annotation_path": "C:\\Users\\CartikSaravanamuthu\\ONR-RG\\ImageSegmentation\\output\\annotations\\damaged_engine_blade_004_boxed_output_annotations.json",
+    "confidence_count": 6
+  },
+  {
+    "image_name": "bent_canon_plug_pins.jpg",
+    "model_name": "sam2",
+    "segmented_image_path": "C:\\Users\\CartikSaravanamuthu\\ONR-RG\\ImageSegmentation\\output\\__model_runs__\\sam2\\segmented_images\\bent_canon_plug_pins_sam2_segmented.png",
+    "annotation_path": "C:\\Users\\CartikSaravanamuthu\\ONR-RG\\ImageSegmentation\\output\\annotations\\bent_canon_plug_pins_output_annotations.json",
+    "confidence_count": 6
+  },
+  {
+    "image_name": "damaged_canon_plug_pins.jpg",
+    "model_name": "sam2",
+    "segmented_image_path": "C:\\Users\\CartikSaravanamuthu\\ONR-RG\\ImageSegmentation\\output\\__model_runs__\\sam2\\segmented_images\\damaged_canon_plug_pins_sam2_segmented.png",
+    "annotation_path": "C:\\Users\\CartikSaravanamuthu\\ONR-RG\\ImageSegmentation\\output\\annotations\\damaged_canon_plug_pins_output_annotations.json",
+    "confidence_count": 6
+  },
+  {
+    "image_name": "missing_canon_pins.jpeg",
+    "model_name": "sam2",
+    "segmented_image_path": "C:\\Users\\CartikSaravanamuthu\\ONR-RG\\ImageSegmentation\\output\\__model_runs__\\sam2\\segmented_images\\missing_canon_pins_sam2_segmented.png",
+    "annotation_path": "C:\\Users\\CartikSaravanamuthu\\ONR-RG\\ImageSegmentation\\output\\annotations\\missing_canon_pins_output_annotations.json",
+    "confidence_count": 6
+  },
+  {
+    "image_name": "damaged_engine_blade_001.jpg",
+    "model_name": "sam2",
+    "segmented_image_path": "C:\\Users\\CartikSaravanamuthu\\ONR-RG\\ImageSegmentation\\output\\__model_runs__\\sam2\\segmented_images\\damaged_engine_blade_001_sam2_segmented.png",
+    "annotation_path": "C:\\Users\\CartikSaravanamuthu\\ONR-RG\\ImageSegmentation\\output\\annotations\\damaged_engine_blade_001_output_annotations.json",
+    "confidence_count": 6
+  },
+  {
+    "image_name": "damaged_engine_blade_002.jpg",
+    "model_name": "sam2",
+    "segmented_image_path": "C:\\Users\\CartikSaravanamuthu\\ONR-RG\\ImageSegmentation\\output\\__model_runs__\\sam2\\segmented_images\\damaged_engine_blade_002_sam2_segmented.png",
+    "annotation_path": "C:\\Users\\CartikSaravanamuthu\\ONR-RG\\ImageSegmentation\\output\\annotations\\damaged_engine_blade_002_output_annotations.json",
+    "confidence_count": 6
+  },
+  {
+    "image_name": "damaged_engine_blade_003.png",
+    "model_name": "sam2",
+    "segmented_image_path": "C:\\Users\\CartikSaravanamuthu\\ONR-RG\\ImageSegmentation\\output\\__model_runs__\\sam2\\segmented_images\\damaged_engine_blade_003_sam2_segmented.png",
+    "annotation_path": "C:\\Users\\CartikSaravanamuthu\\ONR-RG\\ImageSegmentation\\output\\annotations\\damaged_engine_blade_003_output_annotations.json",
+    "confidence_count": 6
+  },
+  {
+    "image_name": "damaged_engine_blade_004.jpg",
+    "model_name": "sam2",
+    "segmented_image_path": "C:\\Users\\CartikSaravanamuthu\\ONR-RG\\ImageSegmentation\\output\\__model_runs__\\sam2\\segmented_images\\damaged_engine_blade_004_sam2_segmented.png",
+    "annotation_path": "C:\\Users\\CartikSaravanamuthu\\ONR-RG\\ImageSegmentation\\output\\annotations\\damaged_engine_blade_004_output_annotations.json",
+    "confidence_count": 6
+  },
+  {
+    "image_name": "damaged-propeller-001.jpg",
+    "model_name": "sam2",
+    "segmented_image_path": "C:\\Users\\CartikSaravanamuthu\\ONR-RG\\ImageSegmentation\\output\\__model_runs__\\sam2\\segmented_images\\damaged-propeller-001_sam2_segmented.png",
+    "annotation_path": "C:\\Users\\CartikSaravanamuthu\\ONR-RG\\ImageSegmentation\\output\\annotations\\damaged-propeller-001_output_annotations.json",
+    "confidence_count": 6
+  },
+  {
+    "image_name": "damaged-propeller-002.jpg",
+    "model_name": "sam2",
+    "segmented_image_path": "C:\\Users\\CartikSaravanamuthu\\ONR-RG\\ImageSegmentation\\output\\__model_runs__\\sam2\\segmented_images\\damaged-propeller-002_sam2_segmented.png",
+    "annotation_path": "C:\\Users\\CartikSaravanamuthu\\ONR-RG\\ImageSegmentation\\output\\annotations\\damaged-propeller-002_output_annotations.json",
+    "confidence_count": 6
+  },
+  {
+    "image_name": "damaged-propeller-003.jpg",
+    "model_name": "sam2",
+    "segmented_image_path": "C:\\Users\\CartikSaravanamuthu\\ONR-RG\\ImageSegmentation\\output\\__model_runs__\\sam2\\segmented_images\\damaged-propeller-003_sam2_segmented.png",
+    "annotation_path": "C:\\Users\\CartikSaravanamuthu\\ONR-RG\\ImageSegmentation\\output\\annotations\\damaged-propeller-003_output_annotations.json",
+    "confidence_count": 6
+  },
+  {
+    "image_name": "damaged-propeller-004.jpg",
+    "model_name": "sam2",
+    "segmented_image_path": "C:\\Users\\CartikSaravanamuthu\\ONR-RG\\ImageSegmentation\\output\\__model_runs__\\sam2\\segmented_images\\damaged-propeller-004_sam2_segmented.png",
+    "annotation_path": "C:\\Users\\CartikSaravanamuthu\\ONR-RG\\ImageSegmentation\\output\\annotations\\damaged-propeller-004_output_annotations.json",
+    "confidence_count": 6
+  }
+]

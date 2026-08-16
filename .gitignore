@@ -1,3 +1,6 @@
 .venv
 .env
 input/
+output/fine-tuned-models/
+output/fine-tuned/
+output/__model_runs__/
