@@ -7,7 +7,7 @@ import sys
 from collections import Counter
 from dataclasses import dataclass
 from pathlib import Path
-from typing import Any
+from typing import Any, Optional
 
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 SRC_ROOT = PROJECT_ROOT / "src"
@@ -75,6 +75,52 @@ def load_annotation_samples(data_dir: Path) -> list[AnnotationSample]:
     image_dir = resolve_image_dir(annotation_dir)
     samples: list[AnnotationSample] = []
 
+    for annotation_path in annotation_files:
+        content = json.loads(annotation_path.read_text(encoding="utf-8"))
+        file_name = content.get("file_name") or content.get("image_id")
+        if not file_name:
+            raise ValueError(f"Missing file_name in annotation file {annotation_path}")
+
+        image_path = image_dir / file_name
+        if not image_path.exists():
+            raise FileNotFoundError(
+                f"Image file '{file_name}' referenced by {annotation_path.name} was not found in {image_dir}"
+            )
+
+        annotations = content.get("annotations")
+        if not isinstance(annotations, list) or not annotations:
+            raise ValueError(f"Invalid or empty annotations in {annotation_path}")
+
+        samples.append(AnnotationSample(image_path=image_path, annotations=annotations, source_json=annotation_path))
+
+    return samples
+
+
+def load_annotation_samples_from_dirs(annotation_dir: Path, image_dir: Optional[Path] = None) -> list[AnnotationSample]:
+    """Load annotation samples from an explicit annotation directory and optional image directory.
+
+    If `image_dir` is not provided the function will attempt to find an image folder adjacent to
+    the annotation directory using the same resolution rules as `resolve_image_dir`.
+    """
+    annotation_dir = annotation_dir.resolve()
+    annotation_files = sorted(annotation_dir.glob("*.json"))
+    if not annotation_files:
+        nested = annotation_dir / "annotations"
+        if nested.exists() and nested.is_dir():
+            annotation_dir = nested
+            annotation_files = sorted(annotation_dir.glob("*.json"))
+
+    if not annotation_files:
+        raise FileNotFoundError(f"No JSON annotation files found in {annotation_dir}")
+
+    if image_dir:
+        image_dir = image_dir.resolve()
+        if not image_dir.exists() or not image_dir.is_dir():
+            raise FileNotFoundError(f"Provided image directory {image_dir} does not exist or is not a directory")
+    else:
+        image_dir = resolve_image_dir(annotation_dir)
+
+    samples: list[AnnotationSample] = []
     for annotation_path in annotation_files:
         content = json.loads(annotation_path.read_text(encoding="utf-8"))
         file_name = content.get("file_name") or content.get("image_id")
@@ -303,6 +349,16 @@ def main() -> None:
     )
     parser.add_argument("data_dir", help="Directory containing annotation JSON files and the associated training images")
     parser.add_argument(
+        "--annotations",
+        help="Path to the directory containing annotation JSON files (overrides data_dir)",
+        default=None,
+    )
+    parser.add_argument(
+        "--images",
+        help="Path to the directory containing training images (overrides auto-detection)",
+        default=None,
+    )
+    parser.add_argument(
         "--output-dir",
         default="output/fine_tuned",
         help="Directory where fine-tuning artifacts and evaluation outputs will be written",
@@ -329,7 +385,13 @@ def main() -> None:
     data_dir = Path(args.data_dir)
     output_dir = Path(args.output_dir)
     output_dir.mkdir(parents=True, exist_ok=True)
-    sample_data = load_annotation_samples(data_dir)
+
+    if args.annotations or args.images:
+        annotation_dir = Path(args.annotations) if args.annotations else data_dir
+        image_dir = Path(args.images) if args.images else None
+        sample_data = load_annotation_samples_from_dirs(annotation_dir, image_dir)
+    else:
+        sample_data = load_annotation_samples(data_dir)
 
     summary: list[dict[str, Any]] = []
     for model_name in args.models:
